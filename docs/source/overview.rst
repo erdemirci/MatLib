@@ -16,7 +16,7 @@ Release notes
 MatLib beta v0.9
 ----
 
-Support for Redshift, Vray and Arnold
+Support for Redshift, Vray and Arnold.
 Support for all types of material nodes.
 
 Supported Software
