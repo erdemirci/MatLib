@@ -18,4 +18,5 @@ Without having to deal with manual work, MatLib organizes the materials that you
    :caption: Contents:
    
    
-   contents
+   overview
+   getting_started
