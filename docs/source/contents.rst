@@ -1,5 +1,11 @@
 MatLib
-++++
+****
+
+Overview
+====
+
+MatLib is a free tool that stores materials and related textures for reuse. 
+Current version of Matlib only works with Maya
 
 release notes
 ====
