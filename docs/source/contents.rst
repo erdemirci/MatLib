@@ -13,6 +13,10 @@ release notes
 Beta v0.9
 ----
 
+Vray and Arnold renderer support has been added.
+
+Camera projection bug has been fixed.it connects to perpective camera automaticly when called. 
+
 compatability
 ====
 
