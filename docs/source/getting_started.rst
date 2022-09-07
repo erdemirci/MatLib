@@ -18,7 +18,11 @@ After skipping the welcome and license agreement pages, there is a target DCC Ap
 .. image:: /images/matlib_installer_page3.jpg
 
 .. warning::
-   If you are unable to select any of the applications which means either you dont have the right version of the DCC application or the default location for the env is      changed manually.
+   If you are unable to select any of the applications which means either you dont have the right version of the DCC application or the default location for the env is    changed manually.If that is the case, follow the manuel installation instruction.
+
+Choose the location for MatLib files will be installed.
+
+.. image:: /matlib_installer_page4.jpg
 
 
 
