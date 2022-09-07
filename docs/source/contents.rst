@@ -1,8 +1,5 @@
 MatLib
 ++++
-Fafafa
-~~~~
-dadada
 
 release notes
 ====
