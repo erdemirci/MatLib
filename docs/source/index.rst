@@ -6,4 +6,4 @@ Hello world
    :maxdepth: 2
    
    
-   parms
+   contents
