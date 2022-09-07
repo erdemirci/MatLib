@@ -6,5 +6,4 @@ Hello world
    :maxdepth: 2
    
    
-   mama
-   caca
+   parms
