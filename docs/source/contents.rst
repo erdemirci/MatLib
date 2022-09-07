@@ -1,30 +1,25 @@
-MatLib
+Overview
 ****
 
-Overview
+Introduction
 ====
 
-MatLib is a free tool that stores materials and related textures for reuse. 
-Current version of Matlib only works with Maya
+MatLib is a free tool that stores materials for reuse.
 
-release notes
+Oftentimes well-designed, unique materials are forgotten or lost in their respective folders. Worse yet, even if you can find these materials, the related textures might have been deleted from the computer.
+Without having to deal with manual work, MatLib organizes the materials that you created and brings them to your scene in a few steps. It also stores the textures in relevant folders automatically.
+
+
+Release notes
 ====
 
-Beta v0.9
+MatLib beta v0.9
 ----
 
-Vray and Arnold renderer support has been added.
+Support for Redshift, Vray and Arnold
+Support for all types of material nodes.
 
-Camera projection bug has been fixed.it connects to perpective camera automaticly when called. 
-
-compatability
+Supported Software
 ====
 
-installation
-====
-
-installing MatLib for maya
-----
-
-manuel installation for maya
-----
+Current version of MatLib support only Maya versions.
