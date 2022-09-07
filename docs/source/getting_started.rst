@@ -22,11 +22,13 @@ After skipping the welcome and license agreement pages, there is a target DCC Ap
 
 Choose the location for MatLib files will be installed.
 
-.. image:: /matlib_installer_page4.jpg
+.. image:: /images/matlib_installer_page4.jpg
 
 
 
 Manuel Installation
 ====
 
-yep
+Go to github and download the latest version of MatLib.
+After the installation completed, extract files folder and copy it to Appdata/MatLib.
+
