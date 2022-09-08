@@ -3,6 +3,37 @@ Getting Started
 
 MatLib is a tool for Autodesk Maya
 
+System Requirement
+====
+
+**Software requirement**
+Current version of MatLib only supports Maya.
+
+.. list-table:: zz
+   :widths: 20 10 10 15
+   :header-rows: 1
+   
+   * - Integration
+     - Version
+     - Renderer
+     - Version
+     - OS
+   * - Maya
+     - 2018-2023
+     - Redshift
+     - 3.0
+     - Windows
+   * - Maya
+     - 2018-2023
+     - Arnold
+     - 5.1.2
+     - Windows
+   * - Maya
+     - 2018-2023
+     - Vray
+     - 6.0
+     - Windows
+
 Installation
 ====
 
