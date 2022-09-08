@@ -6,7 +6,7 @@ project = 'MatLib'
 copyright = '2022, Erdem Demirci'
 author = 'Erdem Demirci'
 
-release = '0.1'
+release = '0.9'
 version = '0.1.0'
 
 # -- General configuration
@@ -17,7 +17,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_markdown_tables',
 ]
 
 intersphinx_mapping = {
