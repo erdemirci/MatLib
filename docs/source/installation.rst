@@ -45,9 +45,14 @@ Choose the location for MatLib files will be installed.
 
 
 
-Manuel Installation
+Manual Installation
 ====
 
 Go to github and download the latest version of MatLib.
-After the installation completed, extract files folder and copy it to Appdata/MatLib.
+After the installation completed, extract Matlib to the desired install directory.
+Copy the files inside the MatLib folder.
+Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
+Paste all the files to this folder.
+Copy modules folder from 
+
 
