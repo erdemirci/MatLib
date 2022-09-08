@@ -7,9 +7,10 @@ System Requirement
 ====
 
 **Software requirement**
+
 Current version of MatLib only supports Maya.
 
-.. list-table:: zz
+.. list-table:: Comparison
    :widths: 20 10 10 15
    :header-rows: 1
    
