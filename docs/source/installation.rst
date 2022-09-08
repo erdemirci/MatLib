@@ -65,7 +65,7 @@ Unlike using the installer, there are some steps to make MatLib work.
 #. Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
 
 .. tip::
-   If you cannot see the AppData document, it means that it is invisible.Go to Control Panel\Appearance and Personalization.Under the File Explorer Options, toggle        "Show hidden files, folders, and drivers" and hit apply.
+   If you cannot see the AppData folder, it means that it is invisible.Go to Control Panel\Appearance and Personalization.Under the File Explorer Options, toggle          "Show hidden files, folders, and drivers" and hit apply.
 
 #. Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user_name}/AppData/Local/MatLib folder.
 
