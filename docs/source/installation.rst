@@ -14,13 +14,13 @@ Current version of MatLib only supports:
 * Autodesk Maya
 
 
-============  ==========  ========  ========   ========
-Application     Version   Renderer  Version    OS
-============  ==========  ========  ========   ========
-Maya          2018-2023   Redshift  3.0        Windows
-Maya          2018-2023   Arnold    5.1.2      Windows
-Maya          2018-2023   Vray      6.0        Windows
-============  ==========  ========  ========   ========
+============  ==========  ========  ===============   ========
+Application     Version   Renderer  Frame Buffer      OS
+============  ==========  ========  ===============   ========
+Maya          2018-2023   Redshift  Maya RenderView   Windows
+Maya          2018-2023   Arnold    Maya RenderView   Windows
+Maya          2018-2023   Vray      Maya RenderView   Windows
+============  ==========  ========  ===============   ========
 
 
 Installing on Windows
