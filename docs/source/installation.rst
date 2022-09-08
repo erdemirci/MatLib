@@ -28,6 +28,10 @@ Installing on Windows
 
 Download MatLib and run the executable.In some cases, Windows displays a warning due to the unknown source.You can ignore this warning by clicking on "More Info" and then on the "Run anyway" button.
 
+.. image:: /images/windows_warning_page1.jpg
+
+.. image:: /images/windows_warning_page2.jpg
+
 After skipping the welcome and license agreement pages, there is a target DCC Applications page where you can choose one or more applications that you can install MatLib.
 
 .. image:: /images/matlib_installer_page3.jpg
