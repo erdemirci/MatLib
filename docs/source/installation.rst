@@ -9,11 +9,11 @@ Visit https://www.erdemirci3d.com/matlib to download the latest version of MatLi
 System Requirement
 ====
 
-Current version of MatLib only supports:
+Current version of MatLib supports:
 
 * Microsoft Windows
 * Autodesk Maya
-
+* Python 2 and 3
 
 ============  ==========  ========  ===============   ========
 Application     Version   Renderer  Frame Buffer      OS
@@ -53,8 +53,9 @@ After the installation is completed, run Maya and you will be able to see the Ma
 
 Manual Installation
 ====
+Unlike using the installer, there are some steps to make MatLib work.
 
-Go to github and download the latest version of MatLib.
+*. Go to github and download the latest version of MatLib.
 
 After the download is completed, extract Matlib to the desired install directory.
 
@@ -64,7 +65,7 @@ Copy the files inside the {install directory}/MatLib/files/ folder and paste all
 
 Copy modules folder from MatLib install directory and paste it to C:/Users/{user_name}/Documents/maya/{maya_version}/ .If you already have a modules folder in there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
 
-.. caution::
+.. tip::
    For some reason if your Maya enviroment path is different than the default, change the path of the MatLib.mod accordingly!
 
 Edit MatLib.mod file by using Notepad and change the first PATH to {install directory}/MatLib and the second one with {install directory}/MatLib/scripts .
