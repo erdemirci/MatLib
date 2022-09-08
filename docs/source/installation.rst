@@ -6,8 +6,11 @@ Downloading MatLib
 ____
 Visit https://www.erdemirci3d.com/matlib to download the latest version of MatLib.
 
-System Requirement
+System Requirements
 ====
+
+Software Requirements
+----
 
 Current version of MatLib supports:
 
@@ -57,17 +60,22 @@ Unlike using the installer, there are some steps to make MatLib work.
 
 #. Go to github and download the latest version of MatLib.
 
-After the download is completed, extract Matlib to the desired install directory.
+#. After the download is completed, extract MatLib to the desired install directory.
 
-Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
+#. Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
 
-Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user_name}/AppData/Local/MatLib folder.
+.. tip::
+   If you cannot see the AppData document, it means that it is invisible.Go to Control Panel\Appearance and Personalization.Under the File Explorer Options, toggle        "Show hidden files, folders, and drivers" and hit apply.
 
-Copy modules folder from MatLib install directory and paste it to C:/Users/{user_name}/Documents/maya/{maya_version}/ .If you already have a modules folder in there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
+#. Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user_name}/AppData/Local/MatLib folder.
+
+#. Copy modules folder from MatLib install directory and paste it to C:/Users/{user_name}/Documents/maya/{maya_version}/ .If you already have a modules folder in       there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
 
 .. tip::
    For some reason if your Maya enviroment path is different than the default, change the path of the MatLib.mod accordingly!
 
-Edit MatLib.mod file by using Notepad and change the first PATH to {install directory}/MatLib and the second one with {install directory}/MatLib/scripts .
+#. Edit MatLib.mod file by using Notepad and change the first PATH to {install directory}/MatLib and the second one with {install directory}/MatLib/scripts .
+
+
 
 
