@@ -1,28 +1,26 @@
-Getting Started
+Installation
 ****
 
-MatLib is a tool for Autodesk Maya
+Downloading MatLib
+____
+Visit https://www.erdemirci3d.com/matlib to download the latest version of MatLib.
 
 System Requirement
 ====
 
-**Software requirement**
+Current version of MatLib only supports:
+* Microsoft Windows
+* Autodesk Maya
 
-Current version of MatLib only supports Maya.
 
 ============  ==========  ========  ========   ========
-Integration     Version   Renderer  Version    OS
+Application     Version   Renderer  Version    OS
 ============  ==========  ========  ========   ========
 Maya          2018-2023   Redshift  3.0        Windows
 Maya          2018-2023   Arnold    5.1.2      Windows
 Maya          2018-2023   Vray      6.0        Windows
 ============  ==========  ========  ========   ========
 
-
-Installation
-====
-
-Go to download page and download the latest version of MatLib: https://www.erdemirci3d.com/matlib
 
 Installing on Windows
 ~~~~
