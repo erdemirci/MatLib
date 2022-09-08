@@ -16,8 +16,23 @@ User Interface
 Renderer
 ____
 
+Renderer lists all the render engines that MatLib can run, loaded on your DCC application.
+
+If you have more than one renderer that supported by MatLib, switching between them will change
+
 Repository Selection
 ____
+
+This is the area where you will choose which repository MatLib will run on.
+
+The repository is the area where the files and folders required for MatLib are stored. The selected repository calls and displays the registered categories and materials belonging to these categories.
+
+When MatLib runs, if it is used for the first time or if the repository you used before has been deleted, it will allow you to select a folder to create a new repository named as  'Default Repository' and automatically links the repository path to MatLib.
+
+When you link a new repository, it is added to this menu with the given name.
+
+When a repository other than Default Repository is selected, it will appear in a slightly reddish color as a reminder.
+
 
 Categories
 ____
