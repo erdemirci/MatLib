@@ -11,7 +11,7 @@ System Requirement
 Current version of MatLib only supports Maya.
 
 .. csv-table:: Comparison
-   :header: Integration,Version,Renderer,Version,OS
+   :header: "Integration","Version","Renderer","Version","OS"
    :widths: 15 10 30 30
    
    "Maya","2018-2023","Redshift","3.0","Windows"
