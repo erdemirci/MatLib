@@ -55,7 +55,7 @@ Manual Installation
 ====
 Unlike using the installer, there are some steps to make MatLib work.
 
-*. Go to github and download the latest version of MatLib.
+#. Go to github and download the latest version of MatLib.
 
 After the download is completed, extract Matlib to the desired install directory.
 
