@@ -37,6 +37,18 @@ When a repository other than Default Repository is selected, it will appear in a
 Categories
 ____
 
+Categories are areas where materials are stored. For example, materials such as chrome, copper and aluminum fall into the category of metals.
+To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the '+' button under the category section.
+Pressing the accept button will immediately add the new category to the Categories menu.
+
+To delete a category, you need to type 'YES' in capital letters in the dialog box that opens after pressing the '-' button.
+
+Since some repositories are protected with a password, the password screen will appear after pressing the '-' button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
+
+.. warning::
+   Deleted repositories do not have backup files, so the deletion cannot be undone.
+
+
 Materials
 ____
 
