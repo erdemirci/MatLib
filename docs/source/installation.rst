@@ -22,6 +22,9 @@ Maya          2018-2023   Arnold    Maya RenderView   Windows
 Maya          2018-2023   Vray      Maya RenderView   Windows
 ============  ==========  ========  ===============   ========
 
+.. warning::
+   If you are planing to use MatLib with multiple users, make sure all of the users have the same version of the renderer.
+
 
 Installing on Windows
 ~~~~
