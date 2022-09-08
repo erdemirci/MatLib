@@ -27,7 +27,7 @@ Maya          2018-2023   Vray      Maya RenderView   Windows
 
 
 Installing on Windows
-~~~~
+____
 
 Download MatLib and run the executable.In some cases, Windows displays a warning due to the unknown source.You can ignore this warning by clicking on "More Info" and then on the "Run anyway" button.
 
@@ -40,7 +40,7 @@ After skipping the welcome and license agreement pages, there is a target DCC Ap
 .. image:: /images/matlib_installer_page3.jpg
 
 .. warning::
-   If you are unable to select any of the applications which means either you dont have the right version of the DCC application or the default location for the env is    changed manually.If that is the case, follow the manuel installation instruction.
+   If you are unable to select any of the applications which means either you dont have the right version of the DCC application or the default path location of the Maya.env is changed manually.If that is the case, follow the manual installation instruction.
 
 Choose the location for MatLib files will be installed.
 
@@ -52,10 +52,15 @@ Manual Installation
 ====
 
 Go to github and download the latest version of MatLib.
+
 After the installation completed, extract Matlib to the desired install directory.
-Copy the files inside the MatLib folder.
+
 Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
-Paste all the files to this folder.
-Copy modules folder from 
+
+Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user_name}/AppData/Local/MatLib folder.
+
+Copy modules folder from MatLib install directory and paste it to C:/Users/{user_name}/Documents/maya/{maya_version}/ .If you already have a modules folder in there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
+
+Edit MatLib.mod file by using Notepad and change the first PATH to {install directory}/MatLib and the second one with {install directory}/MatLib/scripts .
 
 
