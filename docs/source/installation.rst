@@ -46,14 +46,16 @@ Choose the location for MatLib files will be installed.
 
 .. image:: /images/matlib_installer_page4.jpg
 
+After the installation is completed, run Maya and you will be able to see the MatLib shelf.
 
+.. image:: /images/matlib_shelfonMaya.jpg
 
 Manual Installation
 ====
 
 Go to github and download the latest version of MatLib.
 
-After the installation completed, extract Matlib to the desired install directory.
+After the download is completed, extract Matlib to the desired install directory.
 
 Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
 
