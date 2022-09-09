@@ -64,13 +64,13 @@ Categories are areas where materials are stored. For example, materials such as 
 By changing the renderer or changing the repository,Category section will be updated accordingly.
 
 
-**Create a Category**
+*Create a Category*
 ~~~~
 
 To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``+`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
-**Delete a Category**
+*Delete a Category*
 ~~~~
 
 To delete a category, you need to type **'YES'** in capital letters in the dialog box that opens after pressing the ``-`` button.
@@ -90,7 +90,7 @@ This is the area where the materials in the selected category are displayed.
 
 The buttons in the lower left corner are used to add or remove materials from the selected category.
 
-**Add a Material**
+*Add a Material*
 ~~~~
 
 To add material, first make sure that the render engine is set to the same as the render selection.
@@ -120,7 +120,7 @@ When the rendering is completed, select the Shading Group (SG) node of the mater
 
 It is possible to change the description later on from the edit tab.It does not have to be filled.
 
-**Delete a Material**
+*Delete a Material*
 ~~~~
 
 After selecting the material to be deleted from the MatLib window, click the ``Delete Material from Category`` button at the bottom left. As with deleting a category, typing **'YES'** in capital letters at a dialog asking if you are sure, will delete this material.
@@ -132,12 +132,12 @@ If the repository is protected by a password, you must first enter the password 
 .. warning::
    Deleted materials do not have backup files, so the deletion cannot be undone.
    
-**Import Material**
+*Import Material*
 ~~~~
 
 As the naming suggests, this will import the material information and generate the materials into the current scene. After the material is created you will just need to assign the material to an object.
 
-**Search Bar**
+*Search Bar*
 ~~~~
 
 Search bar will hide all the other materials which do not have all the characters in their material name from the selected category.
@@ -157,7 +157,7 @@ At the buttom of the image display there is a description, shows whatever was wr
 
 Underneath the description there are 3 tabs for editing and displaying the material.
 
-**Texture Info**
+*Texture Info*
 ~~~~
 
 The textures of the selected material are listed in this section.
@@ -169,14 +169,14 @@ If the node has UDIM or sequence properties, it provides information about the p
 .. warning::
    If the material has .EXR or .HDR texture formats,it fails to display them on the texture info tab.
 
-**Material Info**
+*Material Info*
 ~~~~
 
 Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
 
 .. image:: /images/matlib_materialinfo.jpg
 
-**Edit**
+*Edit*
 ~~~~
 
 Edit tab is responsible for making changes on material di̇splay.
@@ -227,7 +227,8 @@ The parameters you will mark here will be reflected in the material information 
 MenuBar
 ____
 
-**Repository**
+*Repository*
+~~~~
 
 Repository is a central location in which material data is stored and managed.
 
@@ -235,7 +236,7 @@ It is designed so that people sharing the same network can access the common mat
 
 .. image:: /images/MatLib_Repository.jpg
 
-*Create Repository*
+**Create Repository**
 
 It is used to create a new repository outside of the existing one.
 
