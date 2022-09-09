@@ -231,9 +231,9 @@ After the password screen, a folder dialog window will pop up and ask you to loc
 
 Unlike the general password that we use for creating and deleting repositories, this can be set by the user if prefered.
 
-Password protected repositories will ask for a password when eiher deleting category or a material.
-
 .. image:: /images/matlib_createrepository.jpg
+
+Password protected repositories will ask for a password when eiher deleting category or a material.
 
 .. tip::
    When the repository is created, the connection to MatLib is not automatically established. In order for the connection to be established, click on the  ‘Link          Repository' from the Repository menu and select the MatLib Repository folder from the pop up window.
