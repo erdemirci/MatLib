@@ -109,9 +109,9 @@ When the rendering is completed, select the Shading Group (SG) node of the mater
    More info: https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-AFA1881C-B5F4-4514-ADC6-A166CA25558D-htm.html
 
 
-**The material name** is the label of the material that will be included in the material icon. This is also important for the search bar. 
+*The material name* is the label of the material that will be included in the material icon. This is also important for the search bar. 
 
-**The description** is, where you can put some notes about the material.
+*The description* is, where you can put some notes about the material.
 
 It is possible to change the description later on from the edit tab.It does not have to be filled.
 
@@ -155,6 +155,9 @@ If the node has UDIM or sequence properties, it provides information about the p
 
 .. image:: /images/matlib_textureinfo.jpg
 
+.. warning::
+   If the material has .EXR or .HDR texture formats,it fails to display them on the texture info tab.
+
 **Material Info**
 
 Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
@@ -164,6 +167,43 @@ Displays the material attributes of the selected material. The user can choose w
 **Edit**
 
 Edit tab is responsible for making changes on material di̇splay.
+
+There are couple of buttons in this tab, lets take a look at them one by one.
+
+.. image:: /images/matlib_edittab.jpg
+
+*Add Image To Display*
+
+You can add more images to the image di̇splay of the selected material by selecting an image either from ``File`` or from ``Renderview`` button.
+
+The ``File`` button will let you choose a file from a folder.
+
+The ``Renderview`` button will pick up the current image on the renderview.
+
+*Remove Image*
+
+It deletes the image displayed in the image viewer.
+
+Primary image can not be deleted.
+
+*Replace Main Image*
+
+You can replace the main image on the image viewer by selecting an image either from ``File`` or from ``RenderView``.
+
+The ``File`` button will let you choose a file from a folder.
+
+The ``Renderview`` button will pick up the current image on the renderview.
+
+*Replace Description*
+
+It allows you to change the description of the selected material.
+
+*Material Info Config.*
+
+This button opens up a window where you can select which parameter and its value will be displayed on the Material Info Tab.
+
+The menu at the top of the window contains the supported material types.The parameters of each material are listed just below.
+The parameters you will mark here will be reflected in the material information tab when the ``Save Changes`` button below is pressed.
 
 
 MenuBar
