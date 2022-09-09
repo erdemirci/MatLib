@@ -101,11 +101,19 @@ Render the material with Maya’s native renderview.
 
 When the rendering is completed, select the Shading Group (SG) node of the material from *Hypershade* or *NodeEditor* and click the ``Add Material to Category`` button in MatLib. Pressing this button will open up a new dialog box and ask you to fill in the material name and description.
 
-The material name is the label of the material that will be included in the material icon. This is also important for the search bar. The description is, where you can put some notes about the material.
+.. image:: /images/ShadingGroup.jpg
 
-It is possible to change the description later on from the edit tab.
+.. tip::
+   In Maya, all materials come with a shading group attached to it.It holds information such as the lights that illuminate the material, the object that uses this        material, and what kind of material has been added to it.
+   
+   More info: https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-AFA1881C-B5F4-4514-ADC6-A166CA25558D-htm.html
 
-It does not have to be filled.
+
+**The material name** is the label of the material that will be included in the material icon. This is also important for the search bar. 
+
+**The description** is, where you can put some notes about the material.
+
+It is possible to change the description later on from the edit tab.It does not have to be filled.
 
 Content Display
 ____
