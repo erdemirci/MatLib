@@ -76,7 +76,7 @@ To delete a category, you need to type **'YES'** in capital letters in the dialo
 Since some repositories are protected with a password, the password screen will appear after pressing the ``-`` button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
 
 .. warning::
-   Deleted repositories do not have backup files, so the deletion cannot be undone.
+   Deleted categories do not have backup files, so the deletion cannot be undone.
 
 
 Materials
@@ -239,17 +239,38 @@ Password protected repositories will ask for a password when eiher deleting cate
    When the repository is created, the connection to MatLib is not automatically established. In order for the connection to be established, click on the  ‘Link          Repository' from the Repository menu and select the MatLib Repository folder from the pop up window.
    
 
-Why password protection for a repository?
-
-Short answer is, preventing user errors.
-
-When you are working on a shared network with other people, someone might mistakenly delete the materials or categories.When password protection is established, these actions such as material deletion will ask for a password.
+.. note:: 
+   *Why password protection for a repository?*
+   
+   Short answer is, preventing user errors.
+   
+   When you are working on a shared network with other people, someone might mistakenly delete the materials or categories.When password protection is established,        these actions such as material deletion will ask for a password.
 
 *Delete Repository*
 
 Deletes the desired repository except the ‘Default Repository’. This operation physically deletes the related files from the location they are attached to.
 
 The deletion process is encrypted as in the repository creation. After typing the password, the list of repositories connected to MatLib is displayed on the screen that opens. After selecting the repository name you want to delete, click accept, and the process will take place.
+
+*Link Repository*
+
+It is used to link an existing repository that has not yet been added to MatLib.
+
+When clicked, it will make you select a folder to show the existing repository.
+
+When the operation is successful, the new repository is added to the repository field in the MatLib window.
+
+*Unlink Repository*
+
+It will disconnect from the selected repository. Unlike Delete Repository this does not delete the folder structure.
+
+**Transfer**
+
+The Transfer screen is used to copy materials between existing categories within a repository or repositories.
+
+For example, if you have a material on your driver that you want to copy to the repository that other people can access.
+
+In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer. 
 
 
 
