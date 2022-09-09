@@ -194,13 +194,17 @@ It deletes the image displayed in the image viewer.
 
 Primary image can not be deleted.
 
-*Replace Description*
+*Description*
 
 It allows you to change the description of the selected material.
 
+Type something on the editible line and press ``Replace`` button.
+
 *Material Info Config.*
 
-This button opens up a window where you can select which parameter and its value will be displayed on the Material Info Tab.
+``Material Info Config`` button, opens up a window where you can select which parameter and its value will be displayed on the Material Info Tab.
+
+.. image:: /images/matlib_materialconfiginfo.jpg
 
 The menu at the top of the window contains the supported material types.The parameters of each material are listed just below.
 The parameters you will mark here will be reflected in the material information tab when the ``Save Changes`` button below is pressed.
@@ -208,3 +212,5 @@ The parameters you will mark here will be reflected in the material information 
 
 MenuBar
 ____
+
+
