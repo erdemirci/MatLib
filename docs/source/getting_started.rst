@@ -135,5 +135,32 @@ Search bar will hide all the other materials which do not have all the character
 Content Display
 ____
 
+This area is the section where information about the selected material is displayed.
+
+At the top, it shows the images used for displaying the material.When the material is created, a larger version of the render image is used to display in this section.It is possible to add more images to the screen.
+
+The number of images added to the material screen is shown just below the image.
+
+Use the left and right arrows next to the image to navigate through images.
+
+At the buttom of the image display there is a description, shows whatever was written when creating the material.
+
+Underneath the description there are 3 tabs for editing and displaying the material.
+
+**Texture Info**
+
+The textures of the selected material are listed in this section.
+
+If the node has UDIM or sequence properties, it provides information about the presence and number of images.
+
+**Material Info**
+
+Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
+
+**Edit**
+
+Edit tab is responsible for making changes on material di̇splay.
+
+
 MenuBar
 ____
