@@ -36,7 +36,7 @@ There are 6 sections in the interface:
 Renderer Selection
 ____
 
-**Renderer Selection**, lists all the render engines that loaded on your DCC application which MatLib can support.
+Renderer Selection, lists all the render engines that loaded on your DCC application which MatLib can support.
 
 If you have more than one renderer that supported by MatLib.Since the properties of the materials belong to different renderers,switching between them will change the categories and materials
 
@@ -65,11 +65,13 @@ By changing the renderer or changing the repository,Category section will be upd
 
 
 **Create a Category**
+~~~~
 
 To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``+`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
 **Delete a Category**
+~~~~
 
 To delete a category, you need to type **'YES'** in capital letters in the dialog box that opens after pressing the ``-`` button.
 
@@ -89,6 +91,7 @@ This is the area where the materials in the selected category are displayed.
 The buttons in the lower left corner are used to add or remove materials from the selected category.
 
 **Add a Material**
+~~~~
 
 To add material, first make sure that the render engine is set to the same as the render selection.
 
@@ -118,6 +121,7 @@ When the rendering is completed, select the Shading Group (SG) node of the mater
 It is possible to change the description later on from the edit tab.It does not have to be filled.
 
 **Delete a Material**
+~~~~
 
 After selecting the material to be deleted from the MatLib window, click the ``Delete Material from Category`` button at the bottom left. As with deleting a category, typing **'YES'** in capital letters at a dialog asking if you are sure, will delete this material.
 
@@ -129,10 +133,12 @@ If the repository is protected by a password, you must first enter the password 
    Deleted materials do not have backup files, so the deletion cannot be undone.
    
 **Import Material**
+~~~~
 
 As the naming suggests, this will import the material information and generate the materials into the current scene. After the material is created you will just need to assign the material to an object.
 
 **Search Bar**
+~~~~
 
 Search bar will hide all the other materials which do not have all the characters in their material name from the selected category.
 
@@ -152,6 +158,7 @@ At the buttom of the image display there is a description, shows whatever was wr
 Underneath the description there are 3 tabs for editing and displaying the material.
 
 **Texture Info**
+~~~~
 
 The textures of the selected material are listed in this section.
 
@@ -163,12 +170,14 @@ If the node has UDIM or sequence properties, it provides information about the p
    If the material has .EXR or .HDR texture formats,it fails to display them on the texture info tab.
 
 **Material Info**
+~~~~
 
 Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
 
 .. image:: /images/matlib_materialinfo.jpg
 
 **Edit**
+~~~~
 
 Edit tab is responsible for making changes on material di̇splay.
 
@@ -177,7 +186,7 @@ There are couple of buttons in this tab, lets take a look at them one by one.
 .. image:: /images/matlib_edittab.jpg
 
 *Add Image To Display*
-~~~~
+
 
 You can add more images to the image di̇splay of the selected material by selecting an image either from ``File`` or from ``Renderview`` button.
 
