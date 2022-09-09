@@ -66,14 +66,14 @@ By changing the renderer or changing the repository,Category section will be upd
 
 **Create a Category**
 
-To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``**+**`` button under the category section.
+To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``+`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
 **Delete a Category**
 
-To delete a category, you need to type **'YES'** in capital letters in the dialog box that opens after pressing the ``**-**`` button.
+To delete a category, you need to type **'YES'** in capital letters in the dialog box that opens after pressing the ``-`` button.
 
-Since some repositories are protected with a password, the password screen will appear after pressing the **-** button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
+Since some repositories are protected with a password, the password screen will appear after pressing the ``-`` button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
 
 .. warning::
    Deleted repositories do not have backup files, so the deletion cannot be undone.
@@ -99,7 +99,7 @@ Render the material with Maya’s native renderview.
 .. warning::
    Do not try to render with render engine's own frame buffer, Not all of the render engines have Python support for frame buffer.
 
-When the rendering is completed, select the Shading Group (SG) node of the material from *Hypershade* or *NodeEditor* and click the **Add Material to Category** button in MatLib. Pressing this button will open up a new dialog box and ask you to fill in the material name and description.
+When the rendering is completed, select the Shading Group (SG) node of the material from *Hypershade* or *NodeEditor* and click the ``Add Material to Category`` button in MatLib. Pressing this button will open up a new dialog box and ask you to fill in the material name and description.
 
 The material name is the label of the material that will be included in the material icon. This is also important for the search bar. The description is, where you can put some notes about the material.
 
