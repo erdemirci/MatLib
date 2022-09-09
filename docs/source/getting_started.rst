@@ -3,7 +3,7 @@ Getting Started
 
 Lets go over the Icons and their functions in the MatLib shelf.
 
-.. image:: /images/shelf_icons.jpg
+.. image:: /images/shelf_icons.png
 
 Material Library
 ====
