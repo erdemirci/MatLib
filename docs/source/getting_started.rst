@@ -47,7 +47,7 @@ The repository is the area where the files and folders required for MatLib are s
 
 This is the area where you will choose which repository MatLib will run on.
 
-.. tip:: Additional repositroies are usefull for team enviroment for collabration.
+.. tip:: Additional repositories are usefull for team enviroment for collabration.
          For personal usage, this is not an important subject since most likely you dont need to create additional repositories.
          
 
