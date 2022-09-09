@@ -185,7 +185,7 @@ There are couple of buttons in this tab, lets take a look at them one by one.
 
 .. image:: /images/matlib_edittab.jpg
 
-*Add Image To Display*
+**Add Image To Display**
 
 
 You can add more images to the image di̇splay of the selected material by selecting an image either from ``File`` or from ``Renderview`` button.
@@ -194,7 +194,8 @@ The ``File`` button will let you choose a file from a folder.
 
 The ``Renderview`` button will pick up the current image on the renderview.
 
-*Replace Main Image*
+**Replace Main Image**
+
 
 You can replace the main image on the image viewer by selecting an image either from ``File`` or from ``RenderView``.
 
@@ -202,19 +203,19 @@ The ``File`` button will let you choose a file from a folder.
 
 The ``Renderview`` button will pick up the current image on the renderview.
 
-*Remove Image*
+**Remove Image**
 
 It deletes the image displayed in the image viewer.
 
 Primary image can not be deleted.
 
-*Description*
+**Description**
 
 It allows you to change the description of the selected material.
 
 Type something on the editible line and press ``Replace`` button.
 
-*Material Info Config.*
+**Material Info Config.**
 
 ``Material Info Config`` button, opens up a window where you can select which parameter and its value will be displayed on the Material Info Tab.
 
@@ -261,13 +262,13 @@ Password protected repositories will ask for a password when eiher deleting cate
    
    When you are working on a shared network with other people, someone might mistakenly delete the materials or categories.When password protection is established,        these actions such as material deletion will ask for a password.
 
-*Delete Repository*
+**Delete Repository**
 
 Deletes the desired repository except the ‘Default Repository’. This operation physically deletes the related files from the location they are attached to.
 
 The deletion process is encrypted as in the repository creation. After typing the password, the list of repositories connected to MatLib is displayed on the screen that opens. After selecting the repository name you want to delete, click accept, and the process will take place.
 
-*Link Repository*
+**Link Repository**
 
 It is used to link an existing repository that has not yet been added to MatLib.
 
@@ -277,11 +278,12 @@ When the operation is successful, the new repository is added to the repository 
 
 .. image:: /images/matlib_repositoryselect.jpg
 
-*Unlink Repository*
+**Unlink Repository**
 
 It will disconnect from the selected repository. Unlike Delete Repository this does not delete the folder structure.
 
-**Transfer**
+*Transfer*
+~~~~
 
 The Transfer screen is used to copy materials between existing categories within a repository or repositories.
 
