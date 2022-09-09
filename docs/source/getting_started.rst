@@ -213,4 +213,43 @@ The parameters you will mark here will be reflected in the material information 
 MenuBar
 ____
 
+**Repository**
+
+Repository is a central location in which material data is stored and managed.
+
+It is designed so that people sharing the same network can access the common material pool.
+
+.. image:: /images/MatLib_Repository.jpg
+
+*Create Repository*
+
+It is used to create a new repository outside of the existing one.
+
+It prompts for a password (It is more likely a warning question whether the user has taken any conscious action.) to avoid creating a repository carelessly by the user.
+
+After the password screen, a folder dialog window will pop up and ask you to locate the new repository to be created. After choosing the location, a new dialog window will open.This dialog asks for a name for the repository which will be displayed by the given name on the MatLib window, and a password.
+
+Unlike the general password that we use for creating and deleting repositories, this can be set by the user if prefered.
+
+Password protected repositories will ask for a password when eiher deleting category or a material.
+
+.. image:: /images/matlib_createrepository.jpg
+
+.. tip::
+   When the repository is created, the connection to MatLib is not automatically established. In order for the connection to be established, click on the  ‘Link          Repository' from the Repository menu and select the MatLib Repository folder from the pop up window.
+   
+
+Why password protection for a repository?
+
+Short answer is, preventing user errors.
+
+When you are working on a shared network with other people, someone might mistakenly delete the materials or categories.When password protection is established, these actions such as material deletion will ask for a password.
+
+*Delete Repository*
+
+Deletes the desired repository except the ‘Default Repository’. This operation physically deletes the related files from the location they are attached to.
+
+The deletion process is encrypted as in the repository creation. After typing the password, the list of repositories connected to MatLib is displayed on the screen that opens. After selecting the repository name you want to delete, click accept, and the process will take place.
+
+
 
