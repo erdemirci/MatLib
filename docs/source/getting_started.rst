@@ -115,6 +115,23 @@ When the rendering is completed, select the Shading Group (SG) node of the mater
 
 It is possible to change the description later on from the edit tab.It does not have to be filled.
 
+**Delete a Material**
+
+After selecting the material to be deleted from the MatLib window, click the ``Delete Material from Category`` button at the bottom left. As with deleting a category, typing **'YES'** in capital letters at a dialog asking if you are sure, will delete this material.
+
+If the repository is protected by a password, you must first enter the password correctly in the window that appears.
+
+.. warning::
+   Deleted materials do not have backup files, so the deletion cannot be undone.
+   
+**Import Material**
+
+As the naming suggests, this will import the material information and generate the materials into the current scene. After the material is created you will just need to assign the material to an object.
+
+**Search Bar**
+
+Search bar will hide all the other materials which do not have all the characters in their material name from the selected category.
+
 Content Display
 ____
 
