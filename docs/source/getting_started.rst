@@ -26,17 +26,17 @@ User Interface
 
 There are 6 sections in the interface:
 
-#. Renderer
+#. Renderer Selection
 #. Repository Selection
 #. Categories
 #. Materials
 #. Content Display
 #. MenuBar
 
-Renderer
+Renderer Selection
 ____
 
-**Renderer**, lists all the render engines that loaded on your DCC application which MatLib can support.
+**Renderer Selection**, lists all the render engines that loaded on your DCC application which MatLib can support.
 
 If you have more than one renderer that supported by MatLib.Since the properties of the materials belong to different renderers,switching between them will change the categories and materials
 
@@ -59,18 +59,21 @@ When a repository other than Default Repository is selected, it will appear in a
 Categories
 ____
 
-Categories are areas where materials are stored. For example, materials such as chrome, copper and aluminum fall into the category of metals.
+Categories are areas where materials are stored. For example, materials such as chrome, copper and aluminum fall into the category of metals.Basicly it is a list of material types based on which renderer is selected.
+
+By changing the renderer or changing the repository,Category section will be updated accordingly.
+
 
 **Create a Category**
 
-To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the '+' button under the category section.
+To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``**+**`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
 **Delete a Category**
 
-To delete a category, you need to type 'YES' in capital letters in the dialog box that opens after pressing the '-' button.
+To delete a category, you need to type **'YES'** in capital letters in the dialog box that opens after pressing the ``**-**`` button.
 
-Since some repositories are protected with a password, the password screen will appear after pressing the '-' button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
+Since some repositories are protected with a password, the password screen will appear after pressing the **-** button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
 
 .. warning::
    Deleted repositories do not have backup files, so the deletion cannot be undone.
@@ -78,6 +81,31 @@ Since some repositories are protected with a password, the password screen will 
 
 Materials
 ____
+
+This is the area where the materials in the selected category are displayed.
+
+The buttons in the lower left corner are used to add or remove materials from the selected category.
+
+**Add a Material**
+
+To add material, first make sure that the render engine is set to the same as the render selection.
+
+After choosing the right render engine, enter the desired aspect ratio in the render settings. This ratio is important for the size of the icon to be used for the material.
+
+Assign the material to an object of your choice.
+
+Render the material with Maya’s native renderview.
+
+.. warning::
+   Do not try to render with render engine's own frame buffer, Not all of the render engines have Python support for frame buffer.
+
+When the rendering is completed, select the Shading Group (SG) node of the material from *Hypershade* or *NodeEditor* and click the **Add Material to Category** button in MatLib. Pressing this button will open up a new dialog box and ask you to fill in the material name and description.
+
+The material name is the label of the material that will be included in the material icon. This is also important for the search bar. The description is, where you can put some notes about the material.
+
+It is possible to change the description later on from the edit tab.
+
+It does not have to be filled.
 
 Content Display
 ____
