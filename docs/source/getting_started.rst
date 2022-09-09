@@ -291,12 +291,31 @@ For example, if you have a material on your driver that you want to copy to the 
 
 In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer.
 
-.. image:: /images/matlib_TransferUI.jpg
+.. image:: /images/MatLib_TransferUI.jpg
 
 Reset Links
 ====
 
+This is only usefull when MatLib is unable to be loaded.It will clean all the repository paths so MatLib will run as if it was running for the first time.
 
+Transfer to Project
+====
+
+All images that are imported to the scene with MatLib or files which do not belong to the project folder are copied to the project folder and the paths of the nodes that read the images are renewed with this function.
+
+There are 2 options avaliable with it.
+
+* Repath nodes and Copy Files
+* Repath nodes only
+
+In order to use this function,first press the icon of Transfer to Project then select either **Repath nodes and Copy Files** or **Repath nodes only**.Then you need to select all the Shading Group (SG) nodes that you want to make the change from *Hypershade* or *NodeEditor* and press ``Execute`` .
+
+Repath nodes and Copy Files
+----
+
+
+Repath nodes only
+----
 
 
 
