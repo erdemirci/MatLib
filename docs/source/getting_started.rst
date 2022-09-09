@@ -180,12 +180,6 @@ The ``File`` button will let you choose a file from a folder.
 
 The ``Renderview`` button will pick up the current image on the renderview.
 
-*Remove Image*
-
-It deletes the image displayed in the image viewer.
-
-Primary image can not be deleted.
-
 *Replace Main Image*
 
 You can replace the main image on the image viewer by selecting an image either from ``File`` or from ``RenderView``.
@@ -193,6 +187,12 @@ You can replace the main image on the image viewer by selecting an image either 
 The ``File`` button will let you choose a file from a folder.
 
 The ``Renderview`` button will pick up the current image on the renderview.
+
+*Remove Image*
+
+It deletes the image displayed in the image viewer.
+
+Primary image can not be deleted.
 
 *Replace Description*
 
