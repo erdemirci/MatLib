@@ -5,15 +5,21 @@ Lets go over the Icons and their functions in the MatLib shelf.
 
 .. image:: /images/shelf_icons.jpg
 
-Runing Material Library first time
+Material Library
 ====
+
+Material library, as it is called, is the main window where you create, store and import materials to your scene.In order to do this, it is necessary to show where the materials and relevant files of the material will be stored.
+
+
+Runing Material Library first time
+----
 
 When you run MatLib for the first time, a file dialog will pop out.This is for creating the repository folder that MatLib will use to read and write materials.Make sure you select a location that has enough space.
 
 This is your default repository.
 
 User Interface
-====
+----
 
 .. image:: /images/matlib_ui_explain.png
 
