@@ -256,9 +256,11 @@ The deletion process is encrypted as in the repository creation. After typing th
 
 It is used to link an existing repository that has not yet been added to MatLib.
 
-When clicked, it will make you select a folder to show the existing repository.
+When clicked, select the repository folder called 'MatLib_Repository' from the file dialog.
 
-When the operation is successful, the new repository is added to the repository field in the MatLib window.
+When the operation is successful, the new repository is added to the repository selection menu in the MatLib window.
+
+.. image:: /images/matlib_repositoryselect.jpg
 
 *Unlink Repository*
 
