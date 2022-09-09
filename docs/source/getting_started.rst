@@ -8,36 +8,46 @@ Lets go over the Icons and their functions in the MatLib shelf.
 Material Library
 ====
 
-Material library, as it is called, is the main window where you create, store and import materials to your scene.In order to do this, it is necessary to show where the materials and relevant files of the material will be stored.
+Material library, as it is called, is the main window where you create, store and import materials to your scene.
+
 
 
 Runing Material Library first time
 ----
 
-When you run MatLib for the first time, a file dialog will pop out.This is for creating the repository folder that MatLib will use to read and write materials.Make sure you select a location that has enough space.
+When MatLib runs, if it is used for the first time or if the repository you used before has been deleted, it will allow you to select a folder to create a new repository named as  'Default Repository' and automatically links the repository path to MatLib.
 
-This is your default repository.
+Make sure you select a location that has enough space.
 
 User Interface
 ----
 
 .. image:: /images/matlib_ui_explain.png
 
+There are 6 sections in the interface:
+
+#. Renderer
+#. Repository Selection
+#. Categories
+#. Materials
+#. Content Display
+#. MenuBar
+
 Renderer
 ____
 
-Renderer lists all the render engines that MatLib can run, loaded on your DCC application.
+**Renderer**, lists all the render engines that loaded on your DCC application which MatLib can support.
 
-If you have more than one renderer that supported by MatLib, switching between them will change
+If you have more than one renderer that supported by MatLib, switching between them will change the categories and materials.
 
 Repository Selection
 ____
 
-This is the area where you will choose which repository MatLib will run on.
-
 The repository is the area where the files and folders required for MatLib are stored. The selected repository calls and displays the registered categories and materials belonging to these categories.
 
-When MatLib runs, if it is used for the first time or if the repository you used before has been deleted, it will allow you to select a folder to create a new repository named as  'Default Repository' and automatically links the repository path to MatLib.
+This is the area where you will choose which repository MatLib will run on.
+
+.. tip:: 
 
 When you link a new repository, it is added to this menu with the given name.
 
@@ -48,8 +58,13 @@ Categories
 ____
 
 Categories are areas where materials are stored. For example, materials such as chrome, copper and aluminum fall into the category of metals.
+
+**Create a Category**
+
 To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the '+' button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
+
+**Delete a Category**
 
 To delete a category, you need to type 'YES' in capital letters in the dialog box that opens after pressing the '-' button.
 
