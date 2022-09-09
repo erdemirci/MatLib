@@ -177,6 +177,7 @@ There are couple of buttons in this tab, lets take a look at them one by one.
 .. image:: /images/matlib_edittab.jpg
 
 *Add Image To Display*
+~~~~
 
 You can add more images to the image di̇splay of the selected material by selecting an image either from ``File`` or from ``Renderview`` button.
 
