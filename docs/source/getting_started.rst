@@ -38,7 +38,7 @@ ____
 
 **Renderer**, lists all the render engines that loaded on your DCC application which MatLib can support.
 
-If you have more than one renderer that supported by MatLib, switching between them will change the categories and materials.
+If you have more than one renderer that supported by MatLib.Since the properties of the materials belong to different renderers,switching between them will change the categories and materials
 
 Repository Selection
 ____
@@ -47,7 +47,9 @@ The repository is the area where the files and folders required for MatLib are s
 
 This is the area where you will choose which repository MatLib will run on.
 
-.. tip:: 
+.. tip:: Additional repositroies are usefull for team enviroment for collabration.
+         For personal usage, this is not an important subject since most likely you dont need to create additional repositories.
+         
 
 When you link a new repository, it is added to this menu with the given name.
 
