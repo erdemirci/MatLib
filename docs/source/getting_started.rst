@@ -153,9 +153,13 @@ The textures of the selected material are listed in this section.
 
 If the node has UDIM or sequence properties, it provides information about the presence and number of images.
 
+.. image:: /images/matlib_textureinfo.jpg
+
 **Material Info**
 
 Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
+
+.. image:: /images/matlib_materialinfo.jpg
 
 **Edit**
 
