@@ -75,6 +75,8 @@ To delete a category, you need to type **'YES'** in capital letters in the dialo
 
 Since some repositories are protected with a password, the password screen will appear after pressing the ``-`` button. If the correct password is entered, a dialog will pop up asking if you are sure, same as unencrypted repositories.
 
+.. image:: /images/password_protect.jpg
+
 .. warning::
    Deleted categories do not have backup files, so the deletion cannot be undone.
 
@@ -120,6 +122,8 @@ It is possible to change the description later on from the edit tab.It does not 
 After selecting the material to be deleted from the MatLib window, click the ``Delete Material from Category`` button at the bottom left. As with deleting a category, typing **'YES'** in capital letters at a dialog asking if you are sure, will delete this material.
 
 If the repository is protected by a password, you must first enter the password correctly in the window that appears.
+
+.. image:: /images/password_protect.jpg
 
 .. warning::
    Deleted materials do not have backup files, so the deletion cannot be undone.
