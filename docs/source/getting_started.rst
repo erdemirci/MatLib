@@ -289,7 +289,14 @@ The Transfer screen is used to copy materials between existing categories within
 
 For example, if you have a material on your driver that you want to copy to the repository that other people can access.
 
-In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer. 
+In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer.
+
+.. image:: /images/matlib_TransferUI.jpg
+
+Reset Links
+====
+
+
 
 
 
