@@ -21,3 +21,4 @@ Without having to deal with manual work, MatLib organizes the materials that you
    overview
    installation
    getting_started
+   tutorials
