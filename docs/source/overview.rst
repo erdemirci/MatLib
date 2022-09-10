@@ -3,9 +3,10 @@ Overview
 
 Introduction
 ====
-.. image:: /images/MatLib_logo.png
+.. figure:: /images/MatLib_logo.png
    :scale: 15 %
    :align: center
+   :alt: babow
    
 
 MatLib is a free tool that stores materials for reuse.
