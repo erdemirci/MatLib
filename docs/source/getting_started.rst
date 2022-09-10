@@ -320,6 +320,7 @@ Recovering a password from Password Protected Repository
          MatLib_tools.password_recover('label of the repository')
 
 * Inside the quotation mark type the label of the repository
+* Press Cntrl + Enter
 
 .. tip::
    You can open up the Script Editor panel from **Windows/General Editors/Script Editor**
@@ -349,9 +350,12 @@ In order to use this function,first press the icon of Transfer to Project then s
 Repath nodes and Copy Files
 ----
 
+This selection will repath all of the node's texture paths and Copy all of the texture files to {project folder}/sourceimages/MatLib_images
+This selection also triggers the progress bar.
 
 Repath nodes only
 ----
 
-
+This selection will repath all of the node's texture paths to {project folder}/sourceimages/MatLib_images
+This is usefull when you have a project with many shots and you have already copied all the necessary files to the project.
 
