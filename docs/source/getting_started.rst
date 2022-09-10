@@ -293,6 +293,28 @@ In order to use this function, from the top left corner select the repository , 
 
 .. image:: /images/MatLib_TransferUI.jpg
 
+Password
+====
+
+.. caution::
+   Never use a password that you actually use. The password you will use for MatLib should be simple and unimportant.
+   
+
+Admin password
+____
+
+*Password* = **123admin**
+
+For repository creating and deleting, password is asked by MatLib.It is more likely a warning question whether the user has taken any conscious action.
+
+Unlike repository creation passwords, this cannot be changed.
+
+
+Recovering a password from Password Protected Repository
+____
+
+
+
 Reset Links
 ====
 
