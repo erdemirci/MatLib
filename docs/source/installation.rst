@@ -6,30 +6,6 @@ Downloading MatLib
 ____
 Visit https://www.erdemirci3d.com/matlib to download the latest version of MatLib.
 
-System Requirements
-====
-
-Software Requirements
-----
-
-Current version of MatLib supports:
-
-* Microsoft Windows
-* Autodesk Maya
-* Python 2 and 3
-
-============  ==========  ========  ===============   ========
-Application     Version   Renderer  Frame Buffer      OS
-============  ==========  ========  ===============   ========
-Maya          2018-2023   Redshift  Maya RenderView   Windows
-Maya          2018-2023   Arnold    Maya RenderView   Windows
-Maya          2018-2023   Vray      Maya RenderView   Windows
-============  ==========  ========  ===============   ========
-
-.. warning::
-   If you are planing to use MatLib with multiple users, make sure all of the users have the same version of the renderer.
-
-
 Installing on Windows
 ____
 
