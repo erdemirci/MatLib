@@ -3,10 +3,10 @@ Overview
 
 Introduction
 ====
-.. figure:: /images/MatLib_logo.png
+.. image:: /images/MatLib_logo.png
    :scale: 15 %
    :align: center
-   :alt: babow
+   :margin-bottom: 5
    
 
 MatLib is a free tool that stores materials for reuse.
