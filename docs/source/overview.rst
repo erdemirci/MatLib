@@ -23,9 +23,9 @@ Current version of MatLib supports:
 ============  ==========  ========  ===============   ========
 Application     Version   Renderer  Frame Buffer      OS
 ============  ==========  ========  ===============   ========
-Maya          2018-2023   Redshift  Maya RenderView   Windows
-Maya          2018-2023   Arnold    Maya RenderView   Windows
-Maya          2018-2023   Vray      Maya RenderView   Windows
+Maya          2019-2023   Redshift  Maya RenderView   Windows
+Maya          2019-2023   Arnold    Maya RenderView   Windows
+Maya          2019-2023   Vray      Maya RenderView   Windows
 ============  ==========  ========  ===============   ========
 
 .. warning::
@@ -48,7 +48,3 @@ MatLib beta v0.9
 * Material attribute display.
 
 
-Supported Software
-====
-
-Current version of MatLib support only Maya versions.
