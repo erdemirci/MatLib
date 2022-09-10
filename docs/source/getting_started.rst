@@ -7,7 +7,7 @@ Lets go over the Icons and their functions in the MatLib shelf.
 
 Material Library
 ====
-.. image:: /images/matlib_materiallibrary_icon.png
+.. thumbnail:: /images/matlib_materiallibrary_icon.png
 
 Material library, as it is called, is the main window where you create, store and import materials to your scene.
 
@@ -351,11 +351,13 @@ Repath nodes and Copy Files
 ----
 
 This selection will repath all of the node's texture paths and Copy all of the texture files to {project folder}/sourceimages/MatLib_images
+
 This selection also triggers the progress bar.
 
 Repath nodes only
 ----
 
 This selection will repath all of the node's texture paths to {project folder}/sourceimages/MatLib_images
+
 This is usefull when you have a project with many shots and you have already copied all the necessary files to the project.
 
