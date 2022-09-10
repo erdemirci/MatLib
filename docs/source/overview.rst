@@ -4,7 +4,7 @@ Overview
 Introduction
 ====
 .. image:: /images/MatLib_logo.png
-   :scale: 50 %
+   :scale: 25 %
    :align: center
    
 
