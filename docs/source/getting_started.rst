@@ -224,7 +224,6 @@ Type something on the editible line and press ``Replace`` button.
 The menu at the top of the window contains the supported material types.The parameters of each material are listed just below.
 The parameters you will mark here will be reflected in the material information tab when the ``Save Changes`` button below is pressed.
 
-
 MenuBar
 ____
 
@@ -301,7 +300,7 @@ Password
    
 
 Admin password
-____
+----
 
 *Password* = **123admin**
 
@@ -311,8 +310,21 @@ Unlike repository creation passwords, this cannot be changed.
 
 
 Recovering a password from Password Protected Repository
-____
+----
 
+* Make sure Material Library UI is on or atleast ran once.
+* From *Script Editor* Create a new *Source Type* as **Python**
+* Type::
+         {
+         import MatLib_tools
+         MatLib_tools.password_recover('label of the repository')
+         }
+* Inside the quotation mark type the label of the repository
+
+.. tip::
+   You can open up the Script Editor panel from **Windows/General Editors/Script Editor**
+   
+.. image:: /images/matlib_recoveryexample.jpg
 
 
 Reset Links
