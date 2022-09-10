@@ -314,7 +314,8 @@ Recovering a password from Password Protected Repository
 
 * Make sure Material Library UI is on or atleast ran once.
 * From *Script Editor* Create a new *Source Type* as **Python**
-On the Python tab Type::
+* On the Python tab Type::
+
          import MatLib_tools
          MatLib_tools.password_recover('label of the repository')
 
