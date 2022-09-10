@@ -11,7 +11,7 @@ Oftentimes well-designed, unique materials are forgotten or lost in their respec
 Without having to deal with manual work, MatLib organizes the materials that you created and brings them to your scene in a few steps. It also stores the textures in relevant folders automatically.
 
 
-Software Requirements
+Software and System Requirements
 ====
 
 Current version of MatLib supports:
