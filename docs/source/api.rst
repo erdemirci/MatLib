@@ -1,5 +1,9 @@
 Welcome to MatLib for Maya documentation
 ========================================
+.. image:: /images/matlib_icon.png
+   :scale: 50 %
+   :align: center
+   
 MatLib is a free tool that stores materials for reuse which allows you to use directly in Maya.
 
 This guide provides information on setting up and using MatLib for Maya.
