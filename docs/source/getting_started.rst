@@ -10,6 +10,7 @@ Material Library
 .. image:: /images/matlib_materiallibrary_icon.png
    :scale: 50 %
    :align: center
+   
 
 Material library, as it is called, is the main window where you create, store and import materials to your scene.
 
@@ -333,12 +334,16 @@ Recovering a password from Password Protected Repository
 Reset Links
 ====
 .. image:: /images/matlib_resetlinks_icon.png
+   :scale: 50 %
+   :align: center
 
 This is only usefull when MatLib is unable to be loaded.It will clean all the repository paths so MatLib will run as if it was running for the first time.
 
 Transfer to Project
 ====
 .. image:: /images/matlib_transfertoproject_icon.png
+   :scale: 50 %
+   :align: center
 
 All images that are imported to the scene with MatLib or files which do not belong to the project folder are copied to the project folder and the paths of the nodes that read the images are renewed with this function.
 
