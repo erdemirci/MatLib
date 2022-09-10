@@ -7,7 +7,9 @@ Lets go over the Icons and their functions in the MatLib shelf.
 
 Material Library
 ====
-.. thumbnail:: /images/matlib_materiallibrary_icon.png
+.. image:: /images/matlib_materiallibrary_icon.png
+   :scale: 50 %
+   :align: center
 
 Material library, as it is called, is the main window where you create, store and import materials to your scene.
 
