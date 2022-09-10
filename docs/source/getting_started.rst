@@ -312,7 +312,6 @@ Unlike repository creation passwords, this cannot be changed.
 Recovering a password from Password Protected Repository
 ----
 
-* Make sure Material Library UI is on or atleast ran once.
 * From *Script Editor* Create a new *Source Type* as **Python**
 * On the Python tab Type::
 
