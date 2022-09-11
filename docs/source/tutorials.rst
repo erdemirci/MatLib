@@ -10,14 +10,14 @@ Runing MatLib for the very first time
    <iframe src="https://player.vimeo.com/video/748521208?h=185ecca3ea" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-Add Category
+Create Category
 ====
-.. _qjAddCat:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748523944?h=99fdbe11f1" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+.. _qjAddCat:
 
 
 Delete Category
@@ -56,12 +56,12 @@ Import Material
 
 Texture and Material Panels
 ====
-.. _qjInfoPanels:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748534458?h=a2ab96dc0d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
+.. _qjInfoPanels:
 
 Add, Remove and Replace Images from Material Display
 ====
