@@ -41,3 +41,23 @@ In Action
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748533873?h=7d4239db2c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+**Texture and Material Panels:**
+
+.. raw:: html
+
+   <iframe src="https://player.vimeo.com/video/748534458?h=a2ab96dc0d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   
+
+**Add, Remove and Replace Images from Material Display:**
+
+.. raw:: html
+
+   <iframe src="https://player.vimeo.com/video/748535308?h=48a1fc5ea2" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   
+**Edit Description**
+
+.. raw:: html
+
+   <iframe src="https://player.vimeo.com/video/748535990?h=05f60ecd37" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   
