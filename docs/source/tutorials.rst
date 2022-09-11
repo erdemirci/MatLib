@@ -17,10 +17,9 @@ Create Category
 
    <iframe src="https://player.vimeo.com/video/748523944?h=99fdbe11f1" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
+.. _qjDeleteCat:
 Delete Category
 ====
-.. _qjDeleteCat:
 
 .. raw:: html
 
