@@ -1,26 +1,25 @@
 In Action
 ++++
 
+.. _qjFirstRun:
 Runing MatLib for the very first time
 ====
-.. _qjFirstRun:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748521208?h=185ecca3ea" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
+.. _qjAddCat:
 Create Category
 ====
-.. _qjAddCat:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748523944?h=99fdbe11f1" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+.. _qjDeleteCat:
 Delete Category
 ====
-.. _qjDeleteCat:
 
 .. raw:: html
 
