@@ -23,6 +23,8 @@ When MatLib runs, if it is used for the first time or if the repository you used
 
 Make sure you select a location that has enough space.
 
+Jump to :ref:`Video <qjFirstRun>`
+
 User Interface
 ----
 
@@ -74,7 +76,7 @@ By changing the renderer or changing the repository,Category section will be upd
 To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``+`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
-Jump to :ref:`Video <qjFirstRun>`
+Jump to :ref:`Video <qjAddCat>`
 
 *Delete a Category*
 ~~~~
@@ -88,6 +90,7 @@ Since some repositories are protected with a password, the password screen will 
 .. warning::
    Deleted categories do not have backup files, so the deletion cannot be undone.
 
+Jump to :ref:`Video <qjDeleteCat>`
 
 Materials
 ____
@@ -126,6 +129,8 @@ When the rendering is completed, select the Shading Group (SG) node of the mater
 
 It is possible to change the description later on from the edit tab.It does not have to be filled.
 
+Jump to :ref:`Video <qjAddMat>`
+
 *Delete a Material*
 ~~~~
 
@@ -138,10 +143,14 @@ If the repository is protected by a password, you must first enter the password 
 .. warning::
    Deleted materials do not have backup files, so the deletion cannot be undone.
    
+Jump to :ref:`Video <qjDeleteMat>`
+   
 *Import Material*
 ~~~~
 
 As the naming suggests, this will import the material information and generate the materials into the current scene. After the material is created you will just need to assign the material to an object.
+
+Jump to :ref:`Video <qjImportMat>`
 
 *Search Bar*
 ~~~~
@@ -174,6 +183,9 @@ If the node has UDIM or sequence properties, it provides information about the p
 
 .. warning::
    If the material has .EXR or .HDR texture formats,it fails to display them on the texture info tab.
+   
+
+Jump to Texture and Material planels :ref:`Video <qjInfoPanels>`
 
 *Material Info*
 ~~~~
@@ -181,6 +193,7 @@ If the node has UDIM or sequence properties, it provides information about the p
 Displays the material attributes of the selected material. The user can choose which of these attributes to display by clicking the Material Config button on the Edit tab.
 
 .. image:: /images/matlib_materialinfo.jpg
+
 
 *Edit*
 ~~~~
@@ -190,6 +203,7 @@ Edit tab is responsible for making changes on material di̇splay.
 There are couple of buttons in this tab, lets take a look at them one by one.
 
 .. image:: /images/matlib_edittab.jpg
+
 
 **Add Image To Display**
 
@@ -215,11 +229,15 @@ It deletes the image displayed in the image viewer.
 
 Primary image can not be deleted.
 
+Jump to Add, Remove and Replace :ref:`Video <qjARRMatDisplay>`
+
 **Description**
 
 It allows you to change the description of the selected material.
 
 Type something on the editible line and press ``Replace`` button.
+
+Jump to Edit Description :ref:`Video <qjEditDesc>`
 
 **Material Info Config.**
 
