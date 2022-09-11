@@ -1,9 +1,9 @@
 In Action
 ++++
 
+.. _qjFirstRun:
 Runing MatLib for the very first time
 ====
-.. _qjFirstRun:
 
 .. raw:: html
 
@@ -25,32 +25,31 @@ Delete Category
 
    <iframe src="https://player.vimeo.com/video/748523884?h=8dbe49da65" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
+.. _qjAddMat:
 Add Material
 ====
-.. _qjAddMat:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748525409?h=4b610c5c5a" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-
+.. _qjDeleteMat:
 Delete Material
 ====
-.. _qjDeleteMat:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748528148?h=f44aa545be" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-   
+
+.. _qjImportMat:   
 Import Material
 ====
-.. _qjImportMat:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748533873?h=7d4239db2c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
+.. _qjInfoPanels:
 Texture and Material Panels
 ====
 
@@ -58,19 +57,17 @@ Texture and Material Panels
 
    <iframe src="https://player.vimeo.com/video/748534458?h=a2ab96dc0d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
-.. _qjInfoPanels:
-
+.. _qjARRMatDisplay:
 Add, Remove and Replace Images from Material Display
 ====
-.. _qjARRMatDisplay:
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748535308?h=48a1fc5ea2" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
+.. _qjEditDesc:
 Edit Description
 ====
-.. _qjEditDesc:
 
 .. raw:: html
 
