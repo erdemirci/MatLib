@@ -1,6 +1,7 @@
 Welcome to MatLib for Maya documentation
 ========================================
-MatLib is a free tool that stores materials for reuse which allows you to use directly in Maya.
+
+MatLib is a free tool that stores materials for reuse.
 
 This guide provides information on setting up and using MatLib for Maya.
 
