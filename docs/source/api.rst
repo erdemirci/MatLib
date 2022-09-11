@@ -27,3 +27,11 @@ Without having to deal with manual work, MatLib organizes the materials that you
    installation
    getting_started
    tutorials
+
+
+Support
+====
+
+If you need any kind of support, bug report, feature request or suggestion, feel free to contact me by erdemirci3d@gmail.com
+
+
