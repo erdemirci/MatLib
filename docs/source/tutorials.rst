@@ -3,6 +3,7 @@ In Action
 
 Runing MatLib for the very first time
 ====
+.. _qjFirstRun:
 
 .. raw:: html
 
@@ -11,6 +12,7 @@ Runing MatLib for the very first time
 
 Add Category
 ====
+.. _qjAddCat:
 
 .. raw:: html
 
@@ -20,6 +22,7 @@ Add Category
 
 Delete Category
 ====
+.. _qjDeleteCat:
 
 .. raw:: html
 
@@ -28,6 +31,7 @@ Delete Category
 
 Add Material
 ====
+.. _qjAddMat:
 
 .. raw:: html
 
@@ -36,6 +40,7 @@ Add Material
 
 Delete Material
 ====
+.. _qjDeleteMat:
 
 .. raw:: html
 
@@ -43,6 +48,7 @@ Delete Material
    
 Import Material
 ====
+.. _qjImportMat:
 
 .. raw:: html
 
@@ -50,6 +56,7 @@ Import Material
 
 Texture and Material Panels
 ====
+.. _qjInfoPanels:
 
 .. raw:: html
 
@@ -58,6 +65,7 @@ Texture and Material Panels
 
 Add, Remove and Replace Images from Material Display
 ====
+.. _qjARRMatDisplay:
 
 .. raw:: html
 
@@ -65,6 +73,7 @@ Add, Remove and Replace Images from Material Display
    
 Edit Description
 ====
+.. _qjEditDesc:
 
 .. raw:: html
 
