@@ -74,6 +74,8 @@ By changing the renderer or changing the repository,Category section will be upd
 To create a category, you must give the category a name (such as metals) on the dialog screen that opens after pressing the ``+`` button under the category section.
 Pressing the accept button will immediately add the new category to the Categories menu.
 
+:doc:`Video </tutorial>`
+
 *Delete a Category*
 ~~~~
 
