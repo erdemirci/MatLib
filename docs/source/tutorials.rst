@@ -1,14 +1,16 @@
 In Action
 ++++
 
-**Runing MatLib for the very first time:**
+Runing MatLib for the very first time
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748521208?h=185ecca3ea" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-**Add Category:**
+Add Category
+====
 
 .. raw:: html
 
@@ -16,46 +18,53 @@ In Action
 
 
 
-**Delete Category:**
+Delete Category
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748523884?h=8dbe49da65" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-**Add Material:**
+Add Material
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748525409?h=4b610c5c5a" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-**Delete Material:**
+Delete Material
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748528148?h=f44aa545be" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
-**Import Material:**
+Import Material
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748533873?h=7d4239db2c" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
-**Texture and Material Panels:**
+Texture and Material Panels
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748534458?h=a2ab96dc0d" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
 
-**Add, Remove and Replace Images from Material Display:**
+Add, Remove and Replace Images from Material Display
+====
 
 .. raw:: html
 
    <iframe src="https://player.vimeo.com/video/748535308?h=48a1fc5ea2" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    
-**Edit Description**
+Edit Description
+====
 
 .. raw:: html
 
