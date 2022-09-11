@@ -33,3 +33,9 @@ Tutorials
    <div style="position: relative; padding-bottom: 0%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
       <iframe src="https://player.vimeo.com/video/748525409?h=4b610c5c5a" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
    </div>
+
+**Delete Material:**
+
+.. raw:: html
+
+   <iframe src="https://player.vimeo.com/video/748528148?h=f44aa545be" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
