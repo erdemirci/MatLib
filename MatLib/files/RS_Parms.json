@@ -1,0 +1,1638 @@
+{
+    "RedshiftPrincipledHair": {
+        "strayAlbedo": {
+            "name": "Stray Albedo", 
+            "value": 0
+        }, 
+        "glintSize": {
+            "name": "Glint Size", 
+            "value": 1
+        }, 
+        "alpha": {
+            "name": "Alpha", 
+            "value": 1
+        }, 
+        "albedo": {
+            "name": "Albedo", 
+            "value": 1
+        }, 
+        "roughness_l": {
+            "name": "Roughness L", 
+            "value": 0
+        }, 
+        "tint": {
+            "name": "Tint", 
+            "value": 0
+        }, 
+        "roughness_a": {
+            "name": "Roughness A", 
+            "value": 0
+        }, 
+        "combined_depth": {
+            "name": "Combined Depth", 
+            "value": 0
+        }, 
+        "diffuse_amount": {
+            "name": "Diffuse Amount", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "samples": {
+            "name": "Samples", 
+            "value": 0
+        }, 
+        "melaninVar": {
+            "name": "Melanin Var", 
+            "value": 0
+        }, 
+        "diffuse_albedo": {
+            "name": "Diffuse Albedo", 
+            "value": 0
+        }, 
+        "strayFraction": {
+            "name": "Stray Fraction", 
+            "value": 0
+        }, 
+        "glintStrength": {
+            "name": "Glint Strength", 
+            "value": 0
+        }, 
+        "albedoMix": {
+            "name": "Albedo Mix", 
+            "value": 0
+        }, 
+        "pheomelanin": {
+            "name": "Pheomelanin", 
+            "value": 0
+        }, 
+        "ior": {
+            "name": "Ior", 
+            "value": 0
+        }, 
+        "roughnessLVar": {
+            "name": "Roughness LVar", 
+            "value": 0
+        }, 
+        "melanin": {
+            "name": "Melanin", 
+            "value": 0
+        }, 
+        "roughnessAVar": {
+            "name": "Roughness AVar", 
+            "value": 0
+        }, 
+        "varSeed": {
+            "name": "Var Seed", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "pheomelaninVar": {
+            "name": "Pheomelanin Var", 
+            "value": 0
+        }
+    }, 
+    "RedshiftIncandescent": {
+        "applyExposureCompensation": {
+            "name": "Apply Exposure Compensation", 
+            "value": 0
+        }, 
+        "temperature": {
+            "name": "Temperature", 
+            "value": 1
+        }, 
+        "color": {
+            "name": "Color", 
+            "value": 1
+        }, 
+        "colorMode": {
+            "name": "Color Mode", 
+            "value": 1
+        }, 
+        "transparentShadows": {
+            "name": "Transparent Shadows", 
+            "value": 1
+        }, 
+        "GIScale": {
+            "name": "GIScale", 
+            "value": 1
+        }, 
+        "doublesided": {
+            "name": "Doublesided", 
+            "value": 1
+        }, 
+        "affectEmissionAOV": {
+            "name": "Affect Emission AOV", 
+            "value": 0
+        }, 
+        "intensity": {
+            "name": "Intensity", 
+            "value": 1
+        }, 
+        "alphaMode": {
+            "name": "Alpha Mode", 
+            "value": 0
+        }, 
+        "reflectScale": {
+            "name": "Reflect Scale", 
+            "value": 1
+        }, 
+        "alpha": {
+            "name": "Alpha", 
+            "value": 1
+        }, 
+        "refractScale": {
+            "name": "Refract Scale", 
+            "value": 0
+        }
+    }, 
+    "RedshiftMaterial": {
+        "refl_k32": {
+            "name": "Refl K 32", 
+            "value": 1
+        }, 
+        "refl_k30": {
+            "name": "Refl K 30", 
+            "value": 0
+        }, 
+        "refl_brdf": {
+            "name": "Refl Brdf", 
+            "value": 0
+        }, 
+        "refl_k31": {
+            "name": "Refl K 31", 
+            "value": 0
+        }, 
+        "ss_extinction_scale": {
+            "name": "Ss Extinction Scale", 
+            "value": 0
+        }, 
+        "combined_depth": {
+            "name": "Combined Depth", 
+            "value": 0
+        }, 
+        "refr_cutoff": {
+            "name": "Refr Cutoff", 
+            "value": 0
+        }, 
+        "refl_indirect": {
+            "name": "Refl Indirect", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "opacity_color": {
+            "name": "Opacity Color", 
+            "value": 0
+        }, 
+        "refl_k3": {
+            "name": "Refl K 3", 
+            "value": 0
+        }, 
+        "ms_radius1": {
+            "name": "Ms Radius 1", 
+            "value": 0
+        }, 
+        "ms_radius0": {
+            "name": "Ms Radius 0", 
+            "value": 0
+        }, 
+        "ms_radius2": {
+            "name": "Ms Radius 2", 
+            "value": 0
+        }, 
+        "shadow_opacity": {
+            "name": "Shadow Opacity", 
+            "value": 0
+        }, 
+        "refl_edge_tint": {
+            "name": "Refl Edge Tint", 
+            "value": 0
+        }, 
+        "block_volumes": {
+            "name": "Block Volumes", 
+            "value": 0
+        }, 
+        "coat_weight": {
+            "name": "Coat Weight", 
+            "value": 0
+        }, 
+        "refl_weight": {
+            "name": "Refl Weight", 
+            "value": 0
+        }, 
+        "coat_ior": {
+            "name": "Coat Ior", 
+            "value": 0
+        }, 
+        "coat_thickness": {
+            "name": "Coat Thickness", 
+            "value": 0
+        }, 
+        "ss_phase": {
+            "name": "Ss Phase", 
+            "value": 0
+        }, 
+        "ss_scatter_coeff": {
+            "name": "Ss Scatter Coeff", 
+            "value": 0
+        }, 
+        "coat_ior31": {
+            "name": "Coat Ior 31", 
+            "value": 1
+        }, 
+        "coat_ior30": {
+            "name": "Coat Ior 30", 
+            "value": 0
+        }, 
+        "coat_ior32": {
+            "name": "Coat Ior 32", 
+            "value": 0
+        }, 
+        "coat_brdf": {
+            "name": "Coat Brdf", 
+            "value": 0
+        }, 
+        "refl_samples": {
+            "name": "Refl Samples", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "ss_unitsMode": {
+            "name": "Ss Units Mode", 
+            "value": 0
+        }, 
+        "refr_isGlossiness": {
+            "name": "Refr Is Glossiness", 
+            "value": 0
+        }, 
+        "ss_samples": {
+            "name": "Ss Samples", 
+            "value": 0
+        }, 
+        "ss_amount": {
+            "name": "Ss Amount", 
+            "value": 0
+        }, 
+        "diffuse_color": {
+            "name": "Diffuse Color", 
+            "value": 1
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "emission_color": {
+            "name": "Emission Color", 
+            "value": 0
+        }, 
+        "coat_isGlossiness": {
+            "name": "Coat Is Glossiness", 
+            "value": 0
+        }, 
+        "sheen_samples": {
+            "name": "Sheen Samples", 
+            "value": 0
+        }, 
+        "refl_color": {
+            "name": "Refl Color", 
+            "value": 0
+        }, 
+        "ms_mode": {
+            "name": "Ms Mode", 
+            "value": 0
+        }, 
+        "coat_reflectivity": {
+            "name": "Coat Reflectivity", 
+            "value": 0
+        }, 
+        "refl_endmode": {
+            "name": "Refl Endmode", 
+            "value": 0
+        }, 
+        "coat_ior3": {
+            "name": "Coat Ior 3", 
+            "value": 0
+        }, 
+        "ms_include_mode": {
+            "name": "Ms Include Mode", 
+            "value": 0
+        }, 
+        "transl_weight": {
+            "name": "Transl Weight", 
+            "value": 0
+        }, 
+        "refr_absorption_scale": {
+            "name": "Refr Absorption Scale", 
+            "value": 0
+        }, 
+        "sheen_direct": {
+            "name": "Sheen Direct", 
+            "value": 0
+        }, 
+        "refr_abbe": {
+            "name": "Refr Abbe", 
+            "value": 0
+        }, 
+        "refr_depth": {
+            "name": "Refr Depth", 
+            "value": 0
+        }, 
+        "refr_roughness": {
+            "name": "Refr Roughness", 
+            "value": 0
+        }, 
+        "ms_color1": {
+            "name": "Ms Color 1", 
+            "value": 0
+        }, 
+        "ms_color0": {
+            "name": "Ms Color 0", 
+            "value": 0
+        }, 
+        "ms_color2": {
+            "name": "Ms Color 2", 
+            "value": 0
+        }, 
+        "sheen_isGlossiness": {
+            "name": "Sheen Is Glossiness", 
+            "value": 0
+        }, 
+        "emission_weight": {
+            "name": "Emission Weight", 
+            "value": 0
+        }, 
+        "ss_extinction_coeff": {
+            "name": "Ss Extinction Coeff", 
+            "value": 0
+        }, 
+        "diffuse_weight": {
+            "name": "Diffuse Weight", 
+            "value": 1
+        }, 
+        "coat_color": {
+            "name": "Coat Color", 
+            "value": 0
+        }, 
+        "affects_alpha": {
+            "name": "Affects Alpha", 
+            "value": 0
+        }, 
+        "coat_bump_input": {
+            "name": "Coat Bump Input", 
+            "value": 0
+        }, 
+        "ms_samples": {
+            "name": "Ms Samples", 
+            "value": 0
+        }, 
+        "refr_ior": {
+            "name": "Refr Ior", 
+            "value": 0
+        }, 
+        "ms_radius_scale": {
+            "name": "Ms Radius Scale", 
+            "value": 0
+        }, 
+        "refl_direct": {
+            "name": "Refl Direct", 
+            "value": 0
+        }, 
+        "sheen_roughness": {
+            "name": "Sheen Roughness", 
+            "value": 0
+        }, 
+        "refl_aniso_rotation": {
+            "name": "Refl Aniso Rotation", 
+            "value": 0
+        }, 
+        "bump_input": {
+            "name": "Bump Input", 
+            "value": 0
+        }, 
+        "sheen_indirect": {
+            "name": "Sheen Indirect", 
+            "value": 0
+        }, 
+        "overall_color": {
+            "name": "Overall Color", 
+            "value": 0
+        }, 
+        "coat_roughness": {
+            "name": "Coat Roughness", 
+            "value": 0
+        }, 
+        "refl_ior31": {
+            "name": "Refl Ior 31", 
+            "value": 0
+        }, 
+        "refl_ior30": {
+            "name": "Refl Ior 30", 
+            "value": 0
+        }, 
+        "refl_ior32": {
+            "name": "Refl Ior 32", 
+            "value": 0
+        }, 
+        "refl_metalness": {
+            "name": "Refl Metalness", 
+            "value": 0
+        }, 
+        "coat_transmittance": {
+            "name": "Coat Transmittance", 
+            "value": 0
+        }, 
+        "skip_inside_refl": {
+            "name": "Skip Inside Refl", 
+            "value": 0
+        }, 
+        "decoupleIORFromRoughness": {
+            "name": "Decouple IORFrom Roughness", 
+            "value": 0
+        }, 
+        "coat_direct": {
+            "name": "Coat Direct", 
+            "value": 0
+        }, 
+        "sheen_color": {
+            "name": "Sheen Color", 
+            "value": 0
+        }, 
+        "diffuse_roughness": {
+            "name": "Diffuse Roughness", 
+            "value": 0
+        }, 
+        "refl_reflectivity": {
+            "name": "Refl Reflectivity", 
+            "value": 0
+        }, 
+        "refr_enablecutoff": {
+            "name": "Refr Enablecutoff", 
+            "value": 0
+        }, 
+        "coat_indirect": {
+            "name": "Coat Indirect", 
+            "value": 0
+        }, 
+        "refr_samples": {
+            "name": "Refr Samples", 
+            "value": 0
+        }, 
+        "refl_aniso": {
+            "name": "Refl Aniso", 
+            "value": 0
+        }, 
+        "refl_roughness": {
+            "name": "Refl Roughness", 
+            "value": 0
+        }, 
+        "refr_thin_walled": {
+            "name": "Refr Thin Walled", 
+            "value": 0
+        }, 
+        "refr_color": {
+            "name": "Refr Color", 
+            "value": 1
+        }, 
+        "coat_samples": {
+            "name": "Coat Samples", 
+            "value": 0
+        }, 
+        "coat_fresnel_mode": {
+            "name": "Coat Fresnel Mode", 
+            "value": 0
+        }, 
+        "refr_weight": {
+            "name": "Refr Weight", 
+            "value": 1
+        }, 
+        "refl_ior": {
+            "name": "Refl Ior", 
+            "value": 1
+        }, 
+        "ms_weight2": {
+            "name": "Ms Weight 2", 
+            "value": 0
+        }, 
+        "ms_weight1": {
+            "name": "Ms Weight 1", 
+            "value": 0
+        }, 
+        "ms_weight0": {
+            "name": "Ms Weight 0", 
+            "value": 0
+        }, 
+        "preset": {
+            "name": "Preset", 
+            "value": 1
+        }, 
+        "diffuse_direct": {
+            "name": "Diffuse Direct", 
+            "value": 0
+        }, 
+        "anisotropy_orientation": {
+            "name": "Anisotropy Orientation", 
+            "value": 0
+        }, 
+        "refl_ior3": {
+            "name": "Refl Ior 3", 
+            "value": 0
+        }, 
+        "refr_transmittance": {
+            "name": "Refr Transmittance", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 1
+        }, 
+        "refl_isGlossiness": {
+            "name": "Refl Is Glossiness", 
+            "value": 0
+        }, 
+        "sheen_weight": {
+            "name": "Sheen Weight", 
+            "value": 0
+        }, 
+        "energyCompMode": {
+            "name": "Energy Comp Mode", 
+            "value": 1
+        }, 
+        "transl_color": {
+            "name": "Transl Color", 
+            "value": 0
+        }, 
+        "refl_fresnel_mode": {
+            "name": "Refl Fresnel Mode", 
+            "value": 0
+        }, 
+        "diffuse_indirect": {
+            "name": "Diffuse Indirect", 
+            "value": 0
+        }, 
+        "overallAffectsEmission": {
+            "name": "Overall Affects Emission", 
+            "value": 0
+        }, 
+        "ms_amount": {
+            "name": "Ms Amount", 
+            "value": 0
+        }
+    }, 
+    "RedshiftArchitectural": {
+        "refl_gloss": {
+            "name": "Refl Gloss", 
+            "value": 0
+        }, 
+        "thin_walled": {
+            "name": "Thin Walled", 
+            "value": 0
+        }, 
+        "refr_trans_weight": {
+            "name": "Refr Trans Weight", 
+            "value": 0
+        }, 
+        "refl_brdf": {
+            "name": "Refl Brdf", 
+            "value": 0
+        }, 
+        "brdf_fresnel_ior": {
+            "name": "Brdf Fresnel Ior", 
+            "value": 0
+        }, 
+        "refr_falloff_dist": {
+            "name": "Refr Falloff Dist", 
+            "value": 0
+        }, 
+        "refr_ior": {
+            "name": "Refr Ior", 
+            "value": 0
+        }, 
+        "refr_falloff_color_on": {
+            "name": "Refr Falloff Color On", 
+            "value": 0
+        }, 
+        "ao_ambient": {
+            "name": "Ao Ambient", 
+            "value": 0
+        }, 
+        "brdf_base_extinction_coeff": {
+            "name": "Brdf Base Extinction Coeff", 
+            "value": 0
+        }, 
+        "refl_hl_only": {
+            "name": "Refl Hl Only", 
+            "value": 0
+        }, 
+        "no_diffuse_bump": {
+            "name": "No Diffuse Bump", 
+            "value": 0
+        }, 
+        "additional_color": {
+            "name": "Additional Color", 
+            "value": 0
+        }, 
+        "reflectivity": {
+            "name": "Reflectivity", 
+            "value": 0
+        }, 
+        "refl_base_gloss": {
+            "name": "Refl Base Gloss", 
+            "value": 0
+        }, 
+        "additional_bump_mode": {
+            "name": "Additional Bump Mode", 
+            "value": 0
+        }, 
+        "anisotropy_rotation": {
+            "name": "Anisotropy Rotation", 
+            "value": 0
+        }, 
+        "hl_vs_refl_balance": {
+            "name": "Hl Vs Refl Balance", 
+            "value": 0
+        }, 
+        "brdf_curve": {
+            "name": "Brdf Curve", 
+            "value": 0
+        }, 
+        "refr_gloss_samples": {
+            "name": "Refr Gloss Samples", 
+            "value": 0
+        }, 
+        "refl_color": {
+            "name": "Refl Color", 
+            "value": 0
+        }, 
+        "anisotropy_orientation": {
+            "name": "Anisotropy Orientation", 
+            "value": 0
+        }, 
+        "bump_input": {
+            "name": "Bump Input", 
+            "value": 0
+        }, 
+        "refr_color": {
+            "name": "Refr Color", 
+            "value": 0
+        }, 
+        "brdf_base_curve": {
+            "name": "Brdf Base Curve", 
+            "value": 0
+        }, 
+        "no_refr_bump": {
+            "name": "No Refr Bump", 
+            "value": 0
+        }, 
+        "diffuse": {
+            "name": "Diffuse", 
+            "value": 0
+        }, 
+        "refr_translucency": {
+            "name": "Refr Translucency", 
+            "value": 0
+        }, 
+        "combined_depth": {
+            "name": "Combined Depth", 
+            "value": 0
+        }, 
+        "refl_base": {
+            "name": "Refl Base", 
+            "value": 0
+        }, 
+        "brdf_base_fresnel_ior": {
+            "name": "Brdf Base Fresnel Ior", 
+            "value": 0
+        }, 
+        "refr_gloss": {
+            "name": "Refr Gloss", 
+            "value": 0
+        }, 
+        "ao_spread": {
+            "name": "Ao Spread", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "brdf_90_degree_refl": {
+            "name": "Brdf 90 Degree Refl", 
+            "value": 0
+        }, 
+        "brdf_base_fresnel": {
+            "name": "Brdf Base Fresnel", 
+            "value": 0
+        }, 
+        "ao_distance": {
+            "name": "Ao Distance", 
+            "value": 0
+        }, 
+        "brdf_fresnel": {
+            "name": "Brdf Fresnel", 
+            "value": 0
+        }, 
+        "brdf_base_fresnel_type": {
+            "name": "Brdf Base Fresnel Type", 
+            "value": 0
+        }, 
+        "ao_compensateForExposure": {
+            "name": "Ao Compensate For Exposure", 
+            "value": 0
+        }, 
+        "global_vol_scatter": {
+            "name": "Global Vol Scatter", 
+            "value": 0
+        }, 
+        "refl_base_gloss_samples": {
+            "name": "Refl Base Gloss Samples", 
+            "value": 0
+        }, 
+        "transparency": {
+            "name": "Transparency", 
+            "value": 0
+        }, 
+        "refl_base_brdf": {
+            "name": "Refl Base Brdf", 
+            "value": 0
+        }, 
+        "brdf_base_90_degree_refl": {
+            "name": "Brdf Base 90 Degree Refl", 
+            "value": 0
+        }, 
+        "ao_samples": {
+            "name": "Ao Samples", 
+            "value": 0
+        }, 
+        "refr_depth": {
+            "name": "Refr Depth", 
+            "value": 0
+        }, 
+        "incandescent_scale": {
+            "name": "Incandescent Scale", 
+            "value": 0
+        }, 
+        "refl_gloss_samples": {
+            "name": "Refl Gloss Samples", 
+            "value": 0
+        }, 
+        "skip_inside_refl": {
+            "name": "Skip Inside Refl", 
+            "value": 0
+        }, 
+        "do_refractive_caustics": {
+            "name": "Do Refractive Caustics", 
+            "value": 0
+        }, 
+        "ao_dark": {
+            "name": "Ao Dark", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "brdf_extinction_coeff": {
+            "name": "Brdf Extinction Coeff", 
+            "value": 0
+        }, 
+        "ao_falloff": {
+            "name": "Ao Falloff", 
+            "value": 0
+        }, 
+        "ao_combineMode": {
+            "name": "Ao Combine Mode", 
+            "value": 0
+        }, 
+        "no_refl0_bump": {
+            "name": "No Refl 0 Bump", 
+            "value": 0
+        }, 
+        "diffuse_roughness": {
+            "name": "Diffuse Roughness", 
+            "value": 0
+        }, 
+        "ao_applyToIncandescence": {
+            "name": "Ao Apply To Incandescence", 
+            "value": 0
+        }, 
+        "refl_base_color": {
+            "name": "Refl Base Color", 
+            "value": 0
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "propagate_alpha": {
+            "name": "Propagate Alpha", 
+            "value": 0
+        }, 
+        "refl_is_metal": {
+            "name": "Refl Is Metal", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 0
+        }, 
+        "refr_falloff_on": {
+            "name": "Refr Falloff On", 
+            "value": 0
+        }, 
+        "brdf_0_degree_refl": {
+            "name": "Brdf 0 Degree Refl", 
+            "value": 0
+        }, 
+        "diffuse_weight": {
+            "name": "Diffuse Weight", 
+            "value": 0
+        }, 
+        "ao_invert": {
+            "name": "Ao Invert", 
+            "value": 0
+        }, 
+        "brdf_fresnel_type": {
+            "name": "Brdf Fresnel Type", 
+            "value": 0
+        }, 
+        "refr_enablecutoff": {
+            "name": "Refr Enablecutoff", 
+            "value": 0
+        }, 
+        "refr_falloff_color": {
+            "name": "Refr Falloff Color", 
+            "value": 0
+        }, 
+        "refr_cutoff": {
+            "name": "Refr Cutoff", 
+            "value": 0
+        }, 
+        "cutout_opacity": {
+            "name": "Cutout Opacity", 
+            "value": 0
+        }, 
+        "brdf_base_0_degree_refl": {
+            "name": "Brdf Base 0 Degree Refl", 
+            "value": 0
+        }, 
+        "refr_trans_color": {
+            "name": "Refr Trans Color", 
+            "value": 0
+        }, 
+        "no_refl1_bump": {
+            "name": "No Refl 1 Bump", 
+            "value": 0
+        }, 
+        "ao_on": {
+            "name": "Ao On", 
+            "value": 0
+        }, 
+        "anisotropy": {
+            "name": "Anisotropy", 
+            "value": 0
+        }
+    }, 
+    "RedshiftSkin": {
+        "ss_samples": {
+            "name": "Ss Samples", 
+            "value": 1
+        }, 
+        "refl_color0": {
+            "name": "Refl Color 0", 
+            "value": 1
+        }, 
+        "ss_amount": {
+            "name": "Ss Amount", 
+            "value": 0
+        }, 
+        "mid_radius": {
+            "name": "Mid Radius", 
+            "value": 0
+        }, 
+        "refl_color1": {
+            "name": "Refl Color 1", 
+            "value": 0
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "refl_hl_only": {
+            "name": "Refl Hl Only", 
+            "value": 0
+        }, 
+        "no_diffuse_bump": {
+            "name": "No Diffuse Bump", 
+            "value": 0
+        }, 
+        "shallow_weight": {
+            "name": "Shallow Weight", 
+            "value": 0
+        }, 
+        "additional_bump_mode": {
+            "name": "Additional Bump Mode", 
+            "value": 0
+        }, 
+        "refl_gloss_samples1": {
+            "name": "Refl Gloss Samples 1", 
+            "value": 0
+        }, 
+        "refl_gloss_samples0": {
+            "name": "Refl Gloss Samples 0", 
+            "value": 0
+        }, 
+        "deep_weight": {
+            "name": "Deep Weight", 
+            "value": 0
+        }, 
+        "deep_radius": {
+            "name": "Deep Radius", 
+            "value": 0
+        }, 
+        "refl_brdf0": {
+            "name": "Refl Brdf 0", 
+            "value": 0
+        }, 
+        "refl_gloss0": {
+            "name": "Refl Gloss 0", 
+            "value": 0
+        }, 
+        "bump_input": {
+            "name": "Bump Input", 
+            "value": 0
+        }, 
+        "refl_weight0": {
+            "name": "Refl Weight 0", 
+            "value": 0
+        }, 
+        "refl_weight1": {
+            "name": "Refl Weight 1", 
+            "value": 0
+        }, 
+        "diffuse_amount": {
+            "name": "Diffuse Amount", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "samples": {
+            "name": "Samples", 
+            "value": 1
+        }, 
+        "deep_color": {
+            "name": "Deep Color", 
+            "value": 0
+        }, 
+        "radius_scale": {
+            "name": "Radius Scale", 
+            "value": 0
+        }, 
+        "normalize_weights": {
+            "name": "Normalize Weights", 
+            "value": 0
+        }, 
+        "ss_transmittance": {
+            "name": "Ss Transmittance", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 0
+        }, 
+        "include_mode": {
+            "name": "Include Mode", 
+            "value": 0
+        }, 
+        "overall_scale": {
+            "name": "Overall Scale", 
+            "value": 0
+        }, 
+        "mid_color": {
+            "name": "Mid Color", 
+            "value": 0
+        }, 
+        "ss_thickness": {
+            "name": "Ss Thickness", 
+            "value": 0
+        }, 
+        "refl_gloss1": {
+            "name": "Refl Gloss 1", 
+            "value": 0
+        }, 
+        "refl_brdf1": {
+            "name": "Refl Brdf 1", 
+            "value": 0
+        }, 
+        "ss_phase": {
+            "name": "Ss Phase", 
+            "value": 0
+        }, 
+        "mid_weight": {
+            "name": "Mid Weight", 
+            "value": 0
+        }, 
+        "no_refl_bump": {
+            "name": "No Refl Bump", 
+            "value": 0
+        }, 
+        "refl_ior1": {
+            "name": "Refl Ior 1", 
+            "value": 0
+        }, 
+        "refl_ior0": {
+            "name": "Refl Ior 0", 
+            "value": 0
+        }, 
+        "shallow_color": {
+            "name": "Shallow Color", 
+            "value": 0
+        }, 
+        "mode": {
+            "name": "Mode", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "shallow_radius": {
+            "name": "Shallow Radius", 
+            "value": 0
+        }
+    }, 
+    "RedshiftSubSurfaceScatter": {
+        "ss_samples": {
+            "name": "Ss Samples", 
+            "value": 0
+        }, 
+        "refl_gloss": {
+            "name": "Refl Gloss", 
+            "value": 0
+        }, 
+        "singleScatter_on": {
+            "name": "Single Scatter On", 
+            "value": 0
+        }, 
+        "refl_brdf": {
+            "name": "Refl Brdf", 
+            "value": 0
+        }, 
+        "ss_amount": {
+            "name": "Ss Amount", 
+            "value": 0
+        }, 
+        "refl_fresnel_useior": {
+            "name": "Refl Fresnel Useior", 
+            "value": 0
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "refl_hl_only": {
+            "name": "Refl Hl Only", 
+            "value": 0
+        }, 
+        "no_diffuse_bump": {
+            "name": "No Diffuse Bump", 
+            "value": 0
+        }, 
+        "sub_surface_color": {
+            "name": "Sub Surface Color", 
+            "value": 0
+        }, 
+        "additional_bump_mode": {
+            "name": "Additional Bump Mode", 
+            "value": 0
+        }, 
+        "ss_overrideCoeffs": {
+            "name": "Ss Override Coeffs", 
+            "value": 0
+        }, 
+        "refl_fresnel_curve": {
+            "name": "Refl Fresnel Curve", 
+            "value": 0
+        }, 
+        "refl_fresnel_0_degree_refl": {
+            "name": "Refl Fresnel 0 Degree Refl", 
+            "value": 0
+        }, 
+        "scale": {
+            "name": "Scale", 
+            "value": 0
+        }, 
+        "bump_input": {
+            "name": "Bump Input", 
+            "value": 0
+        }, 
+        "reflectivity": {
+            "name": "Reflectivity", 
+            "value": 0
+        }, 
+        "refr_cutoff": {
+            "name": "Refr Cutoff", 
+            "value": 0
+        }, 
+        "diffuse_amount": {
+            "name": "Diffuse Amount", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "scatter_radius": {
+            "name": "Scatter Radius", 
+            "value": 0
+        }, 
+        "samples": {
+            "name": "Samples", 
+            "value": 0
+        }, 
+        "ss_transmittance": {
+            "name": "Ss Transmittance", 
+            "value": 0
+        }, 
+        "ss_notransparency": {
+            "name": "Ss Notransparency", 
+            "value": 0
+        }, 
+        "include_mode": {
+            "name": "Include Mode", 
+            "value": 0
+        }, 
+        "ior": {
+            "name": "Ior", 
+            "value": 0
+        }, 
+        "refr_depth": {
+            "name": "Refr Depth", 
+            "value": 0
+        }, 
+        "skip_inside_refl": {
+            "name": "Skip Inside Refl", 
+            "value": 0
+        }, 
+        "refl_color": {
+            "name": "Refl Color", 
+            "value": 0
+        }, 
+        "ss_thickness": {
+            "name": "Ss Thickness", 
+            "value": 0
+        }, 
+        "phase": {
+            "name": "Phase", 
+            "value": 0
+        }, 
+        "refl_fresnel_90_degree_refl": {
+            "name": "Refl Fresnel 90 Degree Refl", 
+            "value": 0
+        }, 
+        "no_refl_bump": {
+            "name": "No Refl Bump", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 0
+        }, 
+        "scatter_color": {
+            "name": "Scatter Color", 
+            "value": 0
+        }, 
+        "enableFresnel": {
+            "name": "Enable Fresnel", 
+            "value": 0
+        }, 
+        "refr_enablecutoff": {
+            "name": "Refr Enablecutoff", 
+            "value": 0
+        }, 
+        "preset": {
+            "name": "Preset", 
+            "value": 0
+        }, 
+        "mode": {
+            "name": "Mode", 
+            "value": 0
+        }, 
+        "refl_gloss_samples": {
+            "name": "Refl Gloss Samples", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }
+    }, 
+    "RedshiftSprite": {
+        "tex0_gamma": {
+            "name": "Tex 0 Gamma", 
+            "value": 0
+        }, 
+        "repeats0": {
+            "name": "Repeats 0", 
+            "value": 0
+        }, 
+        "repeats1": {
+            "name": "Repeats 1", 
+            "value": 0
+        }, 
+        "mode": {
+            "name": "Mode", 
+            "value": 0
+        }, 
+        "tex0_gammaoverride": {
+            "name": "Tex 0 Gammaoverride", 
+            "value": 0
+        }, 
+        "threshold": {
+            "name": "Threshold", 
+            "value": 0
+        }, 
+        "input": {
+            "name": "Input", 
+            "value": 0
+        }, 
+        "repeats": {
+            "name": "Repeats", 
+            "value": 0
+        }, 
+        "tex0_srgb": {
+            "name": "Tex 0 Srgb", 
+            "value": 0
+        }
+    }, 
+    "RedshiftVolume": {
+        "scatter_coeff": {
+            "name": "Scatter Coeff", 
+            "value": 0
+        }, 
+        "shadow_density_scale": {
+            "name": "Shadow Density Scale", 
+            "value": 0
+        }, 
+        "absorption_tint": {
+            "name": "Absorption Tint", 
+            "value": 0
+        }, 
+        "density_old_min": {
+            "name": "Density Old Min", 
+            "value": 0
+        }, 
+        "emission_new_max": {
+            "name": "Emission New Max", 
+            "value": 0
+        }, 
+        "emission_mode": {
+            "name": "Emission Mode", 
+            "value": 0
+        }, 
+        "density_new_min": {
+            "name": "Density New Min", 
+            "value": 0
+        }, 
+        "emission_old_max": {
+            "name": "Emission Old Max", 
+            "value": 0
+        }, 
+        "density_new_max": {
+            "name": "Density New Max", 
+            "value": 0
+        }, 
+        "scatter_tint": {
+            "name": "Scatter Tint", 
+            "value": 0
+        }, 
+        "emission_new_min": {
+            "name": "Emission New Min", 
+            "value": 0
+        }, 
+        "emission_scale": {
+            "name": "Emission Scale", 
+            "value": 0
+        }, 
+        "absorption_coeff": {
+            "name": "Absorption Coeff", 
+            "value": 0
+        }, 
+        "density_old_max": {
+            "name": "Density Old Max", 
+            "value": 0
+        }, 
+        "emission_tint": {
+            "name": "Emission Tint", 
+            "value": 0
+        }, 
+        "emission_old_min": {
+            "name": "Emission Old Min", 
+            "value": 0
+        }
+    }, 
+    "RedshiftCarPaint": {
+        "diffuse_weight": {
+            "name": "Diffuse Weight", 
+            "value": 0
+        }, 
+        "clearcoat_curvefactor": {
+            "name": "Clearcoat Curvefactor", 
+            "value": 0
+        }, 
+        "edge_color_bias": {
+            "name": "Edge Color Bias", 
+            "value": 0
+        }, 
+        "clearcoat_weight": {
+            "name": "Clearcoat Weight", 
+            "value": 0
+        }, 
+        "flake_curvefactor": {
+            "name": "Flake Curvefactor", 
+            "value": 0
+        }, 
+        "flake_samples": {
+            "name": "Flake Samples", 
+            "value": 0
+        }, 
+        "spec_weight": {
+            "name": "Spec Weight", 
+            "value": 0
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "flake_color": {
+            "name": "Flake Color", 
+            "value": 0
+        }, 
+        "additional_bump_mode": {
+            "name": "Additional Bump Mode", 
+            "value": 0
+        }, 
+        "clearcoat_brdf": {
+            "name": "Clearcoat Brdf", 
+            "value": 0
+        }, 
+        "spec_brdf": {
+            "name": "Spec Brdf", 
+            "value": 0
+        }, 
+        "flake_perpweight": {
+            "name": "Flake Perpweight", 
+            "value": 0
+        }, 
+        "edge_color": {
+            "name": "Edge Color", 
+            "value": 0
+        }, 
+        "clearcoat_gloss": {
+            "name": "Clearcoat Gloss", 
+            "value": 0
+        }, 
+        "flake_density": {
+            "name": "Flake Density", 
+            "value": 0
+        }, 
+        "spec_gloss": {
+            "name": "Spec Gloss", 
+            "value": 0
+        }, 
+        "flake_scale": {
+            "name": "Flake Scale", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "spec_samples": {
+            "name": "Spec Samples", 
+            "value": 0
+        }, 
+        "spec_facingweight": {
+            "name": "Spec Facingweight", 
+            "value": 0
+        }, 
+        "no_clearcoat_bump": {
+            "name": "No Clearcoat Bump", 
+            "value": 0
+        }, 
+        "base_color": {
+            "name": "Base Color", 
+            "value": 0
+        }, 
+        "clearcoat_perpweight": {
+            "name": "Clearcoat Perpweight", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 0
+        }, 
+        "clearcoat_color": {
+            "name": "Clearcoat Color", 
+            "value": 0
+        }, 
+        "spec_curvefactor": {
+            "name": "Spec Curvefactor", 
+            "value": 0
+        }, 
+        "spec_norefl": {
+            "name": "Spec Norefl", 
+            "value": 0
+        }, 
+        "flake_facingweight": {
+            "name": "Flake Facingweight", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "flake_weight": {
+            "name": "Flake Weight", 
+            "value": 0
+        }, 
+        "spec_color": {
+            "name": "Spec Color", 
+            "value": 0
+        }, 
+        "flake_gloss": {
+            "name": "Flake Gloss", 
+            "value": 0
+        }, 
+        "flake_strength": {
+            "name": "Flake Strength", 
+            "value": 0
+        }, 
+        "bump_input": {
+            "name": "Bump Input", 
+            "value": 0
+        }, 
+        "flake_decay": {
+            "name": "Flake Decay", 
+            "value": 0
+        }, 
+        "spec_perpweight": {
+            "name": "Spec Perpweight", 
+            "value": 0
+        }, 
+        "clearcoat_facingweight": {
+            "name": "Clearcoat Facingweight", 
+            "value": 0
+        }, 
+        "no_baselayer_bump": {
+            "name": "No Baselayer Bump", 
+            "value": 0
+        }, 
+        "flake_norefl": {
+            "name": "Flake Norefl", 
+            "value": 0
+        }, 
+        "clearcoat_samples": {
+            "name": "Clearcoat Samples", 
+            "value": 0
+        }
+    }, 
+    "RedshiftHair": {
+        "refl_gloss": {
+            "name": "Refl Gloss", 
+            "value": 0
+        }, 
+        "irefl_norefl": {
+            "name": "Irefl Norefl", 
+            "value": 0
+        }, 
+        "diffuse_color": {
+            "name": "Diffuse Color", 
+            "value": 0
+        }, 
+        "refl_cutoff": {
+            "name": "Refl Cutoff", 
+            "value": 0
+        }, 
+        "refl_enablecutoff": {
+            "name": "Refl Enablecutoff", 
+            "value": 0
+        }, 
+        "transp_weight": {
+            "name": "Transp Weight", 
+            "value": 0
+        }, 
+        "refl_norefl": {
+            "name": "Refl Norefl", 
+            "value": 0
+        }, 
+        "trans_enablecutoff": {
+            "name": "Trans Enablecutoff", 
+            "value": 0
+        }, 
+        "refl_color": {
+            "name": "Refl Color", 
+            "value": 0
+        }, 
+        "diffuseTrans_weight": {
+            "name": "Diffuse Trans Weight", 
+            "value": 0
+        }, 
+        "combined_depth": {
+            "name": "Combined Depth", 
+            "value": 0
+        }, 
+        "trans_cutoff": {
+            "name": "Trans Cutoff", 
+            "value": 0
+        }, 
+        "depth_override": {
+            "name": "Depth Override", 
+            "value": 0
+        }, 
+        "trans_weight": {
+            "name": "Trans Weight", 
+            "value": 0
+        }, 
+        "angularShift": {
+            "name": "Angular Shift", 
+            "value": 0
+        }, 
+        "irefl_gloss": {
+            "name": "Irefl Gloss", 
+            "value": 0
+        }, 
+        "transp_color": {
+            "name": "Transp Color", 
+            "value": 0
+        }, 
+        "balanceEnergy": {
+            "name": "Balance Energy", 
+            "value": 0
+        }, 
+        "irefl_color": {
+            "name": "Irefl Color", 
+            "value": 0
+        }, 
+        "ior": {
+            "name": "Ior", 
+            "value": 0
+        }, 
+        "trans_lgloss": {
+            "name": "Trans Lgloss", 
+            "value": 0
+        }, 
+        "refl_weight": {
+            "name": "Refl Weight", 
+            "value": 0
+        }, 
+        "trans_depth": {
+            "name": "Trans Depth", 
+            "value": 0
+        }, 
+        "trans_wgloss": {
+            "name": "Trans Wgloss", 
+            "value": 0
+        }, 
+        "trans_color": {
+            "name": "Trans Color", 
+            "value": 0
+        }, 
+        "diffuse_weight": {
+            "name": "Diffuse Weight", 
+            "value": 0
+        }, 
+        "refl_samples": {
+            "name": "Refl Samples", 
+            "value": 0
+        }, 
+        "applyFresnel": {
+            "name": "Apply Fresnel", 
+            "value": 0
+        }, 
+        "refl_depth": {
+            "name": "Refl Depth", 
+            "value": 0
+        }, 
+        "irefl_samples": {
+            "name": "Irefl Samples", 
+            "value": 0
+        }, 
+        "irefl_weight": {
+            "name": "Irefl Weight", 
+            "value": 0
+        }
+    }
+}

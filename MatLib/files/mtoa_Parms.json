@@ -1,0 +1,1264 @@
+{
+    "aiStandardSurface": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "aiEnableMatte": {
+            "name": "Ai Enable Matte",
+            "value": 0
+        },
+        "aiMatteColor": {
+            "name": "Ai Matte Color",
+            "value": 0
+        },
+        "aiMatteColorA": {
+            "name": "Ai Matte Color A",
+            "value": 0
+        },
+        "base": {
+            "name": "Base",
+            "value": 1
+        },
+        "baseColor": {
+            "name": "Base Color",
+            "value": 1
+        },
+        "diffuseRoughness": {
+            "name": "Diffuse Roughness",
+            "value": 0
+        },
+        "specular": {
+            "name": "Specular",
+            "value": 0
+        },
+        "specularColor": {
+            "name": "Specular Color",
+            "value": 0
+        },
+        "specularRoughness": {
+            "name": "Specular Roughness",
+            "value": 0
+        },
+        "specularAnisotropy": {
+            "name": "Specular Anisotropy",
+            "value": 0
+        },
+        "specularRotation": {
+            "name": "Specular Rotation",
+            "value": 0
+        },
+        "metalness": {
+            "name": "Metalness",
+            "value": 0
+        },
+        "transmission": {
+            "name": "Transmission",
+            "value": 0
+        },
+        "transmissionColor": {
+            "name": "Transmission Color",
+            "value": 1
+        },
+        "transmissionDepth": {
+            "name": "Transmission Depth",
+            "value": 1
+        },
+        "transmissionScatter": {
+            "name": "Transmission Scatter",
+            "value": 1
+        },
+        "transmissionScatterAnisotropy": {
+            "name": "Transmission Scatter Anisotropy",
+            "value": 0
+        },
+        "transmissionDispersion": {
+            "name": "Transmission Dispersion",
+            "value": 0
+        },
+        "transmissionExtraRoughness": {
+            "name": "Transmission Extra Roughness",
+            "value": 0
+        },
+        "transmitAovs": {
+            "name": "Transmit Aovs",
+            "value": 0
+        },
+        "subsurface": {
+            "name": "Subsurface",
+            "value": 0
+        },
+        "subsurfaceColor": {
+            "name": "Subsurface Color",
+            "value": 0
+        },
+        "subsurfaceRadius": {
+            "name": "Subsurface Radius",
+            "value": 0
+        },
+        "subsurfaceScale": {
+            "name": "Subsurface Scale",
+            "value": 0
+        },
+        "subsurfaceAnisotropy": {
+            "name": "Subsurface Anisotropy",
+            "value": 0
+        },
+        "subsurfaceType": {
+            "name": "Subsurface Type",
+            "value": 0
+        },
+        "sheen": {
+            "name": "Sheen",
+            "value": 0
+        },
+        "sheenColor": {
+            "name": "Sheen Color",
+            "value": 0
+        },
+        "sheenRoughness": {
+            "name": "Sheen Roughness",
+            "value": 0
+        },
+        "thinWalled": {
+            "name": "Thin Walled",
+            "value": 0
+        },
+        "tangent": {
+            "name": "Tangent",
+            "value": 0
+        },
+        "tangentX": {
+            "name": "Tangent X",
+            "value": 0
+        },
+        "tangentY": {
+            "name": "Tangent Y",
+            "value": 0
+        },
+        "tangentZ": {
+            "name": "Tangent Z",
+            "value": 0
+        },
+        "coat": {
+            "name": "Coat",
+            "value": 0
+        },
+        "coatColor": {
+            "name": "Coat Color",
+            "value": 0
+        },
+        "coatRoughness": {
+            "name": "Coat Roughness",
+            "value": 0
+        },
+        "coatAnisotropy": {
+            "name": "Coat Anisotropy",
+            "value": 0
+        },
+        "coatRotation": {
+            "name": "Coat Rotation",
+            "value": 0
+        },
+        "coatNormal": {
+            "name": "Coat Normal",
+            "value": 0
+        },
+        "coatNormalX": {
+            "name": "Coat Normal X",
+            "value": 0
+        },
+        "coatNormalY": {
+            "name": "Coat Normal Y",
+            "value": 0
+        },
+        "coatNormalZ": {
+            "name": "Coat Normal Z",
+            "value": 0
+        },
+        "thinFilmThickness": {
+            "name": "Thin Film Thickness",
+            "value": 0
+        },
+        "emission": {
+            "name": "Emission",
+            "value": 0
+        },
+        "emissionColor": {
+            "name": "Emission Color",
+            "value": 0
+        },
+        "opacity": {
+            "name": "Opacity",
+            "value": 0
+        },
+        "caustics": {
+            "name": "Caustics",
+            "value": 0
+        },
+        "internalReflections": {
+            "name": "Internal Reflections",
+            "value": 0
+        },
+        "exitToBackground": {
+            "name": "Exit To Background",
+            "value": 0
+        },
+        "indirectDiffuse": {
+            "name": "Indirect Diffuse",
+            "value": 0
+        },
+        "indirectSpecular": {
+            "name": "Indirect Specular",
+            "value": 0
+        },
+        "dielectricPriority": {
+            "name": "Dielectric Priority",
+            "value": 0
+        },
+        "aovId1": {
+            "name": "Aov Id 1",
+            "value": 0
+        },
+        "id1": {
+            "name": "Id 1",
+            "value": 0
+        },
+        "aovId2": {
+            "name": "Aov Id 2",
+            "value": 0
+        },
+        "id2": {
+            "name": "Id 2",
+            "value": 0
+        },
+        "aovId3": {
+            "name": "Aov Id 3",
+            "value": 0
+        },
+        "id3": {
+            "name": "Id 3",
+            "value": 0
+        },
+        "aovId4": {
+            "name": "Aov Id 4",
+            "value": 0
+        },
+        "id4": {
+            "name": "Id 4",
+            "value": 0
+        },
+        "aovId5": {
+            "name": "Aov Id 5",
+            "value": 0
+        },
+        "id5": {
+            "name": "Id 5",
+            "value": 0
+        },
+        "aovId6": {
+            "name": "Aov Id 6",
+            "value": 0
+        },
+        "id6": {
+            "name": "Id 6",
+            "value": 0
+        },
+        "aovId7": {
+            "name": "Aov Id 7",
+            "value": 0
+        },
+        "id7": {
+            "name": "Id 7",
+            "value": 0
+        },
+        "aovId8": {
+            "name": "Aov Id 8",
+            "value": 0
+        },
+        "id8": {
+            "name": "Id 8",
+            "value": 0
+        }
+    },
+    "aiStandardHair": {
+        "caching": {
+            "name": "Caching",
+            "value": 1
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "base": {
+            "name": "Base",
+            "value": 0
+        },
+        "baseColor": {
+            "name": "Base Color",
+            "value": 0
+        },
+        "melanin": {
+            "name": "Melanin",
+            "value": 0
+        },
+        "melaninRedness": {
+            "name": "Melanin Redness",
+            "value": 0
+        },
+        "melaninRandomize": {
+            "name": "Melanin Randomize",
+            "value": 0
+        },
+        "roughness": {
+            "name": "Roughness",
+            "value": 0
+        },
+        "roughnessAzimuthal": {
+            "name": "Roughness Azimuthal",
+            "value": 0
+        },
+        "roughnessAnisotropic": {
+            "name": "Roughness Anisotropic",
+            "value": 0
+        },
+        "ior": {
+            "name": "Ior",
+            "value": 0
+        },
+        "shift": {
+            "name": "Shift",
+            "value": 0
+        },
+        "specularTint": {
+            "name": "Specular Tint",
+            "value": 0
+        },
+        "specular2Tint": {
+            "name": "Specular 2Tint",
+            "value": 0
+        },
+        "transmissionTint": {
+            "name": "Transmission Tint",
+            "value": 0
+        },
+        "diffuse": {
+            "name": "Diffuse",
+            "value": 0
+        },
+        "diffuseColor": {
+            "name": "Diffuse Color",
+            "value": 0
+        },
+        "emission": {
+            "name": "Emission",
+            "value": 0
+        },
+        "emissionColor": {
+            "name": "Emission Color",
+            "value": 0
+        },
+        "opacity": {
+            "name": "Opacity",
+            "value": 0
+        },
+        "indirectDiffuse": {
+            "name": "Indirect Diffuse",
+            "value": 0
+        },
+        "indirectSpecular": {
+            "name": "Indirect Specular",
+            "value": 0
+        },
+        "extraDepth": {
+            "name": "Extra Depth",
+            "value": 0
+        },
+        "extraSamples": {
+            "name": "Extra Samples",
+            "value": 0
+        },
+        "aovId1": {
+            "name": "Aov Id 1",
+            "value": 0
+        },
+        "id1": {
+            "name": "Id 1",
+            "value": 0
+        },
+        "aovId2": {
+            "name": "Aov Id 2",
+            "value": 0
+        },
+        "id2": {
+            "name": "Id 2",
+            "value": 0
+        },
+        "aovId3": {
+            "name": "Aov Id 3",
+            "value": 0
+        },
+        "id3": {
+            "name": "Id 3",
+            "value": 0
+        },
+        "aovId4": {
+            "name": "Aov Id 4",
+            "value": 0
+        },
+        "id4": {
+            "name": "Id 4",
+            "value": 0
+        },
+        "aovId5": {
+            "name": "Aov Id 5",
+            "value": 0
+        },
+        "id5": {
+            "name": "Id 5",
+            "value": 0
+        },
+        "aovId6": {
+            "name": "Aov Id 6",
+            "value": 0
+        },
+        "id6": {
+            "name": "Id 6",
+            "value": 0
+        },
+        "aovId7": {
+            "name": "Aov Id 7",
+            "value": 0
+        },
+        "id7": {
+            "name": "Id 7",
+            "value": 0
+        },
+        "aovId8": {
+            "name": "Aov Id 8",
+            "value": 0
+        },
+        "id8": {
+            "name": "Id 8",
+            "value": 0
+        },
+        "aiUserOptions": {
+            "name": "Ai User Options",
+            "value": 0
+        },
+        "aiEnableMatte": {
+            "name": "Ai Enable Matte",
+            "value": 0
+        },
+        "aiMatteColor": {
+            "name": "Ai Matte Color",
+            "value": 0
+        },
+        "aiMatteColorA": {
+            "name": "Ai Matte Color A",
+            "value": 0
+        }
+    },
+    "aiToon": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "maskColor": {
+            "name": "Mask Color",
+            "value": 0
+        },
+        "edgeColor": {
+            "name": "Edge Color",
+            "value": 0
+        },
+        "edgeTonemap": {
+            "name": "Edge Tonemap",
+            "value": 0
+        },
+        "edgeOpacity": {
+            "name": "Edge Opacity",
+            "value": 0
+        },
+        "edgeWidthScale": {
+            "name": "Edge Width Scale",
+            "value": 0
+        },
+        "silhouetteColor": {
+            "name": "Silhouette Color",
+            "value": 0
+        },
+        "silhouetteTonemap": {
+            "name": "Silhouette Tonemap",
+            "value": 0
+        },
+        "silhouetteOpacity": {
+            "name": "Silhouette Opacity",
+            "value": 0
+        },
+        "silhouetteWidthScale": {
+            "name": "Silhouette Width Scale",
+            "value": 0
+        },
+        "priority": {
+            "name": "Priority",
+            "value": 0
+        },
+        "enableSilhouette": {
+            "name": "Enable Silhouette",
+            "value": 0
+        },
+        "ignoreThroughput": {
+            "name": "Ignore Throughput",
+            "value": 0
+        },
+        "enable": {
+            "name": "Enable",
+            "value": 0
+        },
+        "idDifference": {
+            "name": "Id Difference",
+            "value": 0
+        },
+        "shaderDifference": {
+            "name": "Shader Difference",
+            "value": 0
+        },
+        "uvThreshold": {
+            "name": "Uv Threshold",
+            "value": 0
+        },
+        "angleThreshold": {
+            "name": "Angle Threshold",
+            "value": 0
+        },
+        "normalType": {
+            "name": "Normal Type",
+            "value": 0
+        },
+        "base": {
+            "name": "Base",
+            "value": 0
+        },
+        "baseColor": {
+            "name": "Base Color",
+            "value": 0
+        },
+        "baseTonemap": {
+            "name": "Base Tonemap",
+            "value": 0
+        },
+        "specular": {
+            "name": "Specular",
+            "value": 0
+        },
+        "specularColor": {
+            "name": "Specular Color",
+            "value": 0
+        },
+        "specularRoughness": {
+            "name": "Specular Roughness",
+            "value": 0
+        },
+        "specularAnisotropy": {
+            "name": "Specular Anisotropy",
+            "value": 0
+        },
+        "specularRotation": {
+            "name": "Specular Rotation",
+            "value": 0
+        },
+        "specularTonemap": {
+            "name": "Specular Tonemap",
+            "value": 0
+        },
+        "lights": {
+            "name": "Lights",
+            "value": 0
+        },
+        "highlightColor": {
+            "name": "Highlight Color",
+            "value": 0
+        },
+        "highlightSize": {
+            "name": "Highlight Size",
+            "value": 0
+        },
+        "aovHighlight": {
+            "name": "Aov Highlight",
+            "value": 0
+        },
+        "rimLight": {
+            "name": "Rim Light",
+            "value": 0
+        },
+        "rimLightColor": {
+            "name": "Rim Light Color",
+            "value": 0
+        },
+        "rimLightWidth": {
+            "name": "Rim Light Width",
+            "value": 0
+        },
+        "rimLightTint": {
+            "name": "Rim Light Tint",
+            "value": 0
+        },
+        "aovRimLight": {
+            "name": "Aov Rim Light",
+            "value": 0
+        },
+        "transmission": {
+            "name": "Transmission",
+            "value": 0
+        },
+        "transmissionColor": {
+            "name": "Transmission Color",
+            "value": 0
+        },
+        "transmissionRoughness": {
+            "name": "Transmission Roughness",
+            "value": 0
+        },
+        "transmissionAnisotropy": {
+            "name": "Transmission Anisotropy",
+            "value": 0
+        },
+        "transmissionRotation": {
+            "name": "Transmission Rotation",
+            "value": 0
+        },
+        "sheen": {
+            "name": "Sheen",
+            "value": 0
+        },
+        "sheenColor": {
+            "name": "Sheen Color",
+            "value": 0
+        },
+        "sheenRoughness": {
+            "name": "Sheen Roughness",
+            "value": 0
+        },
+        "emission": {
+            "name": "Emission",
+            "value": 0
+        },
+        "emissionColor": {
+            "name": "Emission Color",
+            "value": 0
+        },
+        "normal": {
+            "name": "Normal",
+            "value": 0
+        },
+        "normalX": {
+            "name": "Normal X",
+            "value": 0
+        },
+        "normalY": {
+            "name": "Normal Y",
+            "value": 0
+        },
+        "normalZ": {
+            "name": "Normal Z",
+            "value": 0
+        },
+        "tangent": {
+            "name": "Tangent",
+            "value": 0
+        },
+        "tangentX": {
+            "name": "Tangent X",
+            "value": 0
+        },
+        "tangentY": {
+            "name": "Tangent Y",
+            "value": 0
+        },
+        "tangentZ": {
+            "name": "Tangent Z",
+            "value": 0
+        },
+        "indirectDiffuse": {
+            "name": "Indirect Diffuse",
+            "value": 0
+        },
+        "indirectSpecular": {
+            "name": "Indirect Specular",
+            "value": 0
+        },
+        "bumpMode": {
+            "name": "Bump Mode",
+            "value": 0
+        },
+        "energyConserving": {
+            "name": "Energy Conserving",
+            "value": 0
+        },
+        "userId": {
+            "name": "User Id",
+            "value": 0
+        },
+        "aovPrefix": {
+            "name": "Aov Prefix",
+            "value": 0
+        }
+    },
+    "aiStandardVolume": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "density": {
+            "name": "Density",
+            "value": 0
+        },
+        "densityChannel": {
+            "name": "Density Channel",
+            "value": 0
+        },
+        "scatter": {
+            "name": "Scatter",
+            "value": 0
+        },
+        "scatterColor": {
+            "name": "Scatter Color",
+            "value": 0
+        },
+        "scatterColorChannel": {
+            "name": "Scatter Color Channel",
+            "value": 0
+        },
+        "scatterAnisotropy": {
+            "name": "Scatter Anisotropy",
+            "value": 0
+        },
+        "transparent": {
+            "name": "Transparent",
+            "value": 0
+        },
+        "transparentDepth": {
+            "name": "Transparent Depth",
+            "value": 0
+        },
+        "transparentChannel": {
+            "name": "Transparent Channel",
+            "value": 0
+        },
+        "emissionMode": {
+            "name": "Emission Mode",
+            "value": 0
+        },
+        "emission": {
+            "name": "Emission",
+            "value": 0
+        },
+        "emissionColor": {
+            "name": "Emission Color",
+            "value": 0
+        },
+        "emissionChannel": {
+            "name": "Emission Channel",
+            "value": 0
+        },
+        "temperature": {
+            "name": "Temperature",
+            "value": 0
+        },
+        "temperatureChannel": {
+            "name": "Temperature Channel",
+            "value": 0
+        },
+        "blackbodyKelvin": {
+            "name": "Blackbody Kelvin",
+            "value": 0
+        },
+        "blackbodyIntensity": {
+            "name": "Blackbody Intensity",
+            "value": 0
+        },
+        "displacement": {
+            "name": "Displacement",
+            "value": 0
+        },
+        "displacementX": {
+            "name": "Displacement X",
+            "value": 0
+        },
+        "displacementY": {
+            "name": "Displacement Y",
+            "value": 0
+        },
+        "displacementZ": {
+            "name": "Displacement Z",
+            "value": 0
+        },
+        "interpolation": {
+            "name": "Interpolation",
+            "value": 0
+        }
+    },
+    "aiShadowMatte": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "background": {
+            "name": "Background",
+            "value": 0
+        },
+        "shadowColor": {
+            "name": "Shadow Color",
+            "value": 0
+        },
+        "shadowOpacity": {
+            "name": "Shadow Opacity",
+            "value": 0
+        },
+        "backgroundColor": {
+            "name": "Background Color",
+            "value": 0
+        },
+        "diffuseColor": {
+            "name": "Diffuse Color",
+            "value": 0
+        },
+        "diffuseUseBackground": {
+            "name": "Diffuse Use Background",
+            "value": 0
+        },
+        "diffuseIntensity": {
+            "name": "Diffuse Intensity",
+            "value": 0
+        },
+        "backlighting": {
+            "name": "Backlighting",
+            "value": 0
+        },
+        "indirectDiffuseEnable": {
+            "name": "Indirect Diffuse Enable",
+            "value": 0
+        },
+        "indirectSpecularEnable": {
+            "name": "Indirect Specular Enable",
+            "value": 0
+        },
+        "specularColor": {
+            "name": "Specular Color",
+            "value": 0
+        },
+        "specularIntensity": {
+            "name": "Specular Intensity",
+            "value": 0
+        },
+        "specularRoughness": {
+            "name": "Specular Roughness",
+            "value": 0
+        },
+        "alphaMask": {
+            "name": "Alpha Mask",
+            "value": 0
+        },
+        "aovGroup": {
+            "name": "Aov Group",
+            "value": 0
+        },
+        "aovShadow": {
+            "name": "Aov Shadow",
+            "value": 0
+        },
+        "aovShadowDiff": {
+            "name": "Aov Shadow Diff",
+            "value": 0
+        },
+        "aovShadowMask": {
+            "name": "Aov Shadow Mask",
+            "value": 0
+        }
+    },
+    "aiTwoSided": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "front": {
+            "name": "Front",
+            "value": 0
+        },
+        "back": {
+            "name": "Back",
+            "value": 0
+        }
+    },
+    "aiUtility": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "colorMode": {
+            "name": "Color Mode",
+            "value": 0
+        },
+        "shadeMode": {
+            "name": "Shade Mode",
+            "value": 0
+        },
+        "overlayMode": {
+            "name": "Overlay Mode",
+            "value": 0
+        },
+        "color": {
+            "name": "Color",
+            "value": 0
+        },
+        "aoDistance": {
+            "name": "Ao Distance",
+            "value": 0
+        },
+        "roughness": {
+            "name": "Roughness",
+            "value": 0
+        },
+        "normal": {
+            "name": "Normal",
+            "value": 0
+        },
+        "normalX": {
+            "name": "Normal X",
+            "value": 0
+        },
+        "normalY": {
+            "name": "Normal Y",
+            "value": 0
+        },
+        "normalZ": {
+            "name": "Normal Z",
+            "value": 0
+        }
+    },
+    "aiWireframe": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "lineWidth": {
+            "name": "Line Width",
+            "value": 0
+        },
+        "fillColor": {
+            "name": "Fill Color",
+            "value": 0
+        },
+        "lineColor": {
+            "name": "Line Color",
+            "value": 0
+        },
+        "rasterSpace": {
+            "name": "Raster Space",
+            "value": 0
+        },
+        "edgeType": {
+            "name": "Edge Type",
+            "value": 0
+        }
+    },
+    "aiMatte": {
+        "caching": {
+            "name": "Caching",
+            "value": 0
+        },
+        "frozen": {
+            "name": "Frozen",
+            "value": 0
+        },
+        "nodeState": {
+            "name": "Node State",
+            "value": 0
+        },
+        "outColor": {
+            "name": "Out Color",
+            "value": 0
+        },
+        "outAlpha": {
+            "name": "Out Alpha",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        },
+        "normalCamera": {
+            "name": "Normal Camera",
+            "value": 0
+        },
+        "normalCameraX": {
+            "name": "Normal Camera X",
+            "value": 0
+        },
+        "normalCameraY": {
+            "name": "Normal Camera Y",
+            "value": 0
+        },
+        "normalCameraZ": {
+            "name": "Normal Camera Z",
+            "value": 0
+        },
+        "hardwareColor": {
+            "name": "Hardware Color",
+            "value": 0
+        },
+        "passthrough": {
+            "name": "Passthrough",
+            "value": 0
+        },
+        "color": {
+            "name": "Color",
+            "value": 0
+        },
+        "opacity": {
+            "name": "Opacity",
+            "value": 0
+        }
+    }
+}
