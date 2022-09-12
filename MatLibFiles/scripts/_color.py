@@ -1,6 +1,0 @@
-__background__ = "#323232"
-__bordercolor__ = "#D4C783"
-__titlecolor__ =  "#DF8879"
-__selectedbackground__ = "#655444"
-__buttoncolor__ = "#dee1dd"
-__borderhighlight__ = "#F9DEA8"
