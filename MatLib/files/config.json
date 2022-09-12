@@ -1,0 +1,19 @@
+{
+    "Maya": {
+        "Redshift": {
+            "dirs": [],
+            "current_index": 0,
+            "repository": []
+        },
+        "Arnold": {
+            "dirs": [],
+            "current_index": 0,
+            "repository": []
+        },
+        "Vray": {
+            "dirs": [],
+            "current_index": 0,
+            "repository": []
+        }
+    }
+}

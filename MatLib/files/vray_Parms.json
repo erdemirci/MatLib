@@ -1,0 +1,1762 @@
+{
+    "VRayLightMtl": {
+        "colorMode": {
+            "name": "Color Mode",
+            "value": 0
+        },
+        "temperature": {
+            "name": "Temperature",
+            "value": 0
+        },
+        "color": {
+            "name": "Color",
+            "value": 0
+        },
+        "colorMultiplier": {
+            "name": "Color Multiplier",
+            "value": 0
+        },
+        "opacity": {
+            "name": "Opacity",
+            "value": 0
+        },
+        "emitOnBackSide": {
+            "name": "Emit On Back Side",
+            "value": 0
+        },
+        "compensateCameraExposure": {
+            "name": "Compensate Camera Exposure",
+            "value": 0
+        },
+        "multiplyColorByOpacity": {
+            "name": "Multiply Color By Opacity",
+            "value": 0
+        },
+        "directIllum": {
+            "name": "Direct Illum",
+            "value": 0
+        },
+        "cutoffThreshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        }
+    },
+    "VRayMtl": {
+        "reflectionsMaxDepth": {
+            "name": "Reflections Max Depth",
+            "value": 0
+        },
+        "refractionsMaxDepth": {
+            "name": "Refractions Max Depth",
+            "value": 0
+        },
+        "color": {
+            "name": "color",
+            "value": 0
+        },
+        "diffuseColorAmount": {
+            "name": "Diffuse Color Amount",
+            "value": 0
+        },
+        "roughnessAmount": {
+            "name": "Roughness Amount",
+            "value": 0
+        },
+        "illumColor": {
+            "name": "Illum Color",
+            "value": 0
+        },
+        "reflectionColor": {
+            "name": "Reflection Color",
+            "value": 0
+        },
+        "reflectionColorAmount": {
+            "name": "Reflection Color Amount",
+            "value": 0
+        },
+        "reflectionGlossiness": {
+            "name": "Reflection Glossiness",
+            "value": 0
+        },
+        "reflectionAffectAlpha": {
+            "name": "Reflection Affect Alpha",
+            "value": 0
+        },
+        "useFresnel": {
+            "name": "Use Fresnel",
+            "value": 0
+        },
+        "gtrEnergyCompensation": {
+            "name": "Gtr Energy Compensation",
+            "value": 0
+        },
+        "ggxTailFalloff": {
+            "name": "Ggx Tail Falloff",
+            "value": 0
+        },
+        "metalness": {
+            "name": "Metalness",
+            "value": 0
+        },
+        "useRoughness": {
+            "name": "Use Roughness",
+            "value": 0
+        },
+        "anisotropy": {
+            "name": "Anisotropy",
+            "value": 0
+        },
+        "anisotropyUVWGen": {
+            "name": "Anisotropy UVWGen",
+            "value": 0
+        },
+        "anisotropyRotation": {
+            "name": "Anisotropy Rotation",
+            "value": 0
+        },
+        "anisotropyDerivation": {
+            "name": "Anisotropy Derivation",
+            "value": 0
+        },
+        "anisotropyAxis": {
+            "name": "Anisotropy Axis",
+            "value": 0
+        },
+        "refractionColor": {
+            "name": "Refraction Color",
+            "value": 0
+        },
+        "refractionColorAmount": {
+            "name": "Refraction Color Amount",
+            "value": 0
+        },
+        "refractionGlossiness": {
+            "name": "Refraction Glossiness",
+            "value": 0
+        },
+        "refrDispersionOn": {
+            "name": "Refr Dispersion On",
+            "value": 0
+        },
+        "refrDispersionAbbe": {
+            "name": "Refr Dispersion Abbe",
+            "value": 0
+        },
+        "refrThinWalled": {
+            "name": "Refr Thin Walled",
+            "value": 0
+        },
+        "fogColor": {
+            "name": "Fog Color",
+            "value": 0
+        },
+        "fogBias": {
+            "name": "Fog Bias",
+            "value": 0
+        },
+        "affectAlpha": {
+            "name": "Affect Alpha",
+            "value": 0
+        },
+        "brdfType": {
+            "name": "Brdf Type",
+            "value": 0
+        },
+        "bumpMapType": {
+            "name": "Bump Map Type",
+            "value": 0
+        },
+        "bumpMap": {
+            "name": "Bump Map",
+            "value": 0
+        },
+        "bumpMult": {
+            "name": "Bump Mult",
+            "value": 0
+        },
+        "bumpDeltaScale": {
+            "name": "Bump Delta Scale",
+            "value": 0
+        },
+        "translucencyColor": {
+            "name": "Translucency Color",
+            "value": 0
+        },
+        "translucencySurfaceLighting": {
+            "name": "Translucency Surface Lighting",
+            "value": 0
+        },
+        "translucencyAmount": {
+            "name": "Translucency Amount",
+            "value": 0
+        },
+        "fogDepth": {
+            "name": "Fog Depth",
+            "value": 0
+        },
+        "opacityMap": {
+            "name": "Opacity Map",
+            "value": 0
+        },
+        "opacityMode": {
+            "name": "Opacity Mode",
+            "value": 0
+        },
+        "doubleSided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "useIrradianceMap": {
+            "name": "Use Irradiance Map",
+            "value": 0
+        },
+        "sheenColorAmount": {
+            "name": "Sheen Color Amount",
+            "value": 0
+        },
+        "sheenColor": {
+            "name": "Sheen Color",
+            "value": 0
+        },
+        "sheenGlossiness": {
+            "name": "Sheen Glossiness",
+            "value": 0
+        },
+        "coatColorAmount": {
+            "name": "Coat Color Amount",
+            "value": 0
+        },
+        "coatColor": {
+            "name": "Coat Color",
+            "value": 0
+        },
+        "coatGlossiness": {
+            "name": "Coat Glossiness",
+            "value": 0
+        },
+        "coatBumpMapType": {
+            "name": "Coat Bump Map Type",
+            "value": 0
+        },
+        "coatBumpMap": {
+            "name": "Coat Bump Map",
+            "value": 0
+        },
+        "coatBumpMult": {
+            "name": "Coat Bump Mult",
+            "value": 0
+        },
+        "thinFilmThicknessMin": {
+            "name": "Thin Film Thickness Min",
+            "value": 0
+        },
+        "thinFilmThicknessMax": {
+            "name": "Thin Film Thickness Max",
+            "value": 0
+        },
+        "thinFilmThickness": {
+            "name": "Thin Film Thickness",
+            "value": 0
+        },
+        "viewportQuality": {
+            "name": "Viewport Quality",
+            "value": 0
+        }
+    },
+    "VRayAlSurface": {
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        },
+        "bumpMap": {
+            "name": "Bump Map",
+            "value": 0
+        },
+        "bumpAmount": {
+            "name": "Bump Amount",
+            "value": 0
+        },
+        "bumpType": {
+            "name": "Bump Type",
+            "value": 0
+        },
+        "opacity": {
+            "name": "Opacity",
+            "value": 0
+        },
+        "diffuse": {
+            "name": "Diffuse",
+            "value": 0
+        },
+        "diffuseStrength": {
+            "name": "Diffuse Strength",
+            "value": 0
+        },
+        "diffuseBumpMap": {
+            "name": "Diffuse Bump Map",
+            "value": 0
+        },
+        "diffuseBumpAmount": {
+            "name": "Diffuse Bump Amount",
+            "value": 0
+        },
+        "diffuseBumpType": {
+            "name": "Diffuse Bump Type",
+            "value": 0
+        },
+        "reflect1Strength": {
+            "name": "Reflect 1Strength",
+            "value": 0
+        },
+        "reflect1Roughness": {
+            "name": "Reflect 1Roughness",
+            "value": 0
+        },
+        "reflect1Distribution": {
+            "name": "Reflect 1Distribution",
+            "value": 0
+        },
+        "reflect1BumpMap": {
+            "name": "Reflect 1Bump Map",
+            "value": 0
+        },
+        "reflect1BumpAmount": {
+            "name": "Reflect 1Bump Amount",
+            "value": 0
+        },
+        "reflect1BumpType": {
+            "name": "Reflect 1Bump Type",
+            "value": 0
+        },
+        "reflect2Strength": {
+            "name": "Reflect 2Strength",
+            "value": 0
+        },
+        "reflect2Roughness": {
+            "name": "Reflect 2Roughness",
+            "value": 0
+        },
+        "reflect2Distribution": {
+            "name": "Reflect 2Distribution",
+            "value": 0
+        },
+        "reflect2BumpMap": {
+            "name": "Reflect 2Bump Map",
+            "value": 0
+        },
+        "reflect2BumpAmount": {
+            "name": "Reflect 2Bump Amount",
+            "value": 0
+        },
+        "reflect2BumpType": {
+            "name": "Reflect 2Bump Type",
+            "value": 0
+        },
+        "sssMix": {
+            "name": "Sss Mix",
+            "value": 0
+        },
+        "sssMode": {
+            "name": "Sss Mode",
+            "value": 0
+        },
+        "sssDensityScale": {
+            "name": "Sss Density Scale",
+            "value": 0
+        },
+        "sss1Weight": {
+            "name": "Sss 1Weight",
+            "value": 0
+        },
+        "sss1Color": {
+            "name": "Sss 1Color",
+            "value": 0
+        },
+        "sss1Radius": {
+            "name": "Sss 1Radius",
+            "value": 0
+        },
+        "sss2Weight": {
+            "name": "Sss 2Weight",
+            "value": 0
+        },
+        "sss2Color": {
+            "name": "Sss 2Color",
+            "value": 0
+        },
+        "sss2Radius": {
+            "name": "Sss 2Radius",
+            "value": 0
+        },
+        "sss3Weight": {
+            "name": "Sss 3Weight",
+            "value": 0
+        },
+        "sss3Color": {
+            "name": "Sss 3Color",
+            "value": 0
+        },
+        "sss3Radius": {
+            "name": "Sss 3Radius",
+            "value": 0
+        },
+        "reflectMaxDepth": {
+            "name": "Reflect Max Depth",
+            "value": 0
+        },
+        "considerAllObjects": {
+            "name": "Consider All Objects",
+            "value": 0
+        }
+    },
+    "VRayCarPaintMtl": {
+        "reflectionsMaxDepth": {
+            "name": "Reflections Max Depth",
+            "value": 0
+        },
+        "color": {
+            "name": "color",
+            "value": 0
+        },
+        "base_reflection": {
+            "name": "Base Reflection",
+            "value": 0
+        },
+        "base_glossiness": {
+            "name": "Base Glossiness",
+            "value": 0
+        },
+        "base_bumpMapType": {
+            "name": "Base Bump Map Type",
+            "value": 0
+        },
+        "base_bumpMap": {
+            "name": "Base Bump Map",
+            "value": 0
+        },
+        "base_bumpMult": {
+            "name": "Base Bump Mult",
+            "value": 0
+        },
+        "base_trace_reflections": {
+            "name": "Base Trace Reflections",
+            "value": 0
+        },
+        "flake_color": {
+            "name": "Flake Color",
+            "value": 0
+        },
+        "flake_glossiness": {
+            "name": "Flake Glossiness",
+            "value": 0
+        },
+        "flake_orientation": {
+            "name": "Flake Orientation",
+            "value": 0
+        },
+        "flake_density": {
+            "name": "Flake Density",
+            "value": 0
+        },
+        "flake_scale": {
+            "name": "Flake Scale",
+            "value": 0
+        },
+        "flake_size": {
+            "name": "Flake Size",
+            "value": 0
+        },
+        "flake_map_size": {
+            "name": "Flake Map Size",
+            "value": 0
+        },
+        "flake_filtering_mode": {
+            "name": "Flake Filtering Mode",
+            "value": 0
+        },
+        "flake_seed": {
+            "name": "Flake Seed",
+            "value": 0
+        },
+        "flake_uvwgen": {
+            "name": "Flake Uvwgen",
+            "value": 0
+        },
+        "flake_trace_reflections": {
+            "name": "Flake Trace Reflections",
+            "value": 0
+        },
+        "coat_color": {
+            "name": "Coat Color",
+            "value": 0
+        },
+        "coat_strength": {
+            "name": "Coat Strength",
+            "value": 0
+        },
+        "coat_glossiness": {
+            "name": "Coat Glossiness",
+            "value": 0
+        },
+        "coat_bumpMapType": {
+            "name": "Coat Bump Map Type",
+            "value": 0
+        },
+        "coat_bumpMap": {
+            "name": "Coat Bump Map",
+            "value": 0
+        },
+        "coat_bumpMult": {
+            "name": "Coat Bump Mult",
+            "value": 0
+        },
+        "coat_trace_reflections": {
+            "name": "Coat Trace Reflections",
+            "value": 0
+        },
+        "cutoff_threshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        },
+        "double_sided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "trace_reflections": {
+            "name": "Trace Reflections",
+            "value": 0
+        },
+        "mapping_type": {
+            "name": "Mapping Type",
+            "value": 0
+        },
+        "mapping_channel": {
+            "name": "Mapping Channel",
+            "value": 0
+        }
+    },
+    "VRayCarPaint2Mtl": {
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        },
+        "base_bump_amount": {
+            "name": "Base Bump Amount",
+            "value": 0
+        },
+        "coat_bump_amount": {
+            "name": "Coat Bump Amount",
+            "value": 0
+        },
+        "trace_depth": {
+            "name": "Trace Depth",
+            "value": 0
+        },
+        "flake_uvwgen": {
+            "name": "Flake Uvwgen",
+            "value": 0
+        },
+        "flake_uvwgenU": {
+            "name": "Flake Uvwgen U",
+            "value": 0
+        },
+        "flake_uvwgenV": {
+            "name": "Flake Uvwgen V",
+            "value": 0
+        },
+        "flake_map_size": {
+            "name": "Flake Map Size",
+            "value": 0
+        },
+        "flake_scale_triplanar": {
+            "name": "Flake Scale Triplanar",
+            "value": 0
+        },
+        "flake_random_color": {
+            "name": "Flake Random Color",
+            "value": 0
+        },
+        "base_color": {
+            "name": "Base Color",
+            "value": 0
+        },
+        "base_reflection": {
+            "name": "Base Reflection",
+            "value": 0
+        },
+        "base_glossiness": {
+            "name": "Base Glossiness",
+            "value": 0
+        },
+        "base_glossiness_tail": {
+            "name": "Base Glossiness Tail",
+            "value": 0
+        },
+        "base_traceReflections": {
+            "name": "Base Trace Reflections",
+            "value": 0
+        },
+        "base_bump_color": {
+            "name": "Base Bump Color",
+            "value": 0
+        },
+        "base_bump_type": {
+            "name": "Base Bump Type",
+            "value": 0
+        },
+        "flake_color": {
+            "name": "Flake Color",
+            "value": 0
+        },
+        "flake_orientation": {
+            "name": "Flake Orientation",
+            "value": 0
+        },
+        "flake_orientation_tail": {
+            "name": "Flake Orientation Tail",
+            "value": 0
+        },
+        "flake_glossiness": {
+            "name": "Flake Glossiness",
+            "value": 0
+        },
+        "flake_density": {
+            "name": "Flake Density",
+            "value": 0
+        },
+        "flake_scale": {
+            "name": "Flake Scale",
+            "value": 0
+        },
+        "flake_size": {
+            "name": "Flake Size",
+            "value": 0
+        },
+        "flake_seed": {
+            "name": "Flake Seed",
+            "value": 0
+        },
+        "mapping_type": {
+            "name": "Mapping Type",
+            "value": 0
+        },
+        "mapping_channel": {
+            "name": "Mapping Channel",
+            "value": 0
+        },
+        "flake_traceReflections": {
+            "name": "Flake Trace Reflections",
+            "value": 0
+        },
+        "coat_color": {
+            "name": "Coat Color",
+            "value": 0
+        },
+        "coat_amount": {
+            "name": "Coat Amount",
+            "value": 0
+        },
+        "coat_ior": {
+            "name": "Coat Ior",
+            "value": 0
+        },
+        "coat_glossiness": {
+            "name": "Coat Glossiness",
+            "value": 0
+        },
+        "coat_traceReflections": {
+            "name": "Coat Trace Reflections",
+            "value": 0
+        },
+        "coat_bump_color": {
+            "name": "Coat Bump Color",
+            "value": 0
+        },
+        "coat_bump_type": {
+            "name": "Coat Bump Type",
+            "value": 0
+        },
+        "traceReflections": {
+            "name": "Trace Reflections",
+            "value": 0
+        },
+        "doubleSided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "cutoff_threshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        },
+        "use_environment_override": {
+            "name": "Use Environment Override",
+            "value": 0
+        },
+        "environment_override": {
+            "name": "Environment Override",
+            "value": 0
+        },
+        "environment_priority": {
+            "name": "Environment Priority",
+            "value": 0
+        },
+        "lpe_label": {
+            "name": "Lpe Label",
+            "value": 0
+        }
+    },
+    "VRayFastSSS2": {
+        "scale": {
+            "name": "Scale",
+            "value": 0
+        },
+        "ior": {
+            "name": "Ior",
+            "value": 0
+        },
+        "preset": {
+            "name": "Preset",
+            "value": 0
+        },
+        "color": {
+            "name": "Color",
+            "value": 0
+        },
+        "overallTex": {
+            "name": "Overall Tex",
+            "value": 0
+        },
+        "diffuseTex": {
+            "name": "Diffuse Tex",
+            "value": 0
+        },
+        "diffuseAmount": {
+            "name": "Diffuse Amount",
+            "value": 0
+        },
+        "subsurfaceColor": {
+            "name": "Subsurface Color",
+            "value": 0
+        },
+        "scatterRadiusColor": {
+            "name": "Scatter Radius Color",
+            "value": 0
+        },
+        "scatterRadiusMult": {
+            "name": "Scatter Radius Mult",
+            "value": 0
+        },
+        "phaseFunction": {
+            "name": "Phase Function",
+            "value": 0
+        },
+        "reflection": {
+            "name": "Reflection",
+            "value": 0
+        },
+        "reflectionAmount": {
+            "name": "Reflection Amount",
+            "value": 0
+        },
+        "glossiness": {
+            "name": "Glossiness",
+            "value": 0
+        },
+        "cutoffThreshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        },
+        "traceReflections": {
+            "name": "Trace Reflections",
+            "value": 0
+        },
+        "traceDepth": {
+            "name": "Trace Depth",
+            "value": 0
+        },
+        "singleScatter": {
+            "name": "Single Scatter",
+            "value": 0
+        },
+        "refractDepth": {
+            "name": "Refract Depth",
+            "value": 0
+        },
+        "scatterGI": {
+            "name": "Scatter GI",
+            "value": 0
+        },
+        "considerAllObjects": {
+            "name": "Consider All Objects",
+            "value": 0
+        },
+        "linearWorkflow": {
+            "name": "Linear Workflow",
+            "value": 0
+        },
+        "legacyMode": {
+            "name": "Legacy Mode",
+            "value": 0
+        },
+        "bumpMapType": {
+            "name": "Bump Map Type",
+            "value": 0
+        },
+        "bumpMap": {
+            "name": "Bump Map",
+            "value": 0
+        },
+        "bumpMult": {
+            "name": "Bump Mult",
+            "value": 0
+        },
+        "bumpShadows": {
+            "name": "Bump Shadows",
+            "value": 0
+        }
+    },
+    "VRayFlakesMtl": {
+        "reflectionsMaxDepth": {
+            "name": "Reflections Max Depth",
+            "value": 0
+        },
+        "color": {
+            "name": "color",
+            "value": 0
+        },
+        "flake_glossiness": {
+            "name": "Flake Glossiness",
+            "value": 0
+        },
+        "flake_orientation": {
+            "name": "Flake Orientation",
+            "value": 0
+        },
+        "flake_density": {
+            "name": "Flake Density",
+            "value": 0
+        },
+        "flake_scale": {
+            "name": "Flake Scale",
+            "value": 0
+        },
+        "flake_size": {
+            "name": "Flake Size",
+            "value": 0
+        },
+        "flake_map_size": {
+            "name": "Flake Map Size",
+            "value": 0
+        },
+        "flake_filtering_mode": {
+            "name": "Flake Filtering Mode",
+            "value": 0
+        },
+        "flake_seed": {
+            "name": "Flake Seed",
+            "value": 0
+        },
+        "flake_uvwgen": {
+            "name": "Flake Uvwgen",
+            "value": 0
+        },
+        "cutoff_threshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        },
+        "double_sided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "trace_reflections": {
+            "name": "Trace Reflections",
+            "value": 0
+        },
+        "mapping_type": {
+            "name": "Mapping Type",
+            "value": 0
+        },
+        "mapping_channel": {
+            "name": "Mapping Channel",
+            "value": 0
+        }
+    },
+    "VRayHairNextMtl": {
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        },
+        "melanin": {
+            "name": "Melanin",
+            "value": 0
+        },
+        "pheomelanin": {
+            "name": "Pheomelanin",
+            "value": 0
+        },
+        "dye_color": {
+            "name": "Dye Color",
+            "value": 0
+        },
+        "transparency": {
+            "name": "Transparency",
+            "value": 0
+        },
+        "diffuse_color": {
+            "name": "Diffuse Color",
+            "value": 0
+        },
+        "diffuse_amount": {
+            "name": "Diffuse Amount",
+            "value": 0
+        },
+        "glossiness": {
+            "name": "Glossiness",
+            "value": 0
+        },
+        "primary_glossiness_boost": {
+            "name": "Primary Glossiness Boost",
+            "value": 0
+        },
+        "softness": {
+            "name": "Softness",
+            "value": 0
+        },
+        "highlight_shift": {
+            "name": "Highlight Shift",
+            "value": 0
+        },
+        "ior": {
+            "name": "Ior",
+            "value": 0
+        },
+        "glint_strength": {
+            "name": "Glint Strength",
+            "value": 0
+        },
+        "glint_variation": {
+            "name": "Glint Variation",
+            "value": 0
+        },
+        "glitter_strength": {
+            "name": "Glitter Strength",
+            "value": 0
+        },
+        "glitter_size": {
+            "name": "Glitter Size",
+            "value": 0
+        },
+        "glint_scale": {
+            "name": "Glint Scale",
+            "value": 0
+        },
+        "random_melanin": {
+            "name": "Random Melanin",
+            "value": 0
+        },
+        "random_dye_hue": {
+            "name": "Random Dye Hue",
+            "value": 0
+        },
+        "random_dye_saturation": {
+            "name": "Random Dye Saturation",
+            "value": 0
+        },
+        "random_dye_value": {
+            "name": "Random Dye Value",
+            "value": 0
+        },
+        "gray_hair_density": {
+            "name": "Gray Hair Density",
+            "value": 0
+        },
+        "random_glossiness": {
+            "name": "Random Glossiness",
+            "value": 0
+        },
+        "random_softness": {
+            "name": "Random Softness",
+            "value": 0
+        },
+        "random_highlight_shift": {
+            "name": "Random Highlight Shift",
+            "value": 0
+        },
+        "random_ior": {
+            "name": "Random Ior",
+            "value": 0
+        },
+        "random_tangent": {
+            "name": "Random Tangent",
+            "value": 0
+        },
+        "primary_tint": {
+            "name": "Primary Tint",
+            "value": 0
+        },
+        "secondary_tint": {
+            "name": "Secondary Tint",
+            "value": 0
+        },
+        "transmission_tint": {
+            "name": "Transmission Tint",
+            "value": 0
+        },
+        "trace_depth": {
+            "name": "Trace Depth",
+            "value": 0
+        },
+        "compensate_energy": {
+            "name": "Compensate Energy",
+            "value": 0
+        }
+    },
+    "VRayMtl2Sided": {
+        "frontMaterial": {
+            "name": "Front Material",
+            "value": 0
+        },
+        "backMaterial": {
+            "name": "Back Material",
+            "value": 0
+        },
+        "translucencyTex": {
+            "name": "Translucency Tex",
+            "value": 0
+        },
+        "outTransparency": {
+            "name": "Out Transparency",
+            "value": 0
+        }
+    },
+    "VRayToonMtl": {
+        "reflectionsMaxDepth": {
+            "name": "Reflections Max Depth",
+            "value": 0
+        },
+        "refractionsMaxDepth": {
+            "name": "Refractions Max Depth",
+            "value": 0
+        },
+        "diffuseColor": {
+            "name": "Diffuse Color",
+            "value": 0
+        },
+        "diffuseColorAmount": {
+            "name": "Diffuse Color Amount",
+            "value": 0
+        },
+        "roughnessAmount": {
+            "name": "Roughness Amount",
+            "value": 0
+        },
+        "illumColor": {
+            "name": "Illum Color",
+            "value": 0
+        },
+        "reflectionColor": {
+            "name": "Reflection Color",
+            "value": 0
+        },
+        "reflectionColorAmount": {
+            "name": "Reflection Color Amount",
+            "value": 0
+        },
+        "reflectionGlossiness": {
+            "name": "Reflection Glossiness",
+            "value": 0
+        },
+        "reflectionAffectAlpha": {
+            "name": "Reflection Affect Alpha",
+            "value": 0
+        },
+        "useFresnel": {
+            "name": "Use Fresnel",
+            "value": 0
+        },
+        "refractionColor": {
+            "name": "Refraction Color",
+            "value": 0
+        },
+        "refractionColorAmount": {
+            "name": "Refraction Color Amount",
+            "value": 0
+        },
+        "refractionGlossiness": {
+            "name": "Refraction Glossiness",
+            "value": 0
+        },
+        "refrDispersionOn": {
+            "name": "Refr Dispersion On",
+            "value": 0
+        },
+        "refrDispersionAbbe": {
+            "name": "Refr Dispersion Abbe",
+            "value": 0
+        },
+        "fogColor": {
+            "name": "Fog Color",
+            "value": 0
+        },
+        "fogMult": {
+            "name": "Fog Mult",
+            "value": 0
+        },
+        "fogBias": {
+            "name": "Fog Bias",
+            "value": 0
+        },
+        "affectAlpha": {
+            "name": "Affect Alpha",
+            "value": 0
+        },
+        "bumpMapType": {
+            "name": "Bump Map Type",
+            "value": 0
+        },
+        "bumpMap": {
+            "name": "Bump Map",
+            "value": 0
+        },
+        "bumpMult": {
+            "name": "Bump Mult",
+            "value": 0
+        },
+        "bumpShadows": {
+            "name": "Bump Shadows",
+            "value": 0
+        },
+        "bumpDeltaScale": {
+            "name": "Bump Delta Scale",
+            "value": 0
+        },
+        "sssOn": {
+            "name": "Sss On",
+            "value": 0
+        },
+        "translucencyColor": {
+            "name": "Translucency Color",
+            "value": 0
+        },
+        "thickness": {
+            "name": "Thickness",
+            "value": 0
+        },
+        "scatterCoeff": {
+            "name": "Scatter Coeff",
+            "value": 0
+        },
+        "scatterDir": {
+            "name": "Scatter Dir",
+            "value": 0
+        },
+        "sssEnvironment": {
+            "name": "Sss Environment",
+            "value": 0
+        },
+        "opacityMap": {
+            "name": "Opacity Map",
+            "value": 0
+        },
+        "opacityMode": {
+            "name": "Opacity Mode",
+            "value": 0
+        },
+        "doubleSided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "useIrradianceMap": {
+            "name": "Use Irradiance Map",
+            "value": 0
+        },
+        "diffuseRampOffset": {
+            "name": "Diffuse Ramp Offset",
+            "value": 0
+        },
+        "diffuseOutputOffset": {
+            "name": "Diffuse Output Offset",
+            "value": 0
+        },
+        "shadowOverrideOn": {
+            "name": "Shadow Override On",
+            "value": 0
+        },
+        "shadowColor": {
+            "name": "Shadow Color",
+            "value": 0
+        },
+        "shadowOpacity": {
+            "name": "Shadow Opacity",
+            "value": 0
+        },
+        "lightOverrideOn": {
+            "name": "Light Override On",
+            "value": 0
+        },
+        "lightColor": {
+            "name": "Light Color",
+            "value": 0
+        },
+        "lightBlendMode": {
+            "name": "Light Blend Mode",
+            "value": 0
+        },
+        "lightBlendIntensity": {
+            "name": "Light Blend Intensity",
+            "value": 0
+        },
+        "highlightShapePreset": {
+            "name": "Highlight Shape Preset",
+            "value": 0
+        },
+        "highlightShape.highlightShape_Position": {
+            "name": "Highlight Shape Position",
+            "value": 0
+        },
+        "highlightShape.highlightShape_FloatValue": {
+            "name": "Highlight Shape Float Value",
+            "value": 0
+        },
+        "highlightShape.highlightShape_Interp": {
+            "name": "Highlight Shape Interp",
+            "value": 0
+        },
+        "highlightRotation": {
+            "name": "Highlight Rotation",
+            "value": 0
+        },
+        "highlightMask": {
+            "name": "Highlight Mask",
+            "value": 0
+        },
+        "transpSource": {
+            "name": "Transp Source",
+            "value": 0
+        },
+        "transpList.transpListUsed": {
+            "name": "Transp List Used",
+            "value": 0
+        },
+        "transpList.transpListTex": {
+            "name": "Transp List Tex",
+            "value": 0
+        },
+        "transpList.transpListID": {
+            "name": "Transp List ID",
+            "value": 0
+        },
+        "toonEdgePriority": {
+            "name": "Toon Edge Priority",
+            "value": 0
+        },
+        "lineColor": {
+            "name": "Line Color",
+            "value": 0
+        },
+        "lineWidth": {
+            "name": "Line Width",
+            "value": 0
+        },
+        "lineColorInner": {
+            "name": "Line Color Inner",
+            "value": 0
+        },
+        "lineWidthInner": {
+            "name": "Line Width Inner",
+            "value": 0
+        },
+        "outerOverlapThreshold": {
+            "name": "Outer Overlap Threshold",
+            "value": 0
+        },
+        "overlapThreshold": {
+            "name": "Overlap Threshold",
+            "value": 0
+        },
+        "normalThreshold": {
+            "name": "Normal Threshold",
+            "value": 0
+        },
+        "maskColorThreshold": {
+            "name": "Mask Color Threshold",
+            "value": 0
+        },
+        "maskColor": {
+            "name": "Mask Color",
+            "value": 0
+        }
+    },
+    "VRayPointParticleMtl": {
+        "diffuseColor": {
+            "name": "Diffuse Color",
+            "value": 0
+        },
+        "useParticleColor": {
+            "name": "Use Particle Color",
+            "value": 0
+        },
+        "phaseFunction": {
+            "name": "Phase Function",
+            "value": 0
+        },
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        }
+    },
+    "VRayStochasticFlakesMtl": {
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        },
+        "enableFlakes": {
+            "name": "Enable Flakes",
+            "value": 0
+        },
+        "numFlakes": {
+            "name": "Num Flakes",
+            "value": 0
+        },
+        "hilightGlossiness": {
+            "name": "Hilight Glossiness",
+            "value": 0
+        },
+        "blurAngle": {
+            "name": "Blur Angle",
+            "value": 0
+        },
+        "reflectFilter": {
+            "name": "Reflect Filter",
+            "value": 0
+        },
+        "mappingType": {
+            "name": "Mapping Type",
+            "value": 0
+        },
+        "mapChannel": {
+            "name": "Map Channel",
+            "value": 0
+        },
+        "flakeScale": {
+            "name": "Flake Scale",
+            "value": 0
+        },
+        "brdfType": {
+            "name": "Brdf Type",
+            "value": 0
+        },
+        "seed": {
+            "name": "Seed",
+            "value": 0
+        },
+        "coloredFlakes": {
+            "name": "Colored Flakes",
+            "value": 0
+        },
+        "saturation": {
+            "name": "Saturation",
+            "value": 0
+        },
+        "lightness": {
+            "name": "Lightness",
+            "value": 0
+        },
+        "randomColorMap": {
+            "name": "Random Color Map",
+            "value": 0
+        },
+        "whiteAverage": {
+            "name": "White Average",
+            "value": 0
+        },
+        "textureSubdivs": {
+            "name": "Texture Subdivs",
+            "value": 0
+        },
+        "blendMin": {
+            "name": "Blend Min",
+            "value": 0
+        },
+        "blendMax": {
+            "name": "Blend Max",
+            "value": 0
+        }
+    },
+    "VRayScannedMtl": {
+        "file": {
+            "name": "File",
+            "value": 0
+        },
+        "twoSided": {
+            "name": "Two Sided",
+            "value": 0
+        },
+        "disableTransparency": {
+            "name": "Disable Transparency",
+            "value": 0
+        },
+        "disableEnlargement": {
+            "name": "Disable Enlargement",
+            "value": 0
+        },
+        "showUVBorders": {
+            "name": "Show UVBorders",
+            "value": 0
+        },
+        "noEnv": {
+            "name": "No Env",
+            "value": 0
+        },
+        "multDirect": {
+            "name": "Mult Direct",
+            "value": 0
+        },
+        "multGI": {
+            "name": "Mult GI",
+            "value": 0
+        },
+        "multRefl": {
+            "name": "Mult Refl",
+            "value": 0
+        },
+        "gammaCorrection": {
+            "name": "Gamma Correction",
+            "value": 0
+        },
+        "saturation": {
+            "name": "Saturation",
+            "value": 0
+        },
+        "hue": {
+            "name": "Hue",
+            "value": 0
+        },
+        "useFilter": {
+            "name": "Use Filter",
+            "value": 0
+        },
+        "filterStrength": {
+            "name": "Filter Strength",
+            "value": 0
+        },
+        "filterColor": {
+            "name": "Filter Color",
+            "value": 0
+        },
+        "usePaint": {
+            "name": "Use Paint",
+            "value": 0
+        },
+        "paintStrength": {
+            "name": "Paint Strength",
+            "value": 0
+        },
+        "paintColor": {
+            "name": "Paint Color",
+            "value": 0
+        },
+        "subdivs": {
+            "name": "Subdivs",
+            "value": 0
+        },
+        "traceDepth": {
+            "name": "Trace Depth",
+            "value": 0
+        },
+        "cutoff": {
+            "name": "Cutoff",
+            "value": 0
+        },
+        "coarseIndirect": {
+            "name": "Coarse Indirect",
+            "value": 0
+        },
+        "dimDistOn": {
+            "name": "Dim Dist On",
+            "value": 0
+        },
+        "dimDist": {
+            "name": "Dim Dist",
+            "value": 0
+        },
+        "dimDistFalloff": {
+            "name": "Dim Dist Falloff",
+            "value": 0
+        },
+        "clearCoatRefl": {
+            "name": "Clear Coat Refl",
+            "value": 0
+        },
+        "clearCoatHilights": {
+            "name": "Clear Coat Hilights",
+            "value": 0
+        },
+        "clearCoatBump": {
+            "name": "Clear Coat Bump",
+            "value": 0
+        },
+        "clearCoatStrength": {
+            "name": "Clear Coat Strength",
+            "value": 0
+        },
+        "clearCoatColoring": {
+            "name": "Clear Coat Coloring",
+            "value": 0
+        },
+        "noPrimGI": {
+            "name": "No Prim GI",
+            "value": 0
+        },
+        "noCachedLight": {
+            "name": "No Cached Light",
+            "value": 0
+        },
+        "noBleeding": {
+            "name": "No Bleeding",
+            "value": 0
+        },
+        "fastVolTr": {
+            "name": "Fast Vol Tr",
+            "value": 0
+        },
+        "retrace": {
+            "name": "Retrace",
+            "value": 0
+        },
+        "tilingFactor": {
+            "name": "Tiling Factor",
+            "value": 0
+        },
+        "mapChannel": {
+            "name": "Map Channel",
+            "value": 0
+        },
+        "bumpMult": {
+            "name": "Bump Mult",
+            "value": 0
+        },
+        "bumpStart": {
+            "name": "Bump Start",
+            "value": 0
+        },
+        "displMult": {
+            "name": "Displ Mult",
+            "value": 0
+        },
+        "displace": {
+            "name": "Displace",
+            "value": 0
+        },
+        "uvCoord": {
+            "name": "Uv Coord",
+            "value": 0
+        },
+        "uCoord": {
+            "name": "U Coord",
+            "value": 0
+        },
+        "vCoord": {
+            "name": "V Coord",
+            "value": 0
+        },
+        "uvFilterSize": {
+            "name": "Uv Filter Size",
+            "value": 0
+        },
+        "uvFilterSizeX": {
+            "name": "Uv Filter Size X",
+            "value": 0
+        },
+        "uvFilterSizeY": {
+            "name": "Uv Filter Size Y",
+            "value": 0
+        },
+        "viewportColor": {
+            "name": "Viewport Color",
+            "value": 0
+        },
+        "triplanar": {
+            "name": "Triplanar",
+            "value": 0
+        },
+        "triplRndOffs": {
+            "name": "Tripl Rnd Offs",
+            "value": 0
+        },
+        "triplRndRot": {
+            "name": "Tripl Rnd Rot",
+            "value": 0
+        }
+    },
+    "VRayFlakes2Mtl": {
+        "swatchAutoUpdate": {
+            "name": "Swatch Auto Update",
+            "value": 0
+        },
+        "swatchAlwaysRender": {
+            "name": "Swatch Always Render",
+            "value": 0
+        },
+        "swatchExplicitUpdate": {
+            "name": "Swatch Explicit Update",
+            "value": 0
+        },
+        "swatchMaxRes": {
+            "name": "Swatch Max Res",
+            "value": 0
+        },
+        "trace_depth": {
+            "name": "Trace Depth",
+            "value": 0
+        },
+        "flake_uvwgen": {
+            "name": "Flake Uvwgen",
+            "value": 0
+        },
+        "flake_uvwgenU": {
+            "name": "Flake Uvwgen U",
+            "value": 0
+        },
+        "flake_uvwgenV": {
+            "name": "Flake Uvwgen V",
+            "value": 0
+        },
+        "flake_map_size": {
+            "name": "Flake Map Size",
+            "value": 0
+        },
+        "flake_scale_triplanar": {
+            "name": "Flake Scale Triplanar",
+            "value": 0
+        },
+        "flake_random_color": {
+            "name": "Flake Random Color",
+            "value": 0
+        },
+        "flake_color": {
+            "name": "Flake Color",
+            "value": 0
+        },
+        "flake_orientation": {
+            "name": "Flake Orientation",
+            "value": 0
+        },
+        "flake_orientation_tail": {
+            "name": "Flake Orientation Tail",
+            "value": 0
+        },
+        "flake_glossiness": {
+            "name": "Flake Glossiness",
+            "value": 0
+        },
+        "flake_density": {
+            "name": "Flake Density",
+            "value": 0
+        },
+        "flake_scale": {
+            "name": "Flake Scale",
+            "value": 0
+        },
+        "flake_size": {
+            "name": "Flake Size",
+            "value": 0
+        },
+        "flake_seed": {
+            "name": "Flake Seed",
+            "value": 0
+        },
+        "mapping_type": {
+            "name": "Mapping Type",
+            "value": 0
+        },
+        "mapping_channel": {
+            "name": "Mapping Channel",
+            "value": 0
+        },
+        "traceReflections": {
+            "name": "Trace Reflections",
+            "value": 0
+        },
+        "doubleSided": {
+            "name": "Double Sided",
+            "value": 0
+        },
+        "cutoff_threshold": {
+            "name": "Cutoff Threshold",
+            "value": 0
+        },
+        "use_environment_override": {
+            "name": "Use Environment Override",
+            "value": 0
+        },
+        "environment_override": {
+            "name": "Environment Override",
+            "value": 0
+        },
+        "environment_priority": {
+            "name": "Environment Priority",
+            "value": 0
+        }
+    }
+}
