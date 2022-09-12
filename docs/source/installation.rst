@@ -32,9 +32,9 @@ After the installation is completed, run Maya and you will be able to see the Ma
 
 Manual Installation
 ====
-Unlike using the installer, there are some steps to make MatLib work.
+Follow the instruction below to make MatLib work with Maya.
 
-* Go to `github <https://github.com/erdemirci/MatLib>` and download the latest version of MatLib.
+* Go to `github <https://github.com/erdemirci/MatLib.git>` and download the latest version of MatLib.
 
 * After the download is completed, extract MatLib to the desired install directory.
 
