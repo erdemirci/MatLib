@@ -388,3 +388,5 @@ This selection will repath all of the node's texture paths to {project folder}/s
 
 This is usefull when you have a project with many shots and you have already copied all the necessary files to the project.
 
+.. caution::
+   If Project folder doesn't have a 'sourceimage' folder, this action will fail.
