@@ -34,18 +34,18 @@ Manual Installation
 ====
 Unlike using the installer, there are some steps to make MatLib work.
 
-* Go to github and download the latest version of MatLib.
+* Go to `github <https://github.com/erdemirci/MatLib>` and download the latest version of MatLib.
 
 * After the download is completed, extract MatLib to the desired install directory.
 
 * Create folder inside C:/Users/{user_name}/AppData/Local and name it MatLib.
 
 .. tip::
-   If you cannot see the AppData folder, it means that it is invisible.Go to Control Panel \ Appearance and Personalization.Under the File Explorer Options, toggle          "Show hidden files, folders, and drivers" and hit apply.
+   If you cannot see the AppData folder, it means that it is invisible.Go to Control Panel / Appearance and Personalization.Under the File Explorer Options, toggle          "Show hidden files, folders, and drivers" and hit apply.
 
-* Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user_name}/AppData/Local/MatLib folder.
+* Copy the files inside the {install directory}/MatLib/files/ folder and paste all of them in to C:/Users/{user name}/AppData/Local/MatLib folder.
 
-* Copy modules folder from MatLib install directory and paste it to C:/Users/{user_name}/Documents/maya/{maya_version}/ .If you already have a modules folder in       there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
+* Copy modules folder from MatLib install directory and paste it to C:/Users/{user name}/Documents/maya/{maya_version}/ .If you already have a modules folder in       there, just copy and paste the MatLib.mod file from {install directory}/Matlib/Modules.
 
 .. tip::
    For some reason if your Maya enviroment path is different than the default, change the path of the MatLib.mod accordingly!
