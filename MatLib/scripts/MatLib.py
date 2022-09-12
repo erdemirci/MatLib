@@ -440,7 +440,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 
     def LoadRenderer(self):
-        plugins = ['mtoa', 'redshift', 'vrayformaya']
+        plugins = ['mtoa', 'redshift4maya', 'vrayformaya']
         avaliable_renderer = RendererCheck().AvaliableRenderer(plugins)
         if len(avaliable_renderer) > 1:
             false_idxs = [supported_renderers.index(x) for x in supported_renderers if x not in avaliable_renderer]
