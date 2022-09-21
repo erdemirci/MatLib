@@ -274,6 +274,8 @@ Unlike the general password that we use for creating and deleting repositories, 
 
 Password protected repositories will ask for a password when eiher deleting category or a material.
 
+Jump to Create and Link Repository :ref:`Video <qjCLRepo>`
+
 .. tip::
    When the repository is created, the connection to MatLib is not automatically established. In order for the connection to be established, click on the  ‘Link          Repository' from the Repository menu and select the MatLib Repository folder from the pop up window.
    
@@ -291,6 +293,8 @@ Deletes the desired repository except the ‘Default Repository’. This operati
 
 The deletion process is encrypted as in the repository creation. After typing the password, the list of repositories connected to MatLib is displayed on the screen that opens. After selecting the repository name you want to delete, click accept, and the process will take place.
 
+Jump to :ref:`Video <qjTransferMat>`
+
 **Link Repository**
 
 It is used to link an existing repository that has not yet been added to MatLib.
@@ -305,6 +309,8 @@ When the operation is successful, the new repository is added to the repository 
 
 It will disconnect from the selected repository. Unlike Delete Repository this does not delete the folder structure.
 
+Jump to :ref:`Video <qjDelRepo>`
+
 *Transfer*
 ~~~~
 
@@ -313,6 +319,8 @@ The Transfer screen is used to copy materials between existing categories within
 For example, if you have a material on your driver that you want to copy to the repository that other people can access.
 
 In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer.
+
+Jump to :ref:`Video <qjTransferMat>`
 
 .. image:: /images/MatLib_TransferUI.jpg
 
@@ -390,5 +398,7 @@ Repath nodes only
 This selection will repath all of the node's texture paths to {project folder}/sourceimages/MatLib_images
 
 This is usefull when you have a project with many shots and you have already copied all the necessary files to the project.
+
+Jump to :ref:`Video <qjTtoProject>`
 
 
