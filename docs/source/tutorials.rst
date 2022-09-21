@@ -26,7 +26,7 @@ Delete Category
 
 .. raw:: html
 
-   <iframe src="https://player.vimeo.com/video/750386277?h=ce8a14bb58" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/750384401?h=bbf3748cc1" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 .. _qjAddMat:
 
