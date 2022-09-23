@@ -38,16 +38,8 @@ def maya_main_window():
 	return wrapInstance(long(main_window_ptr), QtWidgets.QWidget)
 
 class ResetWindow(QtWidgets.QMainWindow):
-	def __init__(self):
-		for entry in QtWidgets.QApplication.allWidgets():
-			try:
-				if entry.objectName() == ResetWindow:
-					entry.close()
-			except (AttributeError, TypeError):
-				pass
-		parent = maya_main_window()
-
-		super(ResetWindow, self).__init__(parent=parent)
+	def __init__(self, parent=maya_main_window()):
+		super(ResetWindow, self).__init__(parent)
 
 		appdata_path = os.path.join(os.path.expandvars(r'%LOCALAPPDATA%'),'MatLib')
 		self.config_path = os.path.join(appdata_path, 'config.json')

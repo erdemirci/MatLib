@@ -28,6 +28,7 @@ from PySide2 import QtWidgets, QtCore, QtUiTools, QtGui
 class MaterialDisplay(QtWidgets.QMainWindow):
 	def __init__(self, parent, renderer):
 		super(MaterialDisplay, self).__init__(parent)
+		
 		self.setWindowTitle("Material Display Editor")
 		self.setContentsMargins(QtCore.QMargins(0,0,0,0))
 		self.file_name = None
@@ -39,8 +40,6 @@ class MaterialDisplay(QtWidgets.QMainWindow):
 		elif renderer == 'Vray':
 			self.file_name = 'vray_Parms.json'
 
-		#main_path = os.path.dirname(os.path.abspath(__file__))
-		#file_path = os.path.join(os.path.abspath(os.path.join(main_path, os.pardir)), 'files')
 		appdata_path = os.path.join(os.path.expandvars(r'%LOCALAPPDATA%'),'MatLib')
 		self.m_path = os.path.join(appdata_path, self.file_name)
 		

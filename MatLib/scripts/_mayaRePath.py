@@ -47,6 +47,7 @@ if version == 3:
 class MayaRepath(QtWidgets.QMainWindow):
 	def __init__(self, parent, reason, items):
 		super(MayaRepath, self).__init__(parent)
+		
 		self.setGeometry(10,100,600,100)
 		self.setContentsMargins(QtCore.QMargins(0, 0, 0, 0))
 		self.setWindowTitle('MatLib Texture Transfer')

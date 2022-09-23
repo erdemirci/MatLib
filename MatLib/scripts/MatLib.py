@@ -78,19 +78,9 @@ def maya_main_window():
     main_window_ptr = omui.MQtUtil.mainWindow()
     return wrapInstance(long(main_window_ptr), QtWidgets.QWidget)
 
-
 class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self, callback=None):
-
-        for entry in QtWidgets.QApplication.allWidgets():
-            try:
-                if entry.objectName() == MainWindow:
-                    entry.close()
-            except (AttributeError, TypeError):
-                pass
-        parent = maya_main_window()
-
-        super(MainWindow, self).__init__(parent=parent)
+    def __init__(self, callback=None, parent=maya_main_window()):
+        super(MainWindow, self).__init__(parent)
 
         self.setContentsMargins(QtCore.QMargins(0,0,0,0))
         ui_file = os.path.join(ui_path, 'Matlib.ui')
@@ -673,7 +663,6 @@ class MainWindow(QtWidgets.QMainWindow):
         try:
             index = self.ui.treeWidget.selectedIndexes()[0]
             item = self.ui.treeWidget.itemFromIndex(index).text(0)
-
             self.MaterialIconListView.clear()
 
             root = os.path.join(self.CategoryPath, item)
@@ -870,6 +859,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def EditTab_ReplaceImageFromFile(self):
         try:
+            item_idx = self.MaterialIconListView.selectedIndexes()[0]
             item = self.MaterialIconListView.selectedItems()[0].text()
             category_index = self.ui.treeWidget.selectedIndexes()[0]
             category_name = self.ui.treeWidget.itemFromIndex(category_index).text(0)
@@ -885,6 +875,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 time.sleep(0.1)
                 self.LargeImageDisplay()
                 self.GenerateMaterialList()
+                self.MaterialIconListView.setCurrentIndex(item_idx)
 
         except IndexError:
             QtWidgets.QMessageBox.about(self, 'Index Error', 'Material is not selected.')
@@ -892,6 +883,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def EditTab_ReplaceImageFromRenderView(self):
         try:
+            item_idx = self.MaterialIconListView.selectedIndexes()[0]
             item = self.MaterialIconListView.selectedItems()[0].text()
             category_index = self.ui.treeWidget.selectedIndexes()[0]
             category_name = self.ui.treeWidget.itemFromIndex(category_index).text(0)
@@ -908,6 +900,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 time.sleep(0.1)
                 self.LargeImageDisplay()
                 self.GenerateMaterialList()
+                self.MaterialIconListView.setCurrentIndex(item_idx)
                 
         except IndexError:
             QtWidgets.QMessageBox.about(self, 'Index Error', 'Material is not selected.')
@@ -949,6 +942,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
             os.remove(image_data[self.submit_counter])
             self.LargeImageDisplay()
+
         else:
             QtWidgets.QMessageBox.about(self, 'Index Error', 'Cannot delete the primary display image.')
 

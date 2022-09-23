@@ -46,17 +46,9 @@ def maya_main_window():
 	return wrapInstance(long(main_window_ptr), QtWidgets.QWidget)
 
 class TextureTransferWindow(QtWidgets.QMainWindow):
-	def __init__(self, callback=None):
-
-		for entry in QtWidgets.QApplication.allWidgets():
-			try:
-				if entry.objectName() == TextureTransferWindow:
-					entry.close()
-			except (AttributeError, TypeError):
-				pass
-		parent = maya_main_window()
-
-		super(TextureTransferWindow, self).__init__(parent=parent)
+	def __init__(self, callback=None, parent=maya_main_window()):
+		super(TextureTransferWindow, self).__init__(parent)
+		
 		self.setContentsMargins(QtCore.QMargins(0, 0, 0, 0))
 		self.setWindowTitle('MatLib Transfer to Project')
 		self.setWindowIcon(QtGui.QIcon(os.path.join(ui_icon_path, 'MatlibLogoNS_small.svg')))
