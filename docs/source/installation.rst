@@ -4,7 +4,7 @@ Information below will guide you through the installation of MatLib.
 
 Downloading MatLib
 ____
-Visit https://www.erdemirci3d.com/matlib to download the latest version of MatLib.
+Visit https://www.erdemirci3d.com/?page_id=298 to download the latest version of MatLib.
 
 Installing on Windows
 ____
