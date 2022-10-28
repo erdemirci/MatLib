@@ -50,4 +50,12 @@ MatLib beta v0.9
 * Adding multiple display images for materials.
 * Material attribute display.
 
+MatLib beta v0.9.2
+----
+
+* Bug fix for UDIM types.
+* Bug fix for shading engine's renderer parameters.
+* Bug fix for face selection assignment for material.
+* Transfer to project now creates 'sourceimages' folder if it doesnt exist.
+
 
