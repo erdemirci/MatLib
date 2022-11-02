@@ -30,6 +30,7 @@ import os
 import shutil
 import sys
 import _color
+import re
 #reload(_color)
 from PySide2 import QtGui, QtCore, QtWidgets
 
@@ -118,6 +119,8 @@ class MayaRepath(QtWidgets.QMainWindow):
 
 		project_folder = cmds.workspace(q=True, rootDirectory = True)
 		img_folder = os.path.abspath(os.path.join(project_folder, 'sourceimages', 'MatLib_images'))
+		if not os.path.exists(os.path.abspath(os.path.join(project_folder, 'sourceimages'))): 
+			os.mkdir(os.path.abspath(os.path.join(project_folder, 'sourceimages')))
 
 		for mat in cmds.listConnections(self.sel):
 			if not "defaultShaderList" in mat and not "lightLinker" in mat and not "renderPartition" in mat and not "materialInfo" in mat and not cmds.objectType(mat) == 'transform' and not cmds.objectType(mat) == 'camera' and not "hyperShadePrimaryNodeEditorSavedTabsInfo" in mat and not "MayaNodeEditorSavedTabsInfo" in mat:
@@ -150,24 +153,52 @@ class MayaRepath(QtWidgets.QMainWindow):
 								if not os.path.exists(img_folder):
 								 	os.mkdir(img_folder)
 								try:
-									ext = ''.join(org_name.split('.')[-1])
-									ext = '.' + ext
-									name = org_name.replace(ext, '')
-									seq_string = ''
-									for n in reversed(name):
-										if n.isdigit():
-											seq_string += n
-										else:
-											break
-									raw_name = name.replace(seq_string[::-1], '')
+									extless_name = org_name.replace('.' + org_name.split('.')[-1], '')
+									ext = org_name.replace(extless_name, '')
+									check_mode = -1
+									seq_raw_name = None
+									seq_f = None
+									seq_check_mode = None
 									tiling_mode = cmds.getAttr('{}.{}'.format(connect,'uvTilingMode'))
 									sequence_mode = cmds.getAttr('{}.{}'.format(connect,'useFrameExtension'))
+
+									if sequence_mode == 1:
+										seq_f = self.tilecheck(org_name, 3)
+										seq_check_mode = 3
+
+									if tiling_mode == 1 or tiling_mode == 2:
+										f = self.tilecheck(org_name, 1)
+										check_mode = 1
+									elif tiling_mode == 3 or tiling_mode == 4:
+										f = self.tilecheck(org_name, 2)
+										check_mode = 2
+									
 									if tiling_mode > 0 or sequence_mode == 1:
-										data_items = [i for i in os.listdir(folder) if raw_name in i and i.endswith(ext)]
+										for cur_file in os.listdir(folder):
+											if tiling_mode > 0:
+												look_for = cur_file[f.span()[0]: f.span()[-1]]
+												compare = self.tilecheck(look_for, check_mode)
+												raw_name = re.sub(f.group(), '', org_name)
+												if compare and cur_file.endswith(ext):
+													compare_raw = re.sub(look_for, '', cur_file)
+													if compare_raw == raw_name:
+														data_items.append(cur_file)
+
+											if sequence_mode == 1:
+												seq_raw_name = re.sub(seq_f.group(), '', org_name)
+												look_for = cur_file[seq_f.span()[0]: seq_f.span()[-1]]
+												compare = self.tilecheck(look_for, seq_check_mode)
+												if compare and cur_file.endswith(ext):
+													compare_raw = re.sub(look_for, '', cur_file)
+													if compare_raw == seq_raw_name:
+														data_items.append(cur_file)
+
 										if len(data_items) == 0:
 											data_items.append(org_name)
+
 									else:
 										data_items.append(org_name)
+
 								except:
 									data_items.append(org_name)
 
@@ -183,6 +214,18 @@ class MayaRepath(QtWidgets.QMainWindow):
 					pass
 
 		return collection
+
+
+	def tilecheck(self, item, mode):
+		if mode == 1:
+			return re.search(r'u\d_v\d', item)
+
+		elif mode == 2:
+			return re.search(r'\d\d\d\d', item)
+
+		elif mode == 3:
+			return re.search(r'\d+', item)
+
 
 	def TransferFiles(self, data, callback_progress, callback_copydone, chunksize):
 		items = []
