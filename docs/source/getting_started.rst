@@ -111,7 +111,7 @@ Assign the material to an object of your choice.
 Render the material with Maya’s native renderview.
 
 .. warning::
-   Do not try to render with render engine's own frame buffer, Not all of the render engines have Python support for frame buffer.
+   Do not try to render with render engine's own frame buffer.Since not all of the render engines have Python support for frame buffer, current version of MatLib only works with Maya's native frame buffer.
 
 When the rendering is completed, select the Shading Group (SG) node of the material from *Hypershade* or *NodeEditor* and click the ``Add Material to Category`` button in MatLib. Pressing this button will open up a new dialog box and ask you to fill in the material name and description.
 
@@ -328,7 +328,7 @@ Password
 ====
 
 .. caution::
-   Never use a password that you actually use. The password you will use for MatLib should be simple and unimportant.
+   Since repository passwords can be easly recovered, use a meaningless, simple passwords.  
    
 
 Admin password
@@ -389,8 +389,6 @@ This selection will repath all of the node's texture paths and Copy all of the t
 
 This selection also triggers the progress bar.
 
-.. caution::
-   If Project folder doesn't have a 'sourceimage' folder, this action will fail.
 
 Repath nodes only
 ----
