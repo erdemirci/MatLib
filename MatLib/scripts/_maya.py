@@ -31,6 +31,7 @@ import json
 import os
 import shutil
 import sys
+import re
 from collections import OrderedDict
 
 
@@ -48,7 +49,7 @@ file_formats = [".jpg",".jpeg", ".png", ".tiff", ".tif", ".exr", "hdr", ".tga", 
 
 
 class SaveFiles():
-	def __init__(self, renderer, selection, text, description, item, path, material_folderName, texture_folderName, displayImg_folderName, image_extension, material_extension, texture_icon):
+	def __init__(self, selection, renderer, text, description, item, path, material_folderName, texture_folderName, displayImg_folderName, image_extension, material_extension, texture_icon):
 		self.item_name = text
 		self.description = description
 		self.json_dir = os.path.join(path, item)
@@ -67,7 +68,6 @@ class SaveFiles():
 		a_string = self.AttributeString()
 
 
-
 		self.MaterialCollect(a_string=a_string)
 		self.SaveAsJson()
 		self.SaveRenderView()
@@ -80,7 +80,7 @@ class SaveFiles():
 		elif self.renderer == 'Arnold':
 			list_val = ['aiOverride']
 		elif self.renderer == 'Vray':
-			list_val = []
+			list_val = ['vraySeparator_vray_material_id', 'vrayColorId', 'vrayMaterialId', 'vraySeparator_vray_roundedges', 'vrayRoundEdges', 'vrayRoundEdgesRadius', 'vrayRoundEdgesConsiderSameObjectsOnly', 'vrayRoundEdgesCorners']
 
 		return list_val
 
@@ -98,7 +98,7 @@ class SaveFiles():
 
 		#Render Material Parameters and Inputs (SG)
 		for main in cmds.listConnections(self.ls, sh=True, s=True, d=False, c=True, p=True):
-			if cmds.objectType(main) != "mesh" and ".dagSetMembers" not in main and ".instObjGroups" not in main:
+			if cmds.objectType(main) != "mesh" and ".dagSetMembers" not in main and ".instObjGroups" not in main and ".groupNodes" not in main and ".message" not in main:
 				input_items.append(main)
 		
 
@@ -109,10 +109,11 @@ class SaveFiles():
 			renderer_inputs = {input_item : output_item}
 			renderer_items.append(renderer_inputs)
 
-		object_parms = cmds.listAttr(self.ls, hasData=True, keyable=False, visible=True, settable=True, st=a_string)
-
-		value = cmds.getAttr('{}.{}'.format(self.ls, object_parms[0]))
-		renderer_parms[object_parms[0]] = value
+		object_parms = cmds.listAttr(self.ls, hasData=True, keyable=False, visible=True, settable=True)
+		sg_parms = [i for i in object_parms if i in a_string]
+		for p in sg_parms:
+			value = cmds.getAttr('{}.{}'.format(self.ls, p))
+			renderer_parms[p] = value
 
 		self.items[self.ls] = {	
 								"name" : cmds.objectType(self.ls),
@@ -121,7 +122,7 @@ class SaveFiles():
 								}
 
 		for mat in cmds.listConnections(self.ls):
-			if not "defaultShaderList" in mat and not "lightLinker" in mat and not "renderPartition" in mat and not "materialInfo" in mat and not cmds.objectType(mat) == 'transform' and not cmds.objectType(mat) == 'camera' and not "hyperShadePrimaryNodeEditorSavedTabsInfo" in mat and not "MayaNodeEditorSavedTabsInfo" in mat:
+			if not "defaultShaderList" in mat and not "lightLinker" in mat and not "renderPartition" in mat and not "materialInfo" in mat and not cmds.objectType(mat) == 'transform' and not cmds.objectType(mat) == 'camera' and not "hyperShadePrimaryNodeEditorSavedTabsInfo" in mat and not "MayaNodeEditorSavedTabsInfo" in mat and not "groupId" in mat:
 				connects.append(mat)
 
 		i = 0
@@ -131,7 +132,7 @@ class SaveFiles():
 				i += 1
 			else:
 				for item in items:
-					if not "defaultColorMgtGlobals" in item and item not in connects and not cmds.objectType(item) == 'transform' and not "time1" in item and not "expression" in item and not cmds.objectType(item) == 'camera' and not "hyperShadePrimaryNodeEditorSavedTabsInfo" in item and not "MayaNodeEditorSavedTabsInfo" in item:
+					if not "defaultColorMgtGlobals" in item and item not in connects and not cmds.objectType(item) == 'transform' and not "time1" in item and not "expression" in item and not cmds.objectType(item) == 'camera' and not "hyperShadePrimaryNodeEditorSavedTabsInfo" in item and not "MayaNodeEditorSavedTabsInfo" in item and not "groupId" in item:
 						connects.append(item)
 				i += 1
 
@@ -190,36 +191,63 @@ class SaveFiles():
 
 							#UDIM and Sequence check
 							try:
-								tiling_mode = cmds.getAttr('{}.{}'.format(connect,'uvTilingMode'))
-								sequence_mode = cmds.getAttr('{}.{}'.format(connect,'useFrameExtension'))
+								tiling_mode = cmds.getAttr('{}.{}'.format(connect, 'uvTilingMode'))
+								sequence_mode = cmds.getAttr('{}.{}'.format(connect, 'useFrameExtension'))
 
-								if any(i.isdigit() for i in file_name) and tiling_mode > 0 or sequence_mode == 1:
-									#raw_name = ''.join([i for i in file_name if not i.isdigit()])
-									#raw_name = raw_name.split('.')[0]
+								if tiling_mode > 0 or sequence_mode == 1:
 									extless_name = file_name.replace('.' + file_name.split('.')[-1], '')
-									seq_string = ''
-									for i in reversed(extless_name):
-										if i.isdigit():
-											seq_string += i
-										else:	
-											break
-									raw_name = extless_name.replace(seq_string[::-1], '')
+									ext = file_name.replace(extless_name, '')
+									check_mode = -1
+									seq_raw_name = None
+									seq_check_mode = None
+									seq_f = None
+
+									if tiling_mode == 1 or tiling_mode == 2: #mudbox and zbrush
+										f = self.tilecheck(file_name, 1)
+										check_mode = 1
+									elif tiling_mode == 3 or tiling_mode == 4: #mari and explicit
+										f = self.tilecheck(file_name, 2)
+										check_mode = 2
+
+									if sequence_mode == 1:
+										seq_f = self.tilecheck(file_name, 3)
+										seq_check_mode = 3
+										seq_raw_name = re.sub(seq_f.group(), '', file_name)
+
+									raw_name = re.sub(f.group(), '', file_name)
+									
 									for seq in os.listdir(os.path.dirname(parm_result)):
-										if raw_name in seq and seq.endswith('.' + file_name.split('.')[-1]):
-											collect_texture_files.append(seq)
-											if os.path.dirname(parm_result) != os.path.join(self.json_dir, self.item_name, self.texture_folderName):
-												sequence_path = os.path.join(os.path.dirname(parm_result), seq)
-												shutil.copy(sequence_path, os.path.join(self.json_dir, self.item_name, self.texture_folderName))
+										look_for = seq[f.span()[0]: f.span()[-1]]
+										compare = self.tilecheck(look_for, check_mode)
+										if compare and seq.endswith(ext) and tiling_mode > 0:
+											compare_raw = re.sub(look_for, '', seq)
+											if compare_raw == raw_name:
+												collect_texture_files.append(seq)
+												if os.path.dirname(parm_result) != os.path.join(self.json_dir, self.item_name, self.texture_folderName):
+													sequence_path = os.path.join(os.path.dirname(parm_result), seq)
+													shutil.copy(sequence_path, os.path.join(self.json_dir, self.item_name, self.texture_folderName))
+
+										if sequence_mode == 1:
+											look_for = seq[seq_f.span()[0]: seq_f.span()[-1]]
+											compare = self.tilecheck(look_for, seq_check_mode)
+											if compare and seq.endswith(ext):
+												compare_raw = re.sub(look_for, '', seq)
+												if compare_raw == seq_raw_name:
+													collect_texture_files.append(seq)
+													if os.path.dirname(parm_result) != os.path.join(self.json_dir, self.item_name, self.texture_folderName):
+														sequence_path = os.path.join(os.path.dirname(parm_result), seq)
+														shutil.copy(sequence_path, os.path.join(self.json_dir, self.item_name, self.texture_folderName))
 
 								else:
 									collect_texture_files.append(copy)
 									#copy files if not self
 									if os.path.dirname(parm_result) != os.path.join(self.json_dir, self.item_name, self.texture_folderName):
 										shutil.copy(parm_result,os.path.join(self.json_dir, self.item_name, self.texture_folderName, copy))
+
 							except ValueError:
 								collect_texture_files.append(copy)
 								if os.path.dirname(parm_result) != os.path.join(self.json_dir, self.item_name, self.texture_folderName):
-										shutil.copy(parm_result,os.path.join(self.json_dir, self.item_name, self.texture_folderName, copy))
+									shutil.copy(parm_result,os.path.join(self.json_dir, self.item_name, self.texture_folderName, copy))
 
 
 					#print "parm name: %s"%parm
@@ -270,6 +298,17 @@ class SaveFiles():
 		}
 
 		return objects
+
+
+	def tilecheck(self, item, mode):
+		if mode == 1:
+			return re.search(r'u\d_v\d', item)
+
+		elif mode == 2:
+			return re.search(r'\d\d\d\d', item)
+
+		elif mode == 3:
+			return re.search(r'\d+', item)
 
 
 	def SaveAsJson(self):
@@ -327,26 +366,29 @@ class ReadFiles():
 					orig_SG_name = create_node
 				data[keys] = create_node
 				for i in vals["parms"]:
-					p = vals["parms"][i]
-					if isinstance(p, list):
-						if len(p) == 2:
-							val = p[0]
-							cmds.setAttr('{}.{}'.format(create_node, i), val[0], val[1], type="double2")
+					try:
+						p = vals["parms"][i]
+						if isinstance(p, list):
+							if len(p) == 2:
+								val = p[0]
+								cmds.setAttr('{}.{}'.format(create_node, i), val[0], val[1], type="double2")
 
-						if len(p) == 3:
-							val = p[0]
-							cmds.setAttr('{}.{}'.format(create_node, i), val[0], val[1], val[2], type="double3")
+							if len(p) == 3:
+								val = p[0]
+								cmds.setAttr('{}.{}'.format(create_node, i), val[0], val[1], val[2], type="double3")
 
-					elif isinstance(p, basestring):
-						val = p
-						cmds.setAttr('{}.{}'.format(create_node, i), val, type="string")
+						elif isinstance(p, basestring):
+							val = p
+							cmds.setAttr('{}.{}'.format(create_node, i), val, type="string")
 
-					elif p == "" or p == "null":
+						elif p == "" or p == "null":
+							pass
+
+						elif isinstance(p, int) or isinstance(p, float):
+							val = p
+							cmds.setAttr('{}.{}'.format(create_node, i), val)
+					except:
 						pass
-
-					elif isinstance(p, int) or isinstance(p, float):
-						val = p
-						cmds.setAttr('{}.{}'.format(create_node, i), val)
 
 
 
@@ -435,7 +477,12 @@ class InfoTabMaya():
 						count = 0
 						if isinstance(i, basestring) and os.path.exists(i):
 							file_name = os.path.basename(i)
-
+							extless_name = file_name.replace('.' + file_name.split('.')[-1], '')
+							ext = file_name.replace(extless_name, '')
+							check_mode = -1
+							seq_raw_name = None
+							seq_f = None
+							seq_check_mode = None
 							tiling_mode = vals["parms"].get("uvTilingMode")
 
 							if tiling_mode > 0 :
@@ -444,11 +491,38 @@ class InfoTabMaya():
 							seq_mode = vals["parms"].get("useFrameExtension")
 							if seq_mode > 0:
 								seq = "True"
+								seq_f = self.tilecheck(file_name, 3)
+								seq_check_mode = 3
 
-							if any(k.isdigit() for k in file_name):
-								flat_name = file_name.split('.')[0]
-								flat_name = ''.join([x for x in flat_name if not x.isdigit()])
-								udim_collect = [z for z in os.listdir(os.path.dirname(i)) if flat_name in z]
+							if tiling_mode == 1 or tiling_mode == 2:
+								f = self.tilecheck(file_name, 1)
+								check_mode = 1
+							elif tiling_mode == 3 or tiling_mode == 4:
+								f = self.tilecheck(file_name, 2)
+								check_mode = 2
+
+							
+							udim_collect = []
+
+							if tiling_mode > 0 or seq_mode == 1:
+								for cur_file in os.listdir(os.path.dirname(i)):
+									if tiling_mode > 0:
+										look_for = cur_file[f.span()[0]: f.span()[-1]]
+										compare = self.tilecheck(look_for, check_mode)
+										raw_name = re.sub(f.group(), '', file_name)
+										if compare and cur_file.endswith(ext):
+											compare_raw = re.sub(look_for, '', cur_file)
+											if compare_raw == raw_name:
+												udim_collect.append(cur_file)
+									if seq_mode == 1:
+										seq_raw_name = re.sub(seq_f.group(), '', file_name)
+										look_for = cur_file[seq_f.span()[0]: seq_f.span()[-1]]
+										compare = self.tilecheck(look_for, seq_check_mode)
+										if compare and cur_file.endswith(ext):
+											compare_raw = re.sub(look_for, '', cur_file)
+											if compare_raw == seq_raw_name:
+												udim_collect.append(cur_file)
+
 								count = len(udim_collect)
 
 							re_path = os.path.join(self.CategoryPath, self.category_name, self.item, self.textureIcon_folderName, file_name)
@@ -495,6 +569,18 @@ class InfoTabMaya():
 				mesh_data[k] = v
 
 		return mesh_data
+
+
+	def tilecheck(self, item, mode):
+		if mode == 1:
+			return re.search(r'u\d_v\d', item)
+
+		elif mode == 2:
+			return re.search(r'\d\d\d\d', item)
+
+		elif mode == 3:
+			return re.search(r'\d+', item)
+
 
 
 
