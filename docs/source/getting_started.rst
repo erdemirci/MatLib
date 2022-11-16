@@ -285,19 +285,19 @@ Jump to Create and Link Repository :ref:`Video <qjCLRepo>`
    
    Short answer is, preventing user errors.
    
-   When you are working on a shared network with other people, someone might mistakenly delete the materials or categories.When password protection is established,        these actions such as material deletion will ask for a password.
+   When you are working on a shared network with other people, someone might mistakenly delete the materials or categories. When password protection is established,        these actions such as material deletion will ask for a password.
 
 **Delete Repository**
 
-Deletes the desired repository except the ‘Default Repository’. This operation physically deletes the related files from the location they are attached to.
+This button deletes the desired repository except the ‘Default Repository’. This operation physically deletes the related files from the location they are attached to.
 
-The deletion process is encrypted as in the repository creation. After typing the password, the list of repositories connected to MatLib is displayed on the screen that opens. After selecting the repository name you want to delete, click accept, and the process will take place.
+The deletion process is encrypted as the repository creation. After entering the password, the list of repositories connected to MatLib will be displayed on the screen. After selecting the repository name you want to delete, click accept, and the process will take place.
 
 Jump to :ref:`Video <qjTransferMat>`
 
 **Link Repository**
 
-It is used to link an existing repository that has not yet been added to MatLib.
+This button is used to link an existing repository that has not yet been added to MatLib.
 
 When clicked, select the repository folder called 'MatLib_Repository' from the file dialog.
 
@@ -307,18 +307,18 @@ When the operation is successful, the new repository is added to the repository 
 
 **Unlink Repository**
 
-It will disconnect from the selected repository. Unlike Delete Repository this does not delete the folder structure.
+This button will disconnect the selected repository. Unlike Delete Repository this does not delete the folder structure.
 
 Jump to :ref:`Video <qjDelRepo>`
 
 *Transfer*
 ~~~~
 
-The Transfer screen is used to copy materials between existing categories within a repository or repositories.
+The Transfer screen is used to copy materials between existing categories within a repository or among repositories.
 
-For example, if you have a material on your driver that you want to copy to the repository that other people can access.
+For instance, if you have a material on your personal repository that you want to copy to a shared repository, the Transfer action will accomplish the task.
 
-In order to use this function, from the top left corner select the repository , then the category which you want to copy from and the material which you want to copy.From the top right corner select the repository and the category to transfer.After selecting from all the 3 columns, press Transfer.
+In the Transfer interface, on the left-hand side select the source repository that holds the material to be copied from top left corner, then select the category which you want to copy from and the material which you want to copy below the source repository. On the right-hand side select the target repository which the material will be copied to from the top right corner, and then select the target category below to transfer. After selecting from all 3 columns, press Transfer.
 
 Jump to :ref:`Video <qjTransferMat>`
 
@@ -328,7 +328,7 @@ Password
 ====
 
 .. caution::
-   Since repository passwords can be easly recovered, use a meaningless, simple passwords.  
+   Since repository passwords can be easily recovered, use a simple password.  
    
 
 Admin password
@@ -336,7 +336,7 @@ Admin password
 
 *Password* = **123admin**
 
-For repository creating and deleting, password is asked by MatLib.It is more likely a warning question whether the user has taken any conscious action.
+For repository creation and deletion, password is asked by MatLib. It is more of a warning question whether the user has taken any conscious action.
 
 Unlike repository creation passwords, this cannot be changed.
 
@@ -344,13 +344,13 @@ Unlike repository creation passwords, this cannot be changed.
 Recovering a password from Password Protected Repository
 ----
 
-* From *Script Editor* Create a new *Source Type* as **Python**
-* On the Python tab Type::
+* From *Script Editor* create a new *Source Type* as **Python**
+* On the Python tab type::
 
          import MatLib_tools
-         MatLib_tools.password_recover('label of the repository')
+         MatLib_tools.password_recover('name of the repository')
 
-* Inside the quotation mark type the label of the repository
+* Inside the quotation mark type the name of the repository
 * Press Cntrl + Enter
 
 .. tip::
@@ -365,7 +365,7 @@ Reset Links
    :scale: 50 %
    :align: center
 
-This is only usefull when MatLib is unable to be loaded.It will clean all the repository paths so MatLib will run as if it was running for the first time.
+This is only useful when MatLib is unable to load. It will clean all the repository paths so MatLib will run as if it is running for the first time.
 
 Transfer to Project
 ====
@@ -375,27 +375,27 @@ Transfer to Project
 
 All images that are imported to the scene with MatLib or files which do not belong to the project folder are copied to the project folder and the paths of the nodes that read the images are renewed with this function.
 
-There are 2 options avaliable with it.
+There are 2 options avaliable:
 
 * Repath nodes and Copy Files
 * Repath nodes only
 
-In order to use this function,first press the icon of Transfer to Project then select either **Repath nodes and Copy Files** or **Repath nodes only**.Then you need to select all the Shading Group (SG) nodes that you want to make the change from *Hypershade* or *NodeEditor* and press ``Execute`` .
+In order to use this action, first press the Transfer to Project icon, then select either **Repath nodes and Copy Files** or **Repath nodes only**. Then you need to select all the Shading Group (SG) nodes that you want to make the change from *Hypershade* or *NodeEditor* and press ``Execute`` .
 
 Repath nodes and Copy Files
 ----
 
-This selection will repath all of the node's texture paths and Copy all of the texture files to {project folder}/sourceimages/MatLib_images
+This selection will repath all of the node's texture paths and copy all of the texture files to {project folder}/sourceimages/MatLib_images .
 
-This selection also triggers the progress bar.
+The progress bar will display the state of copying process.
 
 
 Repath nodes only
 ----
 
-This selection will repath all of the node's texture paths to {project folder}/sourceimages/MatLib_images
+This selection will repath all of the node's texture paths to {project folder}/sourceimages/MatLib_images .
 
-This is usefull when you have a project with many shots and you have already copied all the necessary files to the project.
+This is useful when you have a project with many shots and you have already copied all the necessary files to the project.
 
 Jump to :ref:`Video <qjTtoProject>`
 
