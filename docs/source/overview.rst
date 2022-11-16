@@ -56,6 +56,6 @@ MatLib beta v0.9.2
 * Bug fix for UDIM types.
 * Bug fix for shading engine's renderer parameters.
 * Bug fix for face selection assignment for material.
-* Transfer to project now creates 'sourceimages' folder if it doesnt exist.
+* "Transfer to project" now creates 'sourceimages' folder if it does not exist.
 
 
