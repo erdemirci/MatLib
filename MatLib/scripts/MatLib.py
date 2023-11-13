@@ -103,7 +103,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.ui.treeWidget.setColumnCount(1)
         self.ui.treeWidget.setHeaderLabel('CATEGORIES')
-        self.ui.treeWidget.header().setDefaultAlignment(QtGui.Qt.AlignHCenter|QtGui.Qt.AlignVCenter)
+        self.ui.treeWidget.header().setDefaultAlignment(QtCore.Qt.AlignHCenter|QtCore.Qt.AlignVCenter)
 
 
         self.current_item = QtWidgets.QLabel("0/0")
